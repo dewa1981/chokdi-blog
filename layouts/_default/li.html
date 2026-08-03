@@ -1,5 +1,6 @@
-{{ if eq .Lang "id" }}
-<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "2 Jan 2006, 15:04 WIB" }}</time>
-{{ else }}
-<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "Jan 2, 2006, 15:04" }}</time>
-{{ end }}
+<li>
+    <a href="{{ .Permalink }}">
+        {{ .Title }}
+        <small><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "2 Jan 2006, 15:04 WIB" }}</time></small>
+    </a>
+</li>
