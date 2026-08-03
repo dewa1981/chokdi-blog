@@ -2,6 +2,7 @@
 title: "Cara Install Ollama di WSL2 & MacBook: AI Lokal Gratis 🖥️"
 date: 2026-08-04T01:43:54+07:00
 draft: false
+images: ["/images/banner-ollama.png"]
 tags: ["AI", "Tutorial", "Ollama"]
 
 ---

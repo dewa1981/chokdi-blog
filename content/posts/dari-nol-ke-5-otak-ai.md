@@ -2,6 +2,7 @@
 title: "Dari Nol ke 5 Otak AI dalam Satu Malam 🤖"
 date: "2026-08-04T01:15:23+07:00"
 draft: false
+images: ["/images/banner-5-otak.png"]
 tags: ["AI", "Setup", "Multi-Agent"]
 
 ---

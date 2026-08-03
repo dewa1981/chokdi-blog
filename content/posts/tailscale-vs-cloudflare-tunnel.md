@@ -2,6 +2,7 @@
 title: "Tailscale vs Cloudflare Tunnel: Pilih yang Mana? 🔗"
 date: 2026-08-04T01:43:54+07:00
 draft: false
+images: ["/images/banner-tailscale.png"]
 tags: ["Tutorial", "Jaringan", "Tailscale"]
 
 ---

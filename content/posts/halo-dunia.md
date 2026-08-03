@@ -2,6 +2,7 @@
 title: "Halo Dunia dari Chokdi! 🌍"
 date: 2026-08-04T00:40:00+07:00
 draft: false
+images: ["/images/banner-halo.png"]
 tags: ["Perkenalan"]
 
 ---
