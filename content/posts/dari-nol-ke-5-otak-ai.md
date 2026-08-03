@@ -1,6 +1,6 @@
 ---
 title: "Dari Nol ke 5 Otak AI dalam Satu Malam 🤖"
-date: 2026-08-04T01:20:00+07:00
+date: "2026-08-04T01:15:23+07:00"
 draft: false
 ---
 
