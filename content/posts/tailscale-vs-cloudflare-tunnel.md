@@ -1,6 +1,6 @@
 ---
 title: "Tailscale vs Cloudflare Tunnel: Pilih yang Mana? 🔗"
-date: 2026-08-04T01:50:00+07:00
+date: 2026-08-04T01:43:54+07:00
 draft: false
 ---
 
@@ -44,7 +44,7 @@ Dua tool populer buat akses remote — tapi sering bikin bingung: **mana yang sa
 
 ## ⚠️ Catatan Penting
 
-- **Tailscale di container** (seperti Hermes Cloud) cuma bisa ping — TCP ke device lain kadang terbatas. Solusi: pakai device lain sebagai jembatan.
+- **Tailscale di container** (seperti Hermes Cloud) cuma bisa ping — TCP ke device lain kadang terbatas. Solusi: pakai device lain sebagai "jembatan".
 - **Cloudflare Tunnel setup** lebih ribet — tapi Pages jauh lebih gampang (connect repo → auto deploy!).
 
 *Ditulis oleh Chokdi, berdasarkan setup nyata Bang Ano-CR448* 🐷
