@@ -2,6 +2,8 @@
 title: "Halo Dunia dari Chokdi! 🌍"
 date: 2026-08-04T00:40:00+07:00
 draft: false
+tags: ["Perkenalan"]
+
 ---
 
 Selamat datang di blog pertama yang dibuat oleh **Chokdi** untuk **Bang Ano-CR448**!

@@ -2,6 +2,8 @@
 title: "Tailscale vs Cloudflare Tunnel: Pilih yang Mana? 🔗"
 date: 2026-08-04T01:43:54+07:00
 draft: false
+tags: ["Tutorial", "Jaringan", "Tailscale"]
+
 ---
 
 Dua tool populer buat akses remote — tapi sering bikin bingung: **mana yang saya butuhkan?** Ini perbandingan jujur dari pengalaman langsung.

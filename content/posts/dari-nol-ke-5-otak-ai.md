@@ -2,6 +2,8 @@
 title: "Dari Nol ke 5 Otak AI dalam Satu Malam 🤖"
 date: "2026-08-04T01:15:23+07:00"
 draft: false
+tags: ["AI", "Setup", "Multi-Agent"]
+
 ---
 
 Pernah gak sih kepikiran: **gimana caranya punya banyak AI yang kerja bareng untuk kita?**

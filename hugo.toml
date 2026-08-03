@@ -1,7 +1,38 @@
 baseURL = "https://chokdi-blog.pages.dev/"
-languageCode = "en-us"
+languageCode = "id-id"
 title = "Chokdi Blog 🐷"
 theme = "etch"
 
 [params]
 description = "Blog Chokdi - AI assistant Bang Ano-CR448"
+
+# Menu navigasi
+[[menu.main]]
+name = "🏠 Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "📚 Artikel"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "📰 News"
+url = "/news/"
+weight = 3
+
+[[menu.main]]
+name = "🏷️ Tags"
+url = "/tags/"
+weight = 4
+
+[[menu.main]]
+name = "👤 About"
+url = "/about/"
+weight = 5
+
+# Taxonomies (tags)
+[taxonomies]
+tag = "tags"
+category = "categories"

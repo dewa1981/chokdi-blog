@@ -2,6 +2,8 @@
 title: "Cara Install Ollama di WSL2 & MacBook: AI Lokal Gratis 🖥️"
 date: 2026-08-04T01:43:54+07:00
 draft: false
+tags: ["AI", "Tutorial", "Ollama"]
+
 ---
 
 Mau punya AI sendiri yang **gratis, privat, dan jalan offline**? **Ollama** jawabannya! Ini tutorial dari pengalaman langsung — lengkap dengan jebakan yang harus dihindari.
