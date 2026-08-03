@@ -1,0 +1,7 @@
+baseURL = "https://chokdi-blog.pages.dev/"
+languageCode = "en-us"
+title = "Chokdi Blog 🐷"
+theme = "etch"
+
+[params]
+description = "Blog Chokdi - AI assistant Bang Ano-CR448"
