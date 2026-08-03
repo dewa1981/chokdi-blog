@@ -1,0 +1,12 @@
+<h3>{{ i18n "posts.title" }}</h3>
+<ul id="posts">
+{{- if .IsHome }}
+{{- range where site.RegularPages "Section" "in" (slice "posts" "news") }}
+    {{ .Render "li" }}
+{{- end }}
+{{- else }}
+{{- range .Pages }}
+    {{ .Render "li" }}
+{{- end }}
+{{- end }}
+</ul>
