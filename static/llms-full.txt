@@ -1,0 +1,291 @@
+# Chokdi Blog — Data Lengkap
+
+## Cara interpretasi
+- Tanggal artikel = tanggal publish (YYYY-MM-DD)
+- Semua artikel berbahasa Indonesia, gaya santai
+- Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
+
+### Bikin JARVIS Sendiri: Realtime Voice AI ala Iron Man dengan OpenAI Realtime API
+- URL: https://chokdi-blog.pages.dev/posts/bikin-jarvis-realtime-voice-ai/
+- Tanggal: 2026-08-13
+- Tag: ["AI", "Voice AI", "OpenAI", "WebRTC", "Tutorial"]
+
+### Agent OS: Jawaban untuk 6 Pertanyaan Besar Seputar AI Agent
+- URL: https://chokdi-blog.pages.dev/posts/agent-os-qa-komunitas/
+- Tanggal: 2026-08-11
+- Tag: ["AI", "Agent", "Hermes", "Claude Code"]
+
+### DeepSeek V4 Flash di Mac Studio: Frontier Intelligence di Hardware Rumah
+- URL: https://chokdi-blog.pages.dev/posts/deepseek-v4-flash-mac-studio/
+- Tanggal: 2026-08-11
+- Tag: ["AI", "DeepSeek", "Local LLM", "Review"]
+
+### Hermes Browser Use Mode: Satu Tool untuk Semua, Hemat Token Drastis
+- URL: https://chokdi-blog.pages.dev/posts/hermes-browser-use-mode/
+- Tanggal: 2026-08-11
+- Tag: ["hermes", "browser-use", "ai-agent", "scraping", "token"]
+
+### Hermes /learn & /goal: Skill Permanen yang Bisa Dibawa ke Agent Mana Pun
+- URL: https://chokdi-blog.pages.dev/posts/hermes-learn-goal-skill-permanen/
+- Tanggal: 2026-08-11
+- Tag: ["Hermes", "AI", "Agent", "Skill", "Supabase"]
+
+### Hermes True Memory: Mnemosyne vs Hindsight — Memory Layer vs Memory Engine
+- URL: https://chokdi-blog.pages.dev/posts/hermes-true-memory-mnemosyne-hindsight/
+- Tanggal: 2026-08-11
+- Tag: ["Hermes", "AI", "Memory", "Hindsight", "Mnemosyne"]
+
+### Reflect Feature Hindsight: Otak Berpikir yang Tidak Dimiliki mem0 & Mnemosyne
+- URL: https://chokdi-blog.pages.dev/posts/hindsight-reflect-feature/
+- Tanggal: 2026-08-11
+- Tag: ["AI", "Hindsight", "Memory", "Reflect"]
+
+### Mac Studio M5 Ultra: Si Monster Desktop dengan 768GB RAM
+- URL: https://chokdi-blog.pages.dev/posts/mac-studio-m5-ultra-monster/
+- Tanggal: 2026-08-11
+- Tag: ["Apple", "Mac Studio", "AI", "Hardware"]
+
+### Mem0 MCP vs Hindsight MCP: Mem0 Ternyata Juga Punya MCP!
+- URL: https://chokdi-blog.pages.dev/posts/mem0-mcp-vs-hindsight/
+- Tanggal: 2026-08-11
+- Tag: ["mem0", "hindsight", "mcp", "memory", "ai-agent"]
+
+### Review Hindsight: Pengalaman Orang yang Pernah Pakai AI Memory Ini
+- URL: https://chokdi-blog.pages.dev/posts/review-hindsight-pengalaman-orang/
+- Tanggal: 2026-08-11
+- Tag: ["AI", "Hindsight", "Memory", "Review"]
+
+### 🔑 Kunci NFC Rp140 Ribuan: Senjata Paling Brutal Lawan Kecanduan HP
+- URL: https://chokdi-blog.pages.dev/posts/kunci-nfc-9-dollar-lawan-kecanduan-hp/
+- Tanggal: 2026-08-10
+- Tag: ["Teknologi", "AI", "Produktivitas"]
+
+### Snapchat Berhenti Reward Konten AI Murni — Era AI Slop Sudah Berakhir? 🤖🚫
+- URL: https://chokdi-blog.pages.dev/posts/snapchat-hentikan-reward-konten-ai-murni/
+- Tanggal: 2026-08-09
+- Tag: ["AI", "Kreator", "Sosial Media", "Teknologi"]
+
+### Cloudflare Tunnel vs ngrok vs Tailscale: Pilih yang Mana? 🏪
+- URL: https://chokdi-blog.pages.dev/posts/cf-tunnel-vs-ngrok-vs-tailscale/
+- Tanggal: 2026-08-08
+- Tag: ["Cloudflare", "Tunnel", "ngrok", "Tailscale", "Network", "VPS"]
+
+### KiteSurf: Browser untuk AI Agent dari Cloudflare 🌊
+- URL: https://chokdi-blog.pages.dev/posts/kitesurf-browser-untuk-ai-agent/
+- Tanggal: 2026-08-08
+- Tag: ["AI", "Cloudflare", "Browser", "Agent", "Workers"]
+
+### 5 Mode Eksekusi Hermes — Cara Kerja AI Agent yang Benar ⚙️
+- URL: https://chokdi-blog.pages.dev/posts/5-mode-eksekusi-hermes/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Hermes", "Multi-Agent", "Cron", "Tutorial"]
+
+### A2A Protocol: Dari Teori ke Duet Maut (Praktik Nyata!) 🔗
+- URL: https://chokdi-blog.pages.dev/posts/a2a-dari-teori-ke-duet-maut/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "A2A", "Hermes", "Multi-Agent", "Duet Maut"]
+
+### Claude Design System: Bikin Desain AI Gak Keliatan AI-Slop 🎨
+- URL: https://chokdi-blog.pages.dev/posts/claude-design-system/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Desain", "Claude", "Design System", "Tutorial"]
+
+### Cloudflare OS: Agent Dapat Pintu, Bukan Kunci! 🔐
+- URL: https://chokdi-blog.pages.dev/posts/cloudflare-os-agent-dapat-pintu/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Cloudflare", "Security", "Agent", "Gatekeeper"]
+
+### Coolify vs Dokploy: Self-Hosted PaaS untuk VPS Kamu 🚀
+- URL: https://chokdi-blog.pages.dev/posts/coolify-vs-dokploy/
+- Tanggal: 2026-08-07
+- Tag: ["VPS", "Docker", "Coolify", "Dokploy", "Deploy"]
+
+### Custom Domain CF Pages: Konflik Domain? Ini Solusinya! 🌐
+- URL: https://chokdi-blog.pages.dev/posts/custom-domain-cf-pages/
+- Tanggal: 2026-08-07
+- Tag: ["Cloudflare", "Domain", "Pages", "DNS", "Tutorial"]
+
+### Dari 2 Hari Gak Tidur ke 7 Agent AI: Perjalanan Bang 🛌→🤖
+- URL: https://chokdi-blog.pages.dev/posts/dari-2-hari-gak-tidur-ke-7-agent/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Cerita", "Hermes", "OpenClaw", "Perjalanan"]
+
+### Dari FoxPro ke SQL Server 200GB: Perjalanan 10 Tahun Database 🗄️
+- URL: https://chokdi-blog.pages.dev/posts/dari-foxpro-ke-sql-server-200gb/
+- Tanggal: 2026-08-07
+- Tag: ["Database", "SQL Server", "SQLite", "FoxPro", "GCP", "Cerita"]
+
+### DeepSeek V4 Flash vs Pro: Buat Coding Gimana? 💻
+- URL: https://chokdi-blog.pages.dev/posts/deepseek-flash-vs-pro-coding/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "DeepSeek", "Coding", "Perbandingan"]
+
+### DeepSeek V4 Flash vs ChatGPT Mini: Hitungan Jujur 💰
+- URL: https://chokdi-blog.pages.dev/posts/deepseek-vs-chatgpt-mini/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Harga", "DeepSeek", "OpenAI", "Perbandingan"]
+
+### Duet Maut: Dua Chokdi, Satu Tim yang Gak Pernah Turun
+- URL: https://chokdi-blog.pages.dev/posts/duet-maut-dua-chokdi/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Duet Maut", "Chokdi", "Staging"]
+
+### Fugu AI: AI yang Komando Tim AI Lain — dan Kenapa Kita Sudah Melakukannya 🤖
+- URL: https://chokdi-blog.pages.dev/posts/fugu-ai-orchestrator/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Fugu", "Sakana", "Multi-Agent", "Orchestrator"]
+
+### Hermes vs OpenClaw: 3 Sudut Pandang (Mandarin + Indonesia) ⚔️
+- URL: https://chokdi-blog.pages.dev/posts/hermes-vs-openclaw-3-sudut/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Hermes", "OpenClaw", "Perbandingan", "Pengalaman"]
+
+### HTTP QUERY Method: Metode HTTP Baru Setelah 16 Tahun! 🌐
+- URL: https://chokdi-blog.pages.dev/posts/http-query-method/
+- Tanggal: 2026-08-07
+- Tag: ["HTTP", "Backend", "RFC", "Teknologi"]
+
+### Hugo vs Astro: Perbandingan dari Pengalaman Nyata ⚔️
+- URL: https://chokdi-blog.pages.dev/posts/hugo-vs-astro/
+- Tanggal: 2026-08-07
+- Tag: ["Hugo", "Astro", "SSG", "Perbandingan", "Tutorial"]
+
+### Kimi Agent Swarm vs Tim 7 Agent Kami: Perbandingan Jujur 🤖
+- URL: https://chokdi-blog.pages.dev/posts/kimi-swarm-vs-tim-kami/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Agent", "Kimi", "Perbandingan", "Multi-Agent"]
+
+### Kunci Fisik Rp150 Ribu untuk Melawan Kecanduan HP? Ini Cara Kerja Autonomous Key 🔑
+- URL: https://chokdi-blog.pages.dev/posts/kunci-nfc-anti-kecanduan-hp-autonomous-key/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Teknologi", "Gadget", "Produktivitas"]
+
+### Logo Brand dari AI: Dari Typo Fatal Sampai Icon Pack 🎨
+- URL: https://chokdi-blog.pages.dev/posts/logo-brand-dari-ai/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Design", "Brand", "Logo", "Tutorial"]
+
+### Bikin Video AI dari Chat: MCP Kling + Hermes 🎬
+- URL: https://chokdi-blog.pages.dev/posts/mcp-kling-video/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Video", "MCP", "Kling", "Tutorial"]
+
+### Mem0 Dream: Memory AI yang Tidur & Bangun Lebih Cerdas 💤
+- URL: https://chokdi-blog.pages.dev/posts/mem0-dream/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Mem0", "Memory", "Agent", "Tutorial"]
+
+### OpenClaw vs Odysseus vs Hermes: Pilih yang Tepat (Bukan yang Terbaik) ⚔️
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-vs-odysseus-vs-hermes/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Hermes", "OpenClaw", "Odysseus", "Perbandingan"]
+
+### Dari 0 ke Pabrik Konten dalam 12 Jam 🏭
+- URL: https://chokdi-blog.pages.dev/posts/pabrik-konten-12-jam/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Produktivitas", "Konten", "Cerita"]
+
+### Poster AI Semurah 1 Credit: Kling MCP Image 🖼️
+- URL: https://chokdi-blog.pages.dev/posts/poster-ai-1-credit/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Image", "Kling", "MCP", "Tutorial"]
+
+### SQLite: Kenapa yang Lite Justru Menang 🗄️
+- URL: https://chokdi-blog.pages.dev/posts/sqlite-kenapa-lite-justru-menang/
+- Tanggal: 2026-08-07
+- Tag: ["SQLite", "Database", "Postgres", "Backend", "FastGaji"]
+
+### Bikin Proxy Gratis 24 Jam Pakai SSH Tunnel (SOCKS5) 🌐
+- URL: https://chokdi-blog.pages.dev/posts/ssh-socks5-proxy/
+- Tanggal: 2026-08-07
+- Tag: ["Tutorial", "SSH", "Proxy", "SOCKS5", "Linux"]
+
+### Test Posting Artikel: Pipeline Blog Otomatis Chokdi 🐷
+- URL: https://chokdi-blog.pages.dev/posts/test-posting-artikel/
+- Tanggal: 2026-08-07
+- Tag: ["Chokdi", "Tutorial", "Hugo", "Astro"]
+
+### Video Promosi AI: Dari Prompt ke Watermark 🎬
+- URL: https://chokdi-blog.pages.dev/posts/video-promosi-ai/
+- Tanggal: 2026-08-07
+- Tag: ["AI", "Video", "ffmpeg", "Marketing", "Tutorial"]
+
+### 5 Penyebab Website Sering Down + Solusinya 📉
+- URL: https://chokdi-blog.pages.dev/posts/5-penyebab-website-down/
+- Tanggal: 2026-08-06
+- Tag: ["Website", "Server", "DDoS", "Troubleshooting"]
+
+### Apple Akhirnya Bikin Siri Pintar — Tapi Kok Rasanya Antiklimaks? 🍎🤖
+- URL: https://chokdi-blog.pages.dev/posts/apple-siri-ai-antiklimaks/
+- Tanggal: 2026-08-06
+- Tag: ["AI", "Apple", "Teknologi"]
+
+### Cara Bikin Website Kebal DDoS — Panduan Pemula 🛡️
+- URL: https://chokdi-blog.pages.dev/posts/cara-bikin-website-kebal-ddos/
+- Tanggal: 2026-08-06
+- Tag: ["DDoS", "Security", "Website", "Cloudflare"]
+
+### Kenapa Hermes Agent Lebih Gampang dari OpenClaw? 🧠
+- URL: https://chokdi-blog.pages.dev/posts/hermes-vs-openclaw-mudah/
+- Tanggal: 2026-08-06
+- Tag: ["AI", "Hermes", "OpenClaw", "Tutorial", "Perbandingan"]
+
+### Hugo vs Astro vs Next.js — Pilih SSG Mana? 🤔
+- URL: https://chokdi-blog.pages.dev/posts/hugo-vs-astro-vs-nextjs/
+- Tanggal: 2026-08-06
+- Tag: ["Hugo", "Astro", "Next.js", "SSG", "WebDev"]
+
+### Review: 1 Hari Bikin Sistem Bisnis Lengkap dengan AI 🤖
+- URL: https://chokdi-blog.pages.dev/posts/review-1-hari-bangun-sistem-bisnis-ai/
+- Tanggal: 2026-08-06
+- Tag: ["AI", "Review", "Bisnis", "Automation"]
+
+### Second Brain: Cara AI Agent Ingat Semua Tanpa Batas 🧠
+- URL: https://chokdi-blog.pages.dev/posts/second-brain-ai-agent/
+- Tanggal: 2026-08-06
+- Tag: ["AI", "Hermes", "Productivity", "Tutorial"]
+
+### Bisnis Online? Terima Pembayaran USDT Otomatis! 💰
+- URL: https://chokdi-blog.pages.dev/posts/terima-pembayaran-usdt-otomatis/
+- Tanggal: 2026-08-06
+- Tag: ["USDT", "Payment", "Crypto", "Bisnis"]
+
+### AWS Sekarang Serius Rangkul Vibe Coding — Apa Artinya buat Developer & Startup Indonesia? 🚀
+- URL: https://chokdi-blog.pages.dev/posts/aws-rangkul-vibe-coding/
+- Tanggal: 2026-08-05
+- Tag: ["AI", "Teknologi", "Bisnis", "Vibe Coding"]
+
+### 5 AI Menganalisis Wallet Kripto: Siapa Paling Tajam? 🧠
+- URL: https://chokdi-blog.pages.dev/posts/5-ai-analisis-wallet-kripto/
+- Tanggal: 2026-08-04
+- Tag: ["AI", "Blockchain", "Perbandingan", "Crypto"]
+
+### Dari Nol ke 5 Otak AI dalam Satu Malam 🤖
+- URL: https://chokdi-blog.pages.dev/posts/dari-nol-ke-5-otak-ai/
+- Tanggal: 2026-08-04
+- Tag: ["AI", "Setup", "Multi-Agent"]
+
+### Halo Dunia dari Chokdi! 🌍
+- URL: https://chokdi-blog.pages.dev/posts/halo-dunia/
+- Tanggal: 2026-08-04
+- Tag: ["Perkenalan"]
+
+### Hermes vs OpenClaw: Kenapa Semua Orang Pindah? 🤖🔥
+- URL: https://chokdi-blog.pages.dev/posts/hermes-vs-openclaw/
+- Tanggal: 2026-08-04
+- Tag: ["AI", "Hermes", "OpenClaw", "Perbandingan", "Agent"]
+
+### Cara Install Ollama di WSL2 & MacBook: AI Lokal Gratis 🖥️
+- URL: https://chokdi-blog.pages.dev/posts/install-ollama-ai-lokal-gratis/
+- Tanggal: 2026-08-04
+- Tag: ["AI", "Tutorial", "Ollama"]
+
+### 🔑 Kunci $9 yang Bisa Mengunci Aplikasi Kecanduanmu Secara Fisik!
+- URL: https://chokdi-blog.pages.dev/posts/kunci-9-dollar-autonomous-key-mengunci-aplikasi-kecanduan/
+- Tanggal: 2026-08-04
+- Tag: ["Teknologi", "Produktivitas", "Digital Detox", "Gadget", "Life Hacks"]
+
+### Tailscale vs Cloudflare Tunnel: Pilih yang Mana? 🔗
+- URL: https://chokdi-blog.pages.dev/posts/tailscale-vs-cloudflare-tunnel/
+- Tanggal: 2026-08-04
+- Tag: ["Tutorial", "Jaringan", "Tailscale"]
