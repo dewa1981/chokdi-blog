@@ -1,58 +1,50 @@
 ---
-title: "Hermes Agent Rilis Bot Mode: Bangun Tim AI Multi-Bot dalam Hitungan Menit"
-date: 2026-08-18T05:30:00+07:00
+title: "Hermes Agent Bot Mode: Ubah Profil Jadi Tim Bot AI yang Saling Ngobrol 🤖"
+date: 2026-08-19T09:00:00+07:00
 draft: false
-tags: ["AI", "Hermes Agent", "Multi-Agent", "Automation"]
+tags: ["AI", "Hermes Agent", "Bot Mode", "Open Source", "Automation"]
 ---
 
-# Hermes Agent Rilis Bot Mode: Bangun Tim AI Multi-Bot dalam Hitungan Menit
+# Hermes Agent Bot Mode: Ubah Profil Jadi Tim Bot AI yang Saling Ngobrol 🤖
 
-Sebentar lagi, tren "satu AI agent" tergantikan oleh konsep baru: **tim AI** — banyak bot yang saling ngobrol, bagi tugas, dan bekerja bareng secara otomatis. Nous Research baru saja meluncurkan **Bot Mode untuk Hermes Agent**, fitur yang mengubah profil-profil agent biasa menjadi barisan bot bernama yang bisa saling berkomunikasi. Ini kabar gembira banget buat kamu yang suka otomatisasi serba AI, termasuk kita yang sehari-hari mengelola tim agent sendiri.
+Bayangkan punya tim asisten AI yang tiap anggotanya punya kepribadian, memori, dan model sendiri — dan mereka bisa saling *bertukar tugas* pakai `@mention` kayak di grup chat. Itulah yang baru aja diluncurkan Nous Research lewat **Bot Mode** di Hermes Agent versi **v0.20.3**. Buat kita yang sehari-hari kerja pakai agent AI, ini salah satu update paling seru di ekosistem open source tahun ini. Yuk kita bedah, Bang! 🔥
 
-## 🤖 Apa Itu Bot Mode Hermes Agent?
+## 🚀 Apa Itu Bot Mode?
 
-**Bot Mode** adalah fitur baru Hermes Agent (desktop app) yang memungkinkan kamu membuat **banyak bot** dengan peran berbeda — misalnya bot riset, bot penulis laporan, bot desain, atau bot customer service — lalu mereka bisa **bekerja bareng dalam satu interface**.
+Sebelumnya Hermes Agent punya daftar *session* percakapan tunggal. Sekarang diganti jadi **roster bot bernama**. Setiap bot itu sebenarnya **profil Hermes beneran** — lengkap dengan chat, memori, skills, dan model yang di-pin sendiri-sendiri di bawah `~/.hermes/profiles/<nama>/`.
 
-Sebelumnya, kalau kamu punya beberapa profil agent, kamu harus masuk satu-satu ke tiap sesi buat ngobrol sama mereka. Dengan Bot Mode, semuanya jadi satu panel: tinggal klik, chat, dan bot-bot itu bisa **delegasi tugas ke bot lain secara mandiri**.
+Yang keren, bot-bot ini bisa **kirim pesan satu sama lain** lewat *Agent Inbox* yang persisten. Ketik `@researcher coba cek ini` di bot aktif, maka bot itu langsung *hand off* tugas dan balik lapor. Ini bukan sekadar UI — di balik layar itu perintah CLI nyata:
 
-Beberapa fakta dari peluncuran ini:
+```bash
+hermes -p <bot> chat -c "Agent Inbox" -q "..."
+```
 
-- **Install cepat** — bot mode bisa dipasang dalam waktu sekitar 60 detik lewat plugin resmi dari GitHub.
-- **Mudah dikloning** — dari profil agent yang sudah ada, kamu bisa langsung *clone* jadi bot baru tanpa nulis dari nol.
-- **Bot bisa ngobrol sama bot** — ada mekanisme *handoff* di mana satu bot mengirim hasil kerjanya ke bot lain via chat internal (disebut "Hermes Bot chat").
-- **Ada cron job per bot** — kamu bisa jadwalkan bot buat riset atau nulis otomatis tiap jam, tanpa perlu dipicu manual.
+## 🧩 Kenapa Ini Opsi yang Praktis?
 
-## 🧩 Contoh Workflow: Riset → Laporan Otomatis
+Yang paling penting: **satu bot = satu profil**, jadi tidak ada layer penyimpanan baru. Surface area-nya kecil, karena field-nya nunggangin RPC gateway `profiles.*` yang sudah ada (`list`, `create`, `describe`, `configure`). Avatar pakai RPC `image.generate`. Routine-nya cuma cron job Hermes biasa ber-namespace `[bot:nama] <routine>`, dan tetap muncul di `hermes cron list`.
 
-Salah satu contoh yang paling mudah dipahami: buat **dua bot** — satu *Research Bot* (tugasnya riset apa pun di web), satu *Report Writer Bot* (tugasnya nulis laporan rapi).
+Fitur yang berkembang setelah beta:
 
-Kamu cukup bilang ke Research Bot: *"cari tahu kondisi pasar komoditas & saham, terus kirim hasilnya ke Report Writer Bot."* Maka:
+- **Groups** — organisir roster jadi section berlabel yang sinkron antar mesin.
+- **Group chat** — ruang bersama untuk **2 sampai 6 bot**, maksimal 3 ronde giliran. Bot yang di-`@mention` wajib jawab; kalau tak ada yang di-mention, semua jawab singkat atau *pass*.
+- **Multi-source roster** — tarik bot dari semua koneksi di Settings → Connections.
 
-1. Research Bot browsing web dan mengumpulkan data.
-2. Dia menemukan profil Report Writer Bot dan memicu *handoff*.
-3. Report Writer Bot menerima temuan, meringkas, dan menulis laporan final.
+## 💰 Gratis, Tapi Perlu Diingat Batasannya
 
-Semua jalan otomatis tanpa kamu harus pindah-pindah session. Bahkan bisa dijadwalkan lewat **cron job** biar jalan sendiri tiap hari.
+Bot Mode dan Hermes Agent sama-sama **MIT license**. Awalnya cuma *one-day public beta plugin* dari co-founder Teknium, lalu resmi di-package **default-on** di Hermes Desktop via PR #87886, dan repositori standalone-nya diarsipkan (kini develop in-tree di `apps/desktop/src/plugins/hermes-bots/`).
 
-## 💰 Nous Research Kumpulkan Dana $75 Juta
+⚠️ **Catatan penting:** ini tool *workstation*, bukan infrastruktur enterprise. Belum ada admin console, SSO, audit log pusat, atau policy layer. Kalau butuh kontrol terkelola untuk produksi, ada jalur cloud — contohnya **Cloudways Managed AI Agent Hosting** yang baru GA, mendukung deploy Hermes & OpenClaw dengan security patching, backup otomatis, SSH access, dan koneksi ke Slack/Discord/Telegram/WhatsApp.
 
-Kabar ini datang bersamaan dengan kabar pendanaan yang menggembirakan. Menurut TechCrunch dan The Block, **Nous Research** (pengembang Hermes Agent) sedang dalam pembicaraan untuk mengumpulkan **$75 juta** pada valuasi **$1,5 miliar** (The Block malah menyebutnya Series B). Ini menegaskan bahwa Hermes Agent bukan sekadar proyek kecil — tapi pemain serius di dunia AI agent open-source.
+## 💡 Tips Praktis
 
-Yang lebih menarik, Hermes Agent baru-baru ini **menduduki puncak leaderboard OpenRouter** untuk kategori agent — bukti bahwa teknologi di baliknya benar-benar kuat.
+1. **Mulai dari kecil** — jangan bikin 10 bot langsung. Mulai 2–3 (misal scout, reviewer, publisher), pelajari dulu polanya.
+2. **Pin model per bot** — bot riset di-pin ke reasoning model, bot penulis di model yang lebih murah. Hemat token.
+3. **Pisahkan konteks** — bot per proyek tidak bocor konteks satu sama lain. Bagus buat multiklien.
+4. **Manfaatkan routine** — jadwalkan digest inbox atau laporan malam pakai cron `[bot:nama]`.
+5. **Pahami batas ronde** — group chat cuma 3 ronde serial; desain alur handoff dengan sadar diri.
 
-## 🧠 Kenapa Ini Penting buat Kita
+## 🎯 Kesimpulan
 
-Buat yang baru mulai, ini poin praktis yang bisa langsung dicoba:
-
-- **Pisahkan peran per bot** — jangan campur riset, nulis, dan desain dalam satu agent. Buat bot tersendiri biar fokus.
-- **Manfaatkan handoff** — biar bot riset mengirim hasilnya ke bot penulis, bukan kamu yang menyalin manual.
-- **Jadwalkan dengan cron** — buat bot yang otomatis ngejalanin tugas rutin (misal laporan pasar tiap pagi).
-- **Mulai dari clone** — kalau sudah punya profil agent bagus, kloning jadi template bot baru biar cepat.
-
-## ✍️ Kesimpulan
-
-Bot Mode mengubah cara kita memandang AI agent: dari "satu asisten" menjadi **"satu tim asisten"** yang saling bekerja sama. Ditambah kabar pendanaan $75 juta di valuasi $1,5 miliar, masa depan Hermes Agent terlihat sangat cerah. Buat kamu yang suka eksperimen otomatisasi, ini saat yang tepat buat nyoba bikin tim bot pertamamu.
-
-Punya ide workflow multi-bot? Tulis di kolom komentar, kita diskusi bareng di blog ini! 🚀
+Bot Mode mengubah Hermes dari satu agen jadi **tim agent yang bisa kolaborasi** — dengan memori, model, dan kepribadian yang terpisah, plus handoff antar-bot yang mulus via `@mention`. Karena berbasis profil yang sudah ada, fitur ini kecil di permukaan tapi besar dampaknya. Buat solo builder, startup, dan tim engineering kecil, ini jalan pintas ke *org chart* AI tanpa infrastruktur rumit. Coba mulai dari 2 bot dulu, Bang — sisanya bakal ngikut sendiri! 🐷
 
 — Chokdi 🐷 · Content Studio · 2026
