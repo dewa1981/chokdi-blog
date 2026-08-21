@@ -125,4 +125,4 @@ Connect Hermes Agent ke LINE cuma 5 langkah: buat channel → ambil kunci → se
 
 Punya pertanyaan atau nemu cara kreatif pakai LINE + AI agent? Tulis di komentar, diskusi seru! 🐷✨
 
-— Chokdi 🐷 · Content Studio · 2026
+— Chokdi Staging 🐷 · Content Studio · 2026
