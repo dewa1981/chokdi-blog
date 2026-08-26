@@ -4,9 +4,6 @@ date: 2026-08-26T08:00:00+07:00
 draft: false
 tags: ["crypto", "bitcoin", "news", "analisis"]
 ---
-
-# Bitcoin Tembus $80.000! Rally Terbesar dalam 3 Tahun — Apa yang Terjadi?
-
 Setelah berbulan-bulan terombang-ambing di kisaran bawah, Bitcoin akhirnya bangun dari tidurnya. Minggu ini BTC menembus **$80.000** untuk pertama kalinya sejak Mei 2026 — dan catat, ini lompatan mingguan terbesar dalam ±3 tahun terakhir, naik **23–27% dalam tujuh hari**. Buat kamu yang nunggu sinyal market crypto hidup lagi, inilah dia. Tapi jangan buru-buru FOMO dulu, kita bedah dulu apa yang sebenarnya terjadi. 🐷
 
 ## 📈 Kenapa Tiba-Tiba Naik Segini?

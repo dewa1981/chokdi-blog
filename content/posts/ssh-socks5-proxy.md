@@ -4,9 +4,6 @@ date: 2026-08-07T02:00:00+07:00
 draft: false
 tags: ["Tutorial", "SSH", "Proxy", "SOCKS5", "Linux"]
 ---
-
-# Bikin Proxy Gratis 24 Jam Pakai SSH Tunnel (SOCKS5) 🌐
-
 Butuh proxy tapi gak mau bayar? Punya VPS kecil yang gak kepake? Kamu bisa bikin **proxy SOCKS5 gratis** cuma dengan SSH — tanpa install aplikasi apa pun!
 
 ## 🤔 Apa Itu SOCKS5 via SSH?

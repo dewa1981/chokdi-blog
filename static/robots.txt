@@ -1,0 +1,43 @@
+# Chokdi Blog — robots.txt (SEO fix 26-Agu-2026)
+# Izin selective AI crawler untuk GEO/AEO (GPTBot, PerplexityBot, Google-Extended)
+# Blok crawler yang tidak diinginkan
+
+Sitemap: https://chokdi.ano99.com/sitemap.xml
+
+User-agent: *
+Allow: /
+
+# AI / GEO crawlers — DIIZINKAN (strategi visibilitas AI search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Crawler yang diblokir (hemat bandwidth / tidak relevan)
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /

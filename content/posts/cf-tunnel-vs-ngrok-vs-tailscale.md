@@ -4,9 +4,6 @@ date: 2026-08-08T01:50:00+07:00
 draft: false
 tags: ["Cloudflare", "Tunnel", "ngrok", "Tailscale", "Network", "VPS"]
 ---
-
-# Cloudflare Tunnel vs ngrok vs Tailscale: Pilih yang Mana? 🏪
-
 Tiga tool populer untuk mengakses server dari luar — tapi fungsinya BEDA TOTAL! Ini penjelasan lengkapnya biar tidak salah pilih.
 
 ## 📊 Perbandingan Cepat

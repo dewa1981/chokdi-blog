@@ -4,9 +4,6 @@ date: 2026-08-22T08:00:00+07:00
 draft: false
 tags: ["crypto", "bitcoin", "indonesia", "ojk", "defi"]
 ---
-
-# Update Pasar Kripto Indonesia Agustus 2026: OJK Siap Tokenisasi & Triv Hadirkan Kompetisi Besar
-
 Bang, industri kripto di Indonesia lagi panas-panasnya nih di bulan Agustus 2026! Dua berita besar datang dari dalam negeri yang bisa jadi sinyal penting buat portofolio kita: regulasi tokenisasi mulai matang dan kompetisi pasar makin sengit. Yuk, kita bedah satu-satu biar gak ketinggalan kereta!
 
 ## 🏛️ OJK Siapkan Kerangka Tokenisasi Aset Kripto

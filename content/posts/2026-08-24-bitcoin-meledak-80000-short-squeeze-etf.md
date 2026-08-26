@@ -11,9 +11,6 @@ tags:
   - altcoin
   - pasar-keuangan
 ---
-
-# Bitcoin Meledak ke $80.000: Short Squeeze Terbesar 2026 & ETF Banjir $1,9 Miliar
-
 Pekan ketiga Agustus 2026 jadi momen bersejarah bagi pasar crypto global. Bitcoin (BTC) meroket **lebih dari 22% dalam tujuh hari**, nyaris menyentuh angka psikologis **$80.000** — level tertinggi sejak Mei 2026. Ini bukan sekadar reli biasa. Ini adalah **short squeeze terbesar tahun ini**, dipicu oleh kombinasi kebijakan fiskal AS, arus masuk institusional yang masif, dan momentum politik pro-crypto yang belum pernah terjadi sebelumnya.
 
 Bagi investor Indonesia yang sudah menunggu sinyal bullish, inilah saatnya memahami apa yang sebenarnya terjadi — dan apa yang bisa dipelajari.

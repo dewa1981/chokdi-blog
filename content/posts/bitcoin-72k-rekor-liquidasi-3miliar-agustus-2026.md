@@ -4,9 +4,6 @@ date: 2026-08-21T01:33:33+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "Market Update", "DeFi", "Trading"]
 ---
-
-# Bitcoin Tembus $72K, Rekor Liquidasi Short $3 Miliar: Apa yang Terjadi Minggu Ini?
-
 Buat yang lagi mantengin chart minggu ini — selamat buat yang hold! Bitcoin baru saja mencatat rally terbesar sejak Maret, menembus $72.000 dan memicu liquidasi short senilai $3,1 miliar. Ini bukan cuma angka — ini adalah peristiwa likuidasi bearish terbesar dalam sejarah crypto. Yuk bedah apa yang terjadi dan apa artinya buat kita.
 
 ## 📈 Bitcoin: Dari $63K ke $72K dalam Seminggu

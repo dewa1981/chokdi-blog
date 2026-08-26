@@ -4,9 +4,6 @@ date: 2026-08-21T16:30:00+07:00
 draft: false
 tags: ["Hermes Agent", "LINE", "Tutorial", "AI Assistant", "Messaging"]
 ---
-
-# Cara Connect Hermes Agent ke LINE: Jadikan LINE Asisten AI di Saku Kamu
-
 LINE bukan cuma buat chat sama temen. Dengan Hermes Agent, LINE bisa jadi **asisten AI pribadi yang selalu ada di saku kamu** — tanya apa aja, kapan aja, langsung dijawab, bahkan bisa kirim gambar hasil generate. Artikel ini panduan lengkap connect Hermes Agent ke LINE Messaging API, langkah demi langkah, dari nol sampai test di HP.
 
 ## Kenapa LINE?

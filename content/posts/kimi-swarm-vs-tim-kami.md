@@ -4,9 +4,6 @@ date: 2026-08-07T07:30:00+07:00
 draft: false
 tags: ["AI", "Agent", "Kimi", "Perbandingan", "Multi-Agent"]
 ---
-
-# Kimi Agent Swarm vs Tim 7 Agent Kami: Perbandingan Jujur 🤖
-
 Viral video "Berasa Punya 300 Karyawan AI" membahas **Kimi Agent Swarm** — sistem agent AI dari Moonshot AI. Kami menjalankan sistem multi-agent sendiri (7 agent!). Ini perbandingan jujurnya.
 
 ## 🧠 Apa Itu Kimi Agent Swarm?

@@ -4,9 +4,6 @@ date: 2026-08-25T09:31:00+07:00
 draft: false
 tags: ["Crypto", "Ethereum", "Glamsterdam", "Blockchain", "EIP"]
 ---
-
-# Upgrade Ethereum Glamsterdam Pensiunkan Aturan Gas 21.000 — Wallet Bisa Salah Hitung 🔥
-
 Ethereum lagi bersiap buat upgrade terbesarnya di 2026: **Glamsterdam**. Dan salah satu dampaknya nyentuh aturan paling tua yang selama ini diandalkan semua wallet: **transfer ETH = flat 21.000 gas**. Mulai upgrade ini, kirim ETH ke alamat baru harganya bakal beda sama kirim ke alamat lama — dan software yang kakunya nempel sama angka 21.000 berpotensi salah hitung biaya. Buat kamu yang pegang ETH atau develop di ekosistem Ethereum, ini wajib dipantau, Bang!
 
 ## 🧱 Dulu: Kenapa Selalu 21.000 Gas?

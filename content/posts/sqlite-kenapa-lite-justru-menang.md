@@ -4,9 +4,6 @@ date: 2026-08-07T22:00:00+07:00
 draft: false
 tags: ["SQLite", "Database", "Postgres", "Backend", "FastGaji"]
 ---
-
-# SQLite: Kenapa yang "Lite" Justru Menang 🗄️
-
 Banyak orang mengira "lite" di SQLite berarti "kemampuan rendah". Padahal justru sebaliknya — **"lite" di sini adalah KEKUATAN**: SQLite adalah *library* (bukan server!), berupa file di disk kamu sendiri — GRATIS, CEPAT, dan mengalahkan Postgres di banyak skenario!
 
 ## 🤔 Refleks yang Keliru

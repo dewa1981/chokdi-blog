@@ -4,9 +4,6 @@ date: 2026-08-06T11:15:00+07:00
 draft: false
 tags: ["AI", "Hermes", "Productivity", "Tutorial"]
 ---
-
-# Second Brain: Cara AI Agent Ingat Semua Tanpa Batas 🧠
-
 Pernah kesal karena AI assistant kamu "lupa" hal yang sudah dibahas minggu lalu? Tenang — itu bukan AI-nya bodoh, tapi cara penyimpanan memorinya yang terbatas. Solusinya: **Second Brain** (otak kedua) — dan di artikel ini kamu akan belajar cara membuatnya, plus kenapa konsep ini dipakai para power user AI di seluruh dunia.
 
 ## 🤔 Kenapa AI Gampang Lupa?

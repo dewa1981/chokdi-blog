@@ -4,9 +4,6 @@ date: 2026-08-07T04:40:00+07:00
 draft: false
 tags: ["AI", "Image", "Kling", "MCP", "Tutorial"]
 ---
-
-# Poster AI Semurah 1 Credit: Kling MCP Image 🖼️
-
 Bikin poster promosi profesional sekarang semurah **1 credit** — dan selesai dalam 15 detik. Ini pengalaman kami generate poster Anti-DDoS dengan Kling MCP.
 
 ## 💰 Perbandingan Biaya Kling (credits)

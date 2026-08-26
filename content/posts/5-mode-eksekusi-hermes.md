@@ -4,9 +4,6 @@ date: 2026-08-07T16:30:00+07:00
 draft: false
 tags: ["AI", "Hermes", "Multi-Agent", "Cron", "Tutorial"]
 ---
-
-# 5 Mode Eksekusi Hermes — Cara Kerja AI Agent yang Benar ⚙️
-
 Banyak yang salah: mendelegasikan semua tugas ke agent lain — padahal itu bikin workflow LAMBAT. Hermes punya 5 mode eksekusi — dan memilih mode yang TEPAT adalah kunci efisiensi.
 
 ## 🎯 Pelajaran Utama

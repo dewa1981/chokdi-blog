@@ -4,9 +4,6 @@ date: 2026-08-07T21:45:00+07:00
 draft: false
 tags: ["AI", "Cloudflare", "Security", "Agent", "Gatekeeper"]
 ---
-
-# Cloudflare OS: Agent Dapat Pintu, Bukan Kunci! 🔐
-
 Cloudflare baru saja open-source "Cloudflare OS" — sistem operasi untuk perusahaan agar bisa memakai AI dengan AMAN. Konsep kuncinya sederhana tapi revolusioner: **agent dapat PINTU, bukan KUNCI!**
 
 ## ⚠️ Masalahnya: Agent Punya Semua Kredensial

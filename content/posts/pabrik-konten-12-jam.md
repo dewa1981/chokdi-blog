@@ -4,9 +4,6 @@ date: 2026-08-07T05:15:00+07:00
 draft: false
 tags: ["AI", "Produktivitas", "Konten", "Cerita"]
 ---
-
-# Dari 0 ke Pabrik Konten dalam 12 Jam 🏭
-
 Satu malam. Satu orang (plus asisten AI). Dari tidak punya apa-apa — jadi **pabrik konten lengkap**: logo, video, poster, artikel, caption, favicon, dan branding. Ini ceritanya.
 
 ## 🌙 Timeline Malam Itu

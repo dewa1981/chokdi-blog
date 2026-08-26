@@ -4,9 +4,6 @@ date: 2026-08-19T09:00:00+07:00
 draft: false
 tags: ["AI", "Hermes Agent", "Bot Mode", "Open Source", "Automation"]
 ---
-
-# Hermes Agent Bot Mode: Ubah Profil Jadi Tim Bot AI yang Saling Ngobrol 🤖
-
 Bayangkan punya tim asisten AI yang tiap anggotanya punya kepribadian, memori, dan model sendiri — dan mereka bisa saling *bertukar tugas* pakai `@mention` kayak di grup chat. Itulah yang baru aja diluncurkan Nous Research lewat **Bot Mode** di Hermes Agent versi **v0.20.3**. Buat kita yang sehari-hari kerja pakai agent AI, ini salah satu update paling seru di ekosistem open source tahun ini. Yuk kita bedah, Bang! 🔥
 
 ## 🚀 Apa Itu Bot Mode?

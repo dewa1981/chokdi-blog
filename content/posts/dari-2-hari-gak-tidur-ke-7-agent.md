@@ -4,9 +4,6 @@ date: 2026-08-07T16:00:00+07:00
 draft: false
 tags: ["AI", "Cerita", "Hermes", "OpenClaw", "Perjalanan"]
 ---
-
-# Dari 2 Hari Gak Tidur ke 7 Agent AI: Perjalanan Bang 🛌→🤖
-
 Kisah nyata: dari frustasi 2 hari gak tidur gara-gara AI crash — sampai menjalankan 7 agent AI yang kerja bareng setiap hari. Ini perjalanannya.
 
 ## 🌙 Bab 1: 10 Hari Belajar di 2 VPS

@@ -5,9 +5,6 @@ draft: false
 tags: ["bitcoin", "crypto", "defi", "rally", "etf", "stablecoin"]
 description: "Bitcoin rally 11% ke $79.500 dalam seminggu, $4.3 miliar short position likuidasi, dan Elon Musk X ingin bayar kreator pakai stablecoin."
 ---
-
-# 🚀 Bitcoin Melesat ke $80K: 5 Fakta Rally Terbesar dalam 2 Tahun
-
 Bitcoin baru saja menulis ulang narasi pasar crypto tahun 2026. Dalam seminggu, BTC melesat **11%** ke level **$79.500** — rally terbesar dalam dua tahun terakhir. Gabungan antara arus masuk ETF masif, intervensi Treasury AS, dan liquidasi short position raksasa menciptakan momen yang bikin bears gemetar.
 
 Yang lebih mengejutkan? **Ethereum justru lebih gila** — naik **18% dalam 7 hari**, jauh mengungguli Bitcoin. Sementara itu, Elon Musk mengumumkan X (Twitter) sedang eksplorasi stablecoin untuk membayar kreator konten.

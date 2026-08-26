@@ -4,9 +4,6 @@ date: 2026-08-07T04:30:00+07:00
 draft: false
 tags: ["AI", "Design", "Brand", "Logo", "Tutorial"]
 ---
-
-# Logo Brand dari AI: Dari Typo Fatal Sampai Icon Pack 🎨
-
 Bikin logo pakai AI itu cepat — tapi ada jebakannya. Cerita kami: logo pertama AI-generated punya **typo fatal** ("SHHIELD" — double-H!), dan kami harus bikin ulang dengan metode yang lebih andal. Ini caranya.
 
 ## 🚨 Masalah: AI Image Model Sering Typo

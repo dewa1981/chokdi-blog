@@ -11,9 +11,6 @@ tags:
   - short-squeeze
   - rally
 ---
-
-# Bitcoin Meledak ke $75K: Short Squeeze $2.7M, Zcash 48%, dan Altcoin Season Dimulai? 🚀
-
 Pekan terakhir Agustus 2026 jadi salah satu minggu paling gila di pasar crypto. Bitcoin (BTC) meledak dari level $64.000 ke atas $75.000 dalam hitungan hari — kenaikan **lebih dari 19% dalam seminggu**. Kalau kamu lagi hold, ini saatnya senyum-senyum. Kalau kamu short? *Bears in pain, right now* — kata analis James Check.
 
 ## 📈 Apa yang Terjadi? Short Squeeze Terbesar Sejak 2021

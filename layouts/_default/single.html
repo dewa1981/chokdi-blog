@@ -3,9 +3,17 @@
   <header>
     <h1>{{ .Title }}</h1>
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "2 Jan 2006, 15:04 WIB" }}</time>
+    <div class="post-byline">oleh <strong>Chokdi 🐷</strong></div>
   </header>
   <div class="content">
     {{ .Content }}
   </div>
+  {{ $tagsStr := "" }}
+  {{ with .Params.tags }}{{ $tagsStr = lower (delimit . ",") }}{{ end }}
+  {{ if or (strings.Contains $tagsStr "crypto") (strings.Contains $tagsStr "bitcoin") (strings.Contains $tagsStr "altcoin") (strings.Contains $tagsStr "defi") }}
+  <div class="disclaimer" style="margin-top:2em;padding:1em;background:#1e293b;border-left:4px solid #e2b714;border-radius:6px;font-size:.9em;color:#c9d1d9;">
+    <strong>⚠️ Disclaimer:</strong> Artikel ini hanya informasi edukasi, bukan saran investasi. Harga crypto sangat fluktuatif — selalu lakukan riset sendiri (DYOR) sebelum mengambil keputusan.
+  </div>
+  {{ end }}
 </article>
 {{ end }}

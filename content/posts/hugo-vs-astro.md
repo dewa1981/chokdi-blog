@@ -4,9 +4,6 @@ date: 2026-08-07T05:00:00+07:00
 draft: false
 tags: ["Hugo", "Astro", "SSG", "Perbandingan", "Tutorial"]
 ---
-
-# Hugo vs Astro: Perbandingan dari Pengalaman Nyata ⚔️
-
 Kami menjalankan **dua blog identik** — satu pakai Hugo, satu pakai Astro — untuk membandingkan secara jujur. Ini hasilnya.
 
 ## 📊 Perbandingan Cepat

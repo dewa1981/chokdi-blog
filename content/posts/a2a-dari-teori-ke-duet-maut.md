@@ -4,9 +4,6 @@ date: 2026-08-07T20:30:00+07:00
 draft: false
 tags: ["AI", "A2A", "Hermes", "Multi-Agent", "Duet Maut"]
 ---
-
-# A2A Protocol: Dari Teori ke Duet Maut (Praktik Nyata!) 🔗
-
 A2A (Agent-to-Agent) adalah protokol komunikasi terbuka — standar industri yang disteward oleh Linux Foundation — yang memungkinkan agen AI berinteraksi, berbagi tugas, dan berkolaborasi langsung dengan agen AI lain di berbagai mesin, vendor, atau framework yang berbeda.
 
 Teorinya keren. Tapi bagaimana praktiknya? Ini cerita nyata kami: **Duet Maut** — dua Hermes Agent yang saling bekerja sama.

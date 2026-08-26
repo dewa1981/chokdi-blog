@@ -1,9 +1,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ with .Site.Params.description -}}
+    {{- $desc := .Description -}}
+    {{- if not $desc }}{{ $desc = .Summary | plainify | truncate 155 }}{{ end -}}
+    {{- if not $desc }}{{ $desc = .Site.Params.description }}{{ end -}}
+    {{- with $desc -}}
     <meta name="description" content="{{ . }}">
-    {{ end }}
+    <meta property="og:description" content="{{ . }}">
+    <meta name="twitter:description" content="{{ . }}">
+    {{- end -}}
     {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -29,4 +34,44 @@
 
     <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:image" content="{{ "images/og-default.png" | absURL }}">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:image" content="{{ "images/og-default.png" | absURL }}">
+
+    <!-- Structured Data (JSON-LD) -->
+    {{ if .IsPage }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title | jsonify }},
+      "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+      "author": {"@type": "Person", "name": "Chokdi"},
+      "url": {{ .Permalink | jsonify }},
+      "image": "{{ "images/og-default.png" | absURL }}",
+      "publisher": {"@type": "Organization", "name": {{ .Site.Title | jsonify }}, "url": "{{ .Site.BaseURL }}"}
+    }
+    </script>
+    {{ else }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ .Site.Title | jsonify }},
+      "url": {{ .Permalink | jsonify }}
+    }
+    </script>
+    {{ end }}
 </head>

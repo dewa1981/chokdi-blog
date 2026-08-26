@@ -10,9 +10,6 @@ tags:
   - staking
   - defi
 ---
-
-# Bitmine Tom Lee Kuasai 5% Supply Ethereum — Gila atau Jenius? 🐷
-
 Kabar geger datang dari dunia kripto! **Tom Lee** — analis Wall Street yang terkenal lewat Fundstrat dan prediksi-prediksi jitu Bitcoin — lewat perusahaannya **Bitmine Immersion Technologies** kini nyaris menguasai **5% dari total supply Ethereum**. Angkanya? **5.82 juta ETH** senilai sekitar **$11 miliar** (sekitar Rp170 triliun). Ini bukan angka main-main, tong.
 
 ## 📊 Fakta Kunci yang Perlu Kamu Tahu

@@ -4,9 +4,6 @@ date: 2026-08-07T12:30:00+07:00
 draft: false
 tags: ["AI", "Fugu", "Sakana", "Multi-Agent", "Orchestrator"]
 ---
-
-# Fugu AI: AI yang Komando Tim AI Lain — dan Kenapa Kita Sudah Melakukannya 🤖
-
 Sakana AI baru saja merilis **Fugu** — model AI yang tidak menjawab pertanyaan sendiri, tapi **memerintah tim model AI lain** untuk bekerja sama memecahkan masalah sulit. Ini konsep yang kami sudah jalankan — dan inilah perbandingannya.
 
 ## 🧠 Apa Itu Fugu?

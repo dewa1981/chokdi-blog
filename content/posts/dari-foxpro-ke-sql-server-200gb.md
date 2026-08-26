@@ -4,9 +4,6 @@ date: 2026-08-07T22:25:00+07:00
 draft: false
 tags: ["Database", "SQL Server", "SQLite", "FoxPro", "GCP", "Cerita"]
 ---
-
-# Dari FoxPro ke SQL Server 200GB: Perjalanan 10 Tahun Database 🗄️
-
 Ini cerita nyata dari Bang Ano — pengalaman puluhan tahun bergelut dengan database, dari FoxPro sampai SQL Server 200GB di Google Cloud. Pelajaran berharga di dalamnya: **memilih database itu soal KONTEKS, bukan soal "mana yang terbaik"!**
 
 ## 🕰️ Era FoxPro & MS Access: Lelet di Beberapa GB

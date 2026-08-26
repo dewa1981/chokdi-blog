@@ -4,9 +4,6 @@ date: 2026-08-26T00:30:00+07:00
 draft: false
 tags: ["Crypto", "Bitcoin", "Analisis", "Pasar"]
 ---
-
-# Bitcoin Tembus $80.000: Rebound Terkuat 2026 Sampai Kapan?
-
 Bitcoin akhirnya menembus level psikologis **$80.000** untuk pertama kalinya sejak pertengahan Mei, didorong short squeeze terbesar tahun ini dan arus masuk ETF spot yang memecahkan rekor. Baru 24 jam kemudian harga sedikit terkoreksi ke kisaran $79.000 — tanda bahwa pergerakan ini masih diuji.
 
 Berikut ringkasan lengkap apa yang terjadi minggu ini, kenapa harga melesat, dan indikator yang harus kamu pantau biar nggak salah posisi.

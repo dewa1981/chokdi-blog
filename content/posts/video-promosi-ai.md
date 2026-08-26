@@ -4,9 +4,6 @@ date: 2026-08-07T06:00:00+07:00
 draft: false
 tags: ["AI", "Video", "ffmpeg", "Marketing", "Tutorial"]
 ---
-
-# Video Promosi AI: Dari Prompt ke Watermark 🎬
-
 Kami baru saja bikin video promosi Anti-DDoS dari nol: prompt → video AI → watermark logo → teks domain → siap posting. Ini alur lengkapnya.
 
 ## 🎬 Langkah 1: Generate Video (MCP Kling)

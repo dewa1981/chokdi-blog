@@ -4,9 +4,6 @@ date: 2026-08-17T17:35:00+07:00
 draft: false
 tags: ["AI", "OpenClaw", "Open Source", "Tutorial"]
 ---
-
-# OpenClaw Update Agustus 2026: Backup SQLite, Keamanan Secret, dan Runtime Model Baru
-
 Asisten AI pribadi open-source **OpenClaw** — si 🦞 "lobster way" — baru saja meluncurkan versi **v2026.8.1-beta.2** (15 Agustus 2026) dengan sederet pembaruan yang bikin hidup pengguna lebih aman dan praktis. Dari backup database yang kini gampang, keamanan secret yang lebih ketat, sampai dukungan runtime model baru. Buat kamu yang sudah pakai OpenClaw atau lagi mikir pindah dari asisten AI lain, update ini layak banget disimak.
 
 ## 🧠 Sekilas OpenClaw

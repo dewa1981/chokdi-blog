@@ -4,9 +4,6 @@ date: 2026-08-08T00:55:00+07:00
 draft: false
 tags: ["AI", "Cloudflare", "Browser", "Agent", "Workers"]
 ---
-
-# KiteSurf: Browser untuk AI Agent dari Cloudflare 🌊
-
 Cloudflare baru saja merilis **KiteSurf** — browser stateless yang dibangun KHUSUS untuk AI agents. Bedanya dengan browser biasa: KiteSurf jalan **100% di V8 isolates di Cloudflare Workers — TANPA Chromium sama sekali!**
 
 ## 🤔 Kenapa Browser Biasa Gak Cocok untuk AI Agent?

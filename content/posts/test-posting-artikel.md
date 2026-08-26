@@ -4,9 +4,6 @@ date: 2026-08-07T14:00:00+07:00
 draft: false
 tags: ["Chokdi", "Tutorial", "Hugo", "Astro"]
 ---
-
-# Test Posting Artikel: Pipeline Blog Otomatis Chokdi 🐷
-
 Artikel ini adalah **test posting** buat mastiin pipeline blog Chokdi jalan mulus dari ujung ke ujung: satu file markdown, dua blog live.
 
 ## 🚀 Alurnya

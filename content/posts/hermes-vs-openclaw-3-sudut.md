@@ -4,9 +4,6 @@ date: 2026-08-07T13:30:00+07:00
 draft: false
 tags: ["AI", "Hermes", "OpenClaw", "Perbandingan", "Pengalaman"]
 ---
-
-# Hermes vs OpenClaw: 3 Sudut Pandang (Mandarin + Indonesia) ⚔️
-
 Tiga video viral membahas perbandingan Hermes Agent vs OpenClaw — dari dua bahasa berbeda, tiga sudut pandang. Ini rangkuman + pengalaman kami yang menjalankan Hermes setiap hari.
 
 ## 🎬 Video 1 (Mandarin): "Jangan buru-buru uninstall OpenClaw"

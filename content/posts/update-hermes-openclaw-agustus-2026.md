@@ -4,9 +4,6 @@ date: 2026-08-25T01:40:00+07:00
 draft: false
 tags: ["AI Agent", "Hermes Agent", "OpenClaw", "Open Source", "Self-Hosted AI"]
 ---
-
-# Hermes Agent v0.20.5 Rilis: Bot Mode, Web Search Tanpa API Key, dan OpenClaw Beta Terbaru 🚀
-
 Pekan ini jadi minggu paling sibuk buat pengguna AI agent open source. **Hermes Agent** (Nous Research) meluncurkan **v0.20.5 (v2026.8.19)** dengan segudang fitur baru, sementara **OpenClaw** mendaratkan **v2026.8.1-beta.3** dengan dukungan model terbaru. Buat kamu yang self-host agent di VPS — ini update yang wajib dicatat.
 
 ## 🚀 Hermes v0.20.5: Roll-up Raksasa 323 PR

@@ -4,9 +4,6 @@ date: 2026-08-07T02:30:00+07:00
 draft: false
 tags: ["AI", "Mem0", "Memory", "Agent", "Tutorial"]
 ---
-
-# Mem0 Dream: Memory AI yang "Tidur" & Bangun Lebih Cerdas 💤
-
 AI agent punya masalah klasik: makin lama dipakai, memorinya makin berantakan. Duplikat menumpuk, fakta lama bentrok dengan fakta baru, dan pola kebiasaan user tidak pernah dirangkum. **Mem0 Dream** hadir untuk menyelesaikan ini — dengan cara yang elegan: *membiarkan AI "tidur" dan mengkonsolidasi memorinya*.
 
 ## 🧠 Apa Itu Dream?

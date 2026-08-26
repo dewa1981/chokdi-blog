@@ -4,9 +4,6 @@ date: 2026-08-20T12:39:20+07:00
 draft: false
 tags: ["Crypto", "Bitcoin", "Ethereum", "Berita"]
 ---
-
-# Bitcoin Tembus $70K Usai White House Crypto Summit: Akhir 'Perang Crypto'?
-
 Bitcoin akhirnya kembali ke level psikologis **$70.000** — pertama kalinya sejak Juni 2026. Pemicunya bukan hal sepele: Gedung Putih menggelar **White House Crypto Summit** pertama yang dihadiri para bos industri, dan pasar bereaksi dalam hitungan jam. Buat kamu yang ngikutin crypto dari Indonesia, ini momen penting: arah kebijakan AS soal bitcoin bisa mengubah peta pasar global.
 
 ## 🏛️ White House Crypto Summit: Trump Kumpulkan Bos Crypto

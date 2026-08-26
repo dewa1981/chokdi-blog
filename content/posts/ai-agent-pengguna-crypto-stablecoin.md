@@ -4,9 +4,6 @@ date: 2026-08-25T00:35:00+07:00
 draft: false
 tags: ["Crypto", "AI Agent", "Stablecoin", "Agentic Commerce"]
 ---
-
-# AI Agent Jadi Pengguna Crypto Terbesar Berikutnya? Belanja Kartu Crypto Tembus $1 Miliar
-
 Buat kamu yang selama ini mikir crypto cuma soal ngikutin harga Bitcoin, ada gebrakan baru yang lebih menarik dari sekadar grafik naik-turun: **AI agent mulai jadi "pelanggan" crypto**. Akhir pekan lalu, laporan muncul bahwa belanja pakai kartu crypto **tembus angka $1 miliar** — dan pelaku terbesarnya bukan manusia, tapi bot yang transaksi sendiri kayak mesin. Ini perubahan fundamental, dan efeknya bakal terasa ke ekosistem crypto global, termasuk Indonesia.
 
 ## 💳 Uang Bukan Cuma Buat Manusia Lagi

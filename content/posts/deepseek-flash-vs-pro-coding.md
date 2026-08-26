@@ -4,9 +4,6 @@ date: 2026-08-07T14:30:00+07:00
 draft: false
 tags: ["AI", "DeepSeek", "Coding", "Perbandingan"]
 ---
-
-# DeepSeek V4 Flash vs Pro: Buat Coding Gimana? 💻
-
 Pertanyaan yang sering muncul: *"DeepSeek V4 Flash bagus gak buat coding? Dipakai sehari-hari gimana? Bedanya sama V4 Pro apa?"* Ini jawaban lengkapnya.
 
 ## 📊 V4 Flash vs V4 Pro

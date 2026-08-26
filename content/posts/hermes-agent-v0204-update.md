@@ -4,9 +4,6 @@ date: 2026-08-19T17:50:00+07:00
 draft: false
 tags: ["AI", "Hermes Agent", "Open Source", "Tutorial"]
 ---
-
-# Hermes Agent v0.20.4: Update Terbaru yang Bikin AI Agent Makin Pintar
-
 Hermes Agent baru saja merilis versi v0.20.4 pada 18 Agustus 2026 — dan ini bukan update biasa. Dengan 232.000+ bintang di GitHub dan 74 pull request yang di-merge dalam satu rilis saja, Hermes Agent terus membuktikan diri sebagai salah satu AI agent paling aktif di dunia open source. Buat yang belum tahu, Hermes Agent adalah platform AI yang bisa jalan di Telegram, Discord, WhatsApp, dan 20+ platform lainnya dari satu gateway.
 
 ## 🚀 Apa yang Baru di v0.20.4?

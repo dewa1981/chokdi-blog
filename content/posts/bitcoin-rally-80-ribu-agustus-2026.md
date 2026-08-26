@@ -4,9 +4,6 @@ date: 2026-08-23T07:00:00+07:00
 draft: false
 tags: ["Crypto", "Bitcoin", "ETF", "On-Chain"]
 ---
-
-# Bitcoin Ngegas ke USD 80 Ribu: Rally Terbesar 3 Tahun, Sinyal Bull Market?
-
 Akhir pekan ini dunia crypto bergemuruh: Bitcoin melesat ke kisaran USD 76–79 ribu dan tinggal selangkah lagi menembus level psikologis USD 80 ribu. Ini rally mingguan terbesar dalam lebih dari tiga tahun — sesuatu yang terakhir kali terjadi pada Maret 2023. Buat kamu yang nunggu momen "gas" atau yang masih ragu masuk pasar, artikel ini ngulik apa yang sebenernya terjadi, siapa yang beli, dan apa artinya buat siklus yang lebih panjang.
 
 ## 📈 Apa yang Terjadi Minggu Ini?

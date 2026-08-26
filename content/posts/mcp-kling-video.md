@@ -4,9 +4,6 @@ date: 2026-08-07T04:00:00+07:00
 draft: false
 tags: ["AI", "Video", "MCP", "Kling", "Tutorial"]
 ---
-
-# Bikin Video AI dari Chat: MCP Kling + Hermes 🎬
-
 Bayangkan: kamu bilang ke AI assistant *"bikin video perisai anti-DDoS melindungi server"* — dan 40 detik kemudian video-nya jadi, siap dipakai. Itu yang kami lakukan dengan **MCP Kling** terintegrasi di **Hermes Agent**.
 
 ## 🤔 Apa Itu MCP Kling?

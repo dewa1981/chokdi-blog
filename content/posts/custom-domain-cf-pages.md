@@ -4,9 +4,6 @@ date: 2026-08-07T05:45:00+07:00
 draft: false
 tags: ["Cloudflare", "Domain", "Pages", "DNS", "Tutorial"]
 ---
-
-# Custom Domain CF Pages: Konflik Domain? Ini Solusinya! 🌐
-
 Baru saja kami pasang custom domain `astro.ano99.com` ke Cloudflare Pages — dan kena error klasik: **"That domain is already associated with an existing project."** Ini cara kami menyelesaikannya dalam 5 menit.
 
 ## 🚨 Error-nya

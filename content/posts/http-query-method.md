@@ -4,9 +4,6 @@ date: 2026-08-07T16:45:00+07:00
 draft: false
 tags: ["HTTP", "Backend", "RFC", "Teknologi"]
 ---
-
-# HTTP QUERY Method: Metode HTTP Baru Setelah 16 Tahun! 🌐
-
 Setelah hampir 16 tahun tanpa metode HTTP baru — Juni 2026 IETF resmi merilis RFC baru: **HTTP Query Method**. Ini mengisi celah yang selama ini bikin backend developer bingung.
 
 ## 🤔 Masalah yang Sudah Lama Ada

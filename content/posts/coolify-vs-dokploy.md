@@ -4,9 +4,6 @@ date: 2026-08-07T17:00:00+07:00
 draft: false
 tags: ["VPS", "Docker", "Coolify", "Dokploy", "Deploy"]
 ---
-
-# Coolify vs Dokploy: Self-Hosted PaaS untuk VPS Kamu 🚀
-
 Mau deploy aplikasi ke VPS sendiri tanpa ribet? Coolify dan Dokploy adalah jawabannya — self-hosted PaaS (Platform as a Service) yang memberi pengalaman kayak Vercel/Heroku, tapi di server KAMU.
 
 ## 🎯 Apa Itu Self-Hosted PaaS?

@@ -4,9 +4,6 @@ date: 2026-08-07T07:00:00+07:00
 draft: false
 tags: ["AI", "Harga", "DeepSeek", "OpenAI", "Perbandingan"]
 ---
-
-# DeepSeek V4 Flash vs ChatGPT Mini: Hitungan Jujur 💰
-
 Banyak yang tanya: *"Mana yang lebih murah — DeepSeek V4 Flash atau ChatGPT mini?"* Jawabannya tidak sesederhana harga per token. Ini hitungan jujurnya.
 
 ## 💰 Harga Per 1 Juta Token (2026)

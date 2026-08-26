@@ -4,9 +4,6 @@ date: 2026-08-06T20:30:00+07:00
 draft: false
 tags: ["AI", "Hermes", "OpenClaw", "Tutorial", "Perbandingan"]
 ---
-
-# Kenapa Hermes Agent Lebih Gampang dari OpenClaw? 🧠
-
 Pernah dengar istilah "AI agent" tapi bingung harus mulai dari mana? Dua nama yang sering muncul: **Hermes Agent** dan **OpenClaw**. Banyak yang bilang OpenClaw lebih susah — dan itu benar! Artikel ini menjelaskan kenapa, dengan perbandingan jujur dari pengalaman nyata.
 
 ## 🤔 Apa Bedanya?

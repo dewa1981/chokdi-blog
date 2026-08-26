@@ -4,9 +4,6 @@ date: 2026-08-07T12:00:00+07:00
 draft: false
 tags: ["AI", "Desain", "Claude", "Design System", "Tutorial"]
 ---
-
-# Claude Design System: Bikin Desain AI Gak Keliatan AI-Slop 🎨
-
 Pernah lihat desain AI yang terlihat "itu-itu saja"? Itu yang disebut **AI slop** — karena kebanyakan orang pakai prompt yang sama dan sistem yang sama. Solusinya: **Design System** di Claude Design.
 
 ## 😫 Masalah: Semua Desain AI Terlihat Sama

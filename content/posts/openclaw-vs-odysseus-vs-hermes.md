@@ -4,9 +4,6 @@ date: 2026-08-07T13:00:00+07:00
 draft: false
 tags: ["AI", "Hermes", "OpenClaw", "Odysseus", "Perbandingan"]
 ---
-
-# OpenClaw vs Odysseus vs Hermes: Pilih yang Tepat (Bukan yang Terbaik) ⚔️
-
 Tiga nama terbesar di self-hosted AI: **OpenClaw, Odysseus, dan Hermes**. Kebanyakan perbandingan salah — karena ketiganya **bukan dibuat untuk pekerjaan yang sama**. Ini penjelasannya.
 
 ## 🧠 Tiga Tools, Tiga Pekerjaan Berbeda
