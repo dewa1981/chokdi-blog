@@ -3,8 +3,8 @@
 import os, re, glob, datetime
 
 BASE = "https://chokdi-blog.pages.dev"
-POSTS_DIR = "/opt/data/chokdi-blog/content/posts"
-OUT = "/opt/data/chokdi-blog/static"
+POSTS_DIR = "/opt/data/github-mirror/chokdi-blog/content/posts"
+OUT = "/opt/data/github-mirror/chokdi-blog/static"
 
 def slug_from_path(p):
     return os.path.basename(p).replace(".md", "")

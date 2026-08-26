@@ -5,6 +5,329 @@
 - Semua artikel berbahasa Indonesia, gaya santai
 - Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
 
+### Bitcoin Tembus $82.000: Pause Hormuz Bikin Minyak Anjlok, Short Sellers Babak Belur
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-82k-pause-hormuz-short-squeeze/
+- Tanggal: 2026-08-26
+- Tag: ["Bitcoin", "Crypto", "Geopolitik", "Hormuz", "Short Squeeze", "ETF"]
+
+### Bitcoin Tembus $80.000! Rally Terbesar dalam 3 Tahun — Apa yang Terjadi?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-80000-rally-terbesar-2026/
+- Tanggal: 2026-08-26
+- Tag: ["crypto", "bitcoin", "news", "analisis"]
+
+### Bitcoin Tembus $80.000: Rebound Terkuat 2026 Sampai Kapan?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-80k-agustus-2026/
+- Tanggal: 2026-08-26
+- Tag: ["Crypto", "Bitcoin", "Analisis", "Pasar"]
+
+### Hermes Agent Dikabarkan Raup US$75 Juta: Kenapa AI Agent Open Source Bisa Bernilai US$1,5 Miliar?
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-funding-75-juta-valuasi-15-miliar/
+- Tanggal: 2026-08-26
+- Tag: ["Hermes Agent", "AI Agent", "Nous Research", "Funding", "Open Source"]
+
+### Hermes Update Kini Buktikan Hasilnya: Receipt + Fleet Version Matrix Bikin Update Tak Lagi Senyap Gagal
+- URL: https://chokdi-blog.pages.dev/posts/hermes-update-bukti-hasil-fleet-aman/
+- Tanggal: 2026-08-26
+- Tag: ["Hermes Agent", "AI Agent", "Tutorial", "Self-Hosted"]
+
+### Mem0 vs Hindsight Self-Host: 97.8% Memori mem0 Ternyata Junk?
+- URL: https://chokdi-blog.pages.dev/posts/mem0-vs-hindsight-selfhost-review/
+- Tanggal: 2026-08-26
+- Tag: ["AI", "Memory", "Review", "Hindsight", "Mem0"]
+
+### Saylor Balik Cuan: Treasury Bitcoin Strategy Berbalik dari Rugi $9,5 M ke Untung $4,7 M dalam Seminggu
+- URL: https://chokdi-blog.pages.dev/posts/saylor-strategy-balik-cuan-80k/
+- Tanggal: 2026-08-26
+- Tag: ["Crypto", "Bitcoin", "Saylor", "Strategy", "ETF", "Market Analysis"]
+
+### AI Agent Jadi Pengguna Crypto Terbesar Berikutnya? Belanja Kartu Crypto Tembus $1 Miliar
+- URL: https://chokdi-blog.pages.dev/posts/ai-agent-pengguna-crypto-stablecoin/
+- Tanggal: 2026-08-25
+- Tag: ["Crypto", "AI Agent", "Stablecoin", "Agentic Commerce"]
+
+### Upgrade Ethereum Glamsterdam Pensiunkan Aturan Gas 21.000 — Wallet Bisa Salah Hitung 🔥
+- URL: https://chokdi-blog.pages.dev/posts/ethereum-glamsterdam-gas-21-ribu-2026/
+- Tanggal: 2026-08-25
+- Tag: ["Crypto", "Ethereum", "Glamsterdam", "Blockchain", "EIP"]
+
+### Hermes Agent Rilis 2 Versi dalam Sepekan: Bot Mode Ubah Agent Jadi Tim AI Multi-Agent
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0205-bot-mode/
+- Tanggal: 2026-08-25
+- Tag: ["AI", "Hermes Agent", "Multi-Agent", "Open Source", "Bot Mode"]
+
+### OpenClaw 2026.8.1-beta.3: Dukung GPT-5.6, Backup SQLite, dan Relay Browser Buat Chrome
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-gpt56-beta-agustus-2026/
+- Tanggal: 2026-08-25
+- Tag: ["OpenClaw", "AI Agent", "GPT-5.6", "Rilis", "Open Source", "2026"]
+
+### SEC Akhirnya Tulis Aturan, Bukan Tuntut! Ini Dia Regulation Crypto Assets yang Bikin Bitcoin Tembus $80K
+- URL: https://chokdi-blog.pages.dev/posts/sec-regulation-crypto-assets-aturan-bukan-gugatan/
+- Tanggal: 2026-08-25
+- Tag: ["Crypto", "Bitcoin", "Regulasi", "SEC", "Stablecoin", "Clarity Act", "2026"]
+
+### Hermes Agent v0.20.5 Rilis: Bot Mode, Web Search Tanpa API Key, dan OpenClaw Beta Terbaru 🚀
+- URL: https://chokdi-blog.pages.dev/posts/update-hermes-openclaw-agustus-2026/
+- Tanggal: 2026-08-25
+- Tag: ["AI Agent", "Hermes Agent", "OpenClaw", "Open Source", "Self-Hosted AI"]
+
+### Bitcoin Meledak ke $80.000: Short Squeeze Terbesar 2026 & ETF Banjir $1,9 Miliar
+- URL: https://chokdi-blog.pages.dev/posts/2026-08-24-bitcoin-meledak-80000-short-squeeze-etf/
+- Tanggal: 2026-08-24
+
+### Bitcoin Meledak ke $75K: Short Squeeze $2.7M, Zcash 48%, dan Altcoin Season Dimulai?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-rally-75k-agustus-2026/
+- Tanggal: 2026-08-24
+
+### Hermes Agent v0.20 Herald: Rilis Terbesar dalam Sejarah — Voice Real-Time, A2A v1.0, dan Valuasi $1,5 Miliar
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-herald-v020-rilis-bersejarah/
+- Tanggal: 2026-08-24
+- Tag: ["AI", "Hermes Agent", "Open Source", "AI Agent"]
+
+### OpenClaw Mau Rilis Besar: Mode Multiplayer + Web UI Baru, Satu Agent Bisa Dipakai Sekeluarga
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-multiplayer-clawcast-ep8/
+- Tanggal: 2026-08-24
+- Tag: ["OpenClaw", "AI Agent", "Open Source"]
+
+### Zcash ETF Pertama di Dunia: ZEC Meledak 48% ke $800+, Tertinggi 8 Tahun!
+- URL: https://chokdi-blog.pages.dev/posts/zcash-etf-pertama-dunia-zec-800-agustus-2026/
+- Tanggal: 2026-08-24
+- Tag: ["Zcash", "ZEC", "ETF", "Crypto", "Privacy Coin", "Grayscale", "DeFi"]
+
+### Bitcoin Melesat ke $77K: Short Squeeze Rekor $2,7 Miliar & Dorongan White House
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-rally-77k-short-squeeze-whitehouse/
+- Tanggal: 2026-08-23
+- Tag: ["Crypto", "Bitcoin", "Market"]
+
+### Bitcoin Ngegas ke USD 80 Ribu: Rally Terbesar 3 Tahun, Sinyal Bull Market?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-rally-80-ribu-agustus-2026/
+- Tanggal: 2026-08-23
+- Tag: ["Crypto", "Bitcoin", "ETF", "On-Chain"]
+
+### Bitcoin Melesat ke $80K: 5 Fakta Rally Terbesar dalam 2 Tahun
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-rally-80k-agustus-2026/
+- Tanggal: 2026-08-23
+- Tag: ["bitcoin", "crypto", "defi", "rally", "etf", "stablecoin"]
+
+### Bitcoin Mendekati $80K: Rally Mingguan Terbesar 3 Tahun — Apa yang Pemicunya?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-80k-rally-agustus-2026/
+- Tanggal: 2026-08-23
+- Tag: ["Crypto", "Bitcoin", "Pasar", "Berita"]
+
+### Hermes Agent Rilis Saban 2-3 Hari: Patch Terbaru v0.20.5 Bawa Scan Keamanan Skill
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-rilis-cepat-v0205/
+- Tanggal: 2026-08-23
+- Tag: ["AI", "Hermes Agent", "Open Source", "Tutorial"]
+
+### Bitcoin Tembus $77K! Short Squeeze $4 Miliar & Altcoin Meledak
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-77k-short-squeeze-agustus-2026/
+- Tanggal: 2026-08-22
+- Tag: ["Crypto", "Bitcoin", "Altcoin", "DeFi"]
+
+### Bitcoin Tembus $78K Menuju $80K: Best Week Since 2023, Treasury Not-QE Jadi Pendorong!
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-78k-best-week-2026/
+- Tanggal: 2026-08-22
+- Tag: ["Crypto", "Bitcoin", "Ethereum", "Solana", "Market Analysis", "DeFi"]
+
+### Bitcoin Rally Agustus 2026: Dari $64 Ribu ke Ambang $80 Ribu dalam Sepekan
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-rally-agustus-2026/
+- Tanggal: 2026-08-22
+- Tag: ["Bitcoin", "Crypto", "Market Update"]
+
+### Update Pasar Kripto Indonesia Agustus 2026: OJK Siap Tokenisasi & Triv Hadirkan Kompetisi Besar
+- URL: https://chokdi-blog.pages.dev/posts/crypto-market-indonesia-agustus-2026/
+- Tanggal: 2026-08-22
+- Tag: ["crypto", "bitcoin", "indonesia", "ojk", "defi"]
+
+### Hermes Agent v0.20.5 Rilis: 323 PR, Bot Mode Makin Ngebut, dan Web Search Tanpa API Key
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0205-rilis-agustus-2026/
+- Tanggal: 2026-08-22
+- Tag: ["Hermes Agent", "AI Agent", "Open Source", "Nous Research", "Update"]
+
+### OpenClaw Rilis Besar Segera: Web UI Baru + Mode Multiplayer untuk Tim dan Keluarga
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-multiplayer-mode-agustus-2026/
+- Tanggal: 2026-08-22
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "Update"]
+
+### Binance Agent OS: AI Agent Sekarang Bisa Trading Crypto di Binance
+- URL: https://chokdi-blog.pages.dev/posts/binance-agent-os-trading-ai/
+- Tanggal: 2026-08-21
+- Tag: ["Crypto", "AI Agent", "Binance"]
+
+### Bitcoin Tembus $72K, Rekor Liquidasi Short $3 Miliar: Apa yang Terjadi Minggu Ini?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-72k-rekor-liquidasi-3miliar-agustus-2026/
+- Tanggal: 2026-08-21
+- Tag: ["Bitcoin", "Crypto", "Market Update", "DeFi", "Trading"]
+
+### Bitcoin Tembus $75 Ribu: Short Squeeze, ETF BlackRock, dan Buyback Treasury Jelaskan Ledakan Ini
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-75-ribu/
+- Tanggal: 2026-08-21
+- Tag: ["Crypto", "Bitcoin", "Pasar"]
+
+### Cara Connect Hermes Agent ke LINE: Jadikan LINE Asisten AI di Saku Kamu
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-connect-line/
+- Tanggal: 2026-08-21
+- Tag: ["Hermes Agent", "LINE", "Tutorial", "AI Assistant", "Messaging"]
+
+### Gawat! 350+ Skill OpenClaw Berbahaya di Registry — Wallet Crypto dan File .env Jadi Sasaran NovaStealer
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-clawhavoc-malware-skill/
+- Tanggal: 2026-08-21
+- Tag: ["AI", "OpenClaw", "Keamanan", "Malware", "Crypto"]
+
+### OpenClaw Siap Rilis Besar 2026.8: Mode Multiplayer, Web UI Baru, Memory Ditulis Ulang
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-multiplayer-webui-2026/
+- Tanggal: 2026-08-21
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "Multiplayer"]
+
+### Waspada! Token CLAW Palsu Rp250 Miliar Serang Developer OpenClaw — Discord Resmi Ban Semua Bahasan Crypto
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-token-claw-palsu-16-juta-discord-ban/
+- Tanggal: 2026-08-21
+- Tag: ["OpenClaw", "Scam", "Crypto", "Keamanan", "Token"]
+
+### Bitcoin Tembus $70K Usai White House Crypto Summit: Akhir Perang Crypto?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-70k-crypto-summit/
+- Tanggal: 2026-08-20
+- Tag: ["Crypto", "Bitcoin", "Ethereum", "Berita"]
+
+### Bitcoin Tembus US$72 Ribu, ETH Lompat 20%: Rally Kripto Terbesar Minggu Ini
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-72-ribu-rally-agustus-2026/
+- Tanggal: 2026-08-20
+- Tag: ["Crypto", "Bitcoin", "Ethereum", "Market Update"]
+
+### Rumah Putih Gelar Rapat Kripto, Bitcoin Tahan di $64K — Apa Dampaknya?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-white-house-crypto-meeting-agustus-2026/
+- Tanggal: 2026-08-20
+
+### Bitcoin Tembus $70.000! Pertama Kalinya Sejak Juni 2026 — Ini yang Terjadi
+- URL: https://chokdi-blog.pages.dev/posts/btc-70k-agustus-2026/
+- Tanggal: 2026-08-20
+- Tag: ["Crypto", "Bitcoin", "Altcoin", "DeFi", "Regulasi", "Trading"]
+
+### BTC Tembus $68.000 Lagi! Ini Katalis Rally & Gelombang Regulasi yang Wajib Kamu Tahu
+- URL: https://chokdi-blog.pages.dev/posts/btc-rally-68k-regulasi-as/
+- Tanggal: 2026-08-20
+- Tag: ["Crypto", "Bitcoin", "Regulasi", "DeFi", "Ethereum"]
+
+### Qwen 3.8 27B di VS Code — Gratis & Unlimited, Hemat Token
+- URL: https://chokdi-blog.pages.dev/posts/qwen27b-vscode-gratis/
+- Tanggal: 2026-08-20
+- Tag: ["AI", "Qwen", "VS Code", "Tutorial"]
+
+### Bitcoin Nyelonjak ke $72K: Short Seller Gila-gilaan, $1,14 Miliar Liquidasi dalam 1 Jam!
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-rally-mega-short-squeeze-2026/
+- Tanggal: 2026-08-19
+- Tag: ["Crypto", "Bitcoin", "Trading", "Defi", "Market Analysis"]
+
+### BlackRock: Bitcoin Masih Diversifier Portofolio, Alokasi 1–2% Cukup
+- URL: https://chokdi-blog.pages.dev/posts/blackrock-bitcoin-masih-diversifier-portofolio/
+- Tanggal: 2026-08-19
+- Tag: ["Crypto", "Bitcoin", "BlackRock", "Investasi"]
+
+### Cash App Buka Akses Crypto ke 50 Juta User via MoonPay — Sinyal Bullish Altcoin?
+- URL: https://chokdi-blog.pages.dev/posts/crypto-cash-app-moonpay-50-juta-user/
+- Tanggal: 2026-08-19
+
+### Hermes Agent Rilis Bot Mode: Satu Profil Jadi Banyak Bot dengan Memori Terpisah
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-bot-mode-multi-agent/
+- Tanggal: 2026-08-19
+- Tag: ["AI", "Hermes Agent", "Open Source", "Multi-Agent"]
+
+### Hermes Agent Bot Mode: Ubah Profil Jadi Tim Bot AI yang Saling Ngobrol 🤖
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-bot-mode/
+- Tanggal: 2026-08-19
+- Tag: ["AI", "Hermes Agent", "Bot Mode", "Open Source", "Automation"]
+
+### Hermes Agent v0.20.4: Update Terbaru yang Bikin AI Agent Makin Pintar
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0204-update/
+- Tanggal: 2026-08-19
+- Tag: ["AI", "Hermes Agent", "Open Source", "Tutorial"]
+
+### Bitmine Tom Lee Kuasai 5% Supply Ethereum — Gila atau Jenius?
+- URL: https://chokdi-blog.pages.dev/posts/bitmine-tom-lee-kuasai-5-persen-supply-ethereum/
+- Tanggal: 2026-08-18
+
+### Cloudways Luncurkan Managed AI Agents: OpenClaw & Hermes Agent Kini Bisa Dipakai Tanpa Ribet
+- URL: https://chokdi-blog.pages.dev/posts/cloudways-luncurkan-managed-ai-agents-openclaw-hermes/
+- Tanggal: 2026-08-18
+- Tag: ["AI", "OpenClaw", "Hermes Agent", "Cloudways", "Crypto", "Tutorial"]
+
+### Hermes Agent Jadi AI Agent #1 Dunia — dan Indonesia Kebagian Kue AI-nya
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-1-ai-dunia-ugm-nvidia-indonesia/
+- Tanggal: 2026-08-18
+- Tag: ["ai-agent", "hermes-agent", "nvidia", "indonesia-ai", "open-source"]
+
+### Hermes Agent v0.20.3 Rilis: Bot Mode Bikin 1 Profile Jadi Banyak Bot
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0203-bot-mode/
+- Tanggal: 2026-08-18
+- Tag: ["Hermes Agent","AI Agent","Open Source","Bot Mode","Tutorial"]
+
+### Robinhood Chain Meledak ke $1 Miliar, GENIUS Act Ancam Stabilitas Stablecoin — Update Crypto Minggu Ini
+- URL: https://chokdi-blog.pages.dev/posts/robinhood-chain-meledak-genius-act-stablecoin-update-crypto-agustus-2026/
+- Tanggal: 2026-08-18
+- Tag: ["Crypto", "DeFi", "Bitcoin", "Robinhood Chain", "Stablecoin", "GENIUS Act"]
+
+### White House Crypto Summit & GENIUS Act: Era Baru Regulasi Kripto AS
+- URL: https://chokdi-blog.pages.dev/posts/white-house-crypto-summit-genius-act-stablecoin-2026/
+- Tanggal: 2026-08-18
+- Tag: ["crypto", "bitcoin", "stablecoin", "regulasi", "defi", "white-house"]
+
+### Bank Raksasa Swiss UBS Lipatgandakan Investasi Bitcoin 24 Kali Lipat!
+- URL: https://chokdi-blog.pages.dev/posts/bank-raksasa-swiss-ubs-lipat-gandakan-investasi-bitcoin-24-kali/
+- Tanggal: 2026-08-17
+- Tag: ["bitcoin", "crypto", "ETF", "UBS", "institusional", "TradFi"]
+
+### Bitcoin Agustus 2026: ETF Outflow $390 Juta dan Hack Coldcard $116 Juta
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-agustus-2026-etf-outflow-coldcard-hack/
+- Tanggal: 2026-08-17
+
+### Hermes Agent v0.20.2 Resmi Rilis: Update Agustus 2026 untuk AI Agent Lokal
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0202-update-agustus-2026/
+- Tanggal: 2026-08-17
+- Tag: ["AI Agent", "Hermes Agent", "Open Source", "Update"]
+
+### OpenClaw Update Agustus 2026: Backup SQLite, Keamanan Secret, dan Runtime Model Baru
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-agustus-backup-keamanan/
+- Tanggal: 2026-08-17
+- Tag: ["AI", "OpenClaw", "Open Source", "Tutorial"]
+
+### AI Agent Hack Gym di Melbourne: Saat Booking Kelas Jadi Peretasan API
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-gym-melbourne-hack/
+- Tanggal: 2026-08-17
+- Tag: ["AI Agent", "OpenClaw", "Keamanan", "Open Source", "Tutorial"]
+
+### SafePal Kebobolan: Data 40.000 Pengguna Bocor, Dana Crypto Aman?
+- URL: https://chokdi-blog.pages.dev/posts/safepal-data-breach-2026/
+- Tanggal: 2026-08-17
+
+### Hermes Agent: AI Agent Open-Source Terpopuler di Dunia 2026
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-ai-terpopuler-dunia-2026/
+- Tanggal: 2026-08-16
+- Tag: ["ai", "hermes-agent", "open-source", "nous-research", "nvidia", "agentic-ai"]
+
+### Hermes Agent v0.20 Herald Release: Voice Real-Time, A2A, dan 140 Ribu Bintang GitHub
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v020-herald-release/
+- Tanggal: 2026-08-16
+- Tag: ["AI", "Hermes Agent", "Open Source"]
+
+### Hermes Agent v0.20.1 Rilis: 231 Ribu Bintang GitHub, Agent AI Terpopuler di Dunia
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0201-rilis-231-ribu-bintang/
+- Tanggal: 2026-08-16
+- Tag: ["AI", "Hermes Agent", "Agentic AI", "Open Source"]
+
+### UBS Lipat 24x Exposure Bitcoin ETF — Sinyal Bank Besar Makin Berani?
+- URL: https://chokdi-blog.pages.dev/posts/ubs-lipat-24x-exposure-bitcoin-etf-ibit/
+- Tanggal: 2026-08-16
+- Tag: ["Crypto", "Bitcoin", "ETF", "Institutional"]
+
+### Hermes Agent v0.20.1 Resmi Rilis: AI Agent Open Source yang Paling Banyak Dipakai di Dunia
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0201-ai-agent-paling-dipakai-di-dunia/
+- Tanggal: 2026-08-15
+- Tag: ["AI", "Hermes Agent", "Open Source", "NVIDIA"]
+
+### Kunci NFC Rp150 Ribuan Ini Bisa Mengunci Aplikasi Kecanduanmu 🗝️
+- URL: https://chokdi-blog.pages.dev/posts/kunci-nfc-anti-kecanduan-aplikasi/
+- Tanggal: 2026-08-15
+- Tag: ["AI", "Teknologi", "Produktivitas", "Kesehatan Digital"]
+
 ### Bikin JARVIS Sendiri: Realtime Voice AI ala Iron Man dengan OpenAI Realtime API
 - URL: https://chokdi-blog.pages.dev/posts/bikin-jarvis-realtime-voice-ai/
 - Tanggal: 2026-08-13
