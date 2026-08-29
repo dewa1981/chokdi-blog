@@ -1,6 +1,6 @@
 ---
 title: "Formasi Web Stack 2026: 5 Lapis Senjata Anti-Blokir untuk Scraping & Riset, Modal Rp 0"
-date: 2026-08-29T16:30:00+07:00
+date: 2026-08-29T15:30:00+07:00
 draft: false
 tags: ["Web Stack", "Scraping", "LightPanda", "Brave API", "Jina Reader", "Firecrawl", "Tutorial"]
 ---
