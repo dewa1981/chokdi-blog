@@ -1,6 +1,6 @@
 ---
 title: "EIP-8361: Ethereum Bakar Reward Validator, Issuance Bisa Nol Jika Staking Tembus 50%"
-date: 2026-08-30T18:35:00+07:00
+date: 2026-08-30T18:30:00+07:00
 draft: false
 tags: ["Crypto", "Ethereum"]
 ---
