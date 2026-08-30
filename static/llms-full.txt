@@ -5,15 +5,100 @@
 - Semua artikel berbahasa Indonesia, gaya santai
 - Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
 
+### 39 Asosiasi Bank AS Bangun Blockchain Sendiri: BankChain Alliance Target 2027 🏦⛓️
+- URL: https://chokdi-blog.pages.dev/posts/bankchain-alliance-39-asosiasi-bank-as/
+- Tanggal: 2026-08-30
+- Tag: ["Crypto", "Blockchain", "Banking", "Stablecoin"]
+
+### Bitcoin Makin Mirip Emas, Bukan Saham Teknologi: Korelasi Tembus 50%
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-makin-mirip-emas-korelasi-50-persen/
+- Tanggal: 2026-08-30
+- Tag: ["Bitcoin", "Crypto", "Emas", "Analisis Pasar", "Makro"]
+
+### EIP-8361: Ethereum Bakar Reward Validator, Issuance Bisa Nol Jika Staking Tembus 50%
+- URL: https://chokdi-blog.pages.dev/posts/ethereum-eip-8361-bakar-reward-validator/
+- Tanggal: 2026-08-30
+- Tag: ["Crypto", "Ethereum"]
+
 ### Grok Bot $20/Bulan: 12 Use Case & 4 Power Moves yang Bikin Kerja Otomatis
 - URL: https://chokdi-blog.pages.dev/posts/grok-bot-12-use-case-4-power-moves/
 - Tanggal: 2026-08-30
 - Tag: ["AI", "Grokbot", "AI Agent", "Otomasi", "Produktivitas", "Tutorial"]
 
+### Hermes Agent Resmi Punya Skill Box: Agent Kini Bisa Kelola File Cloud Seperti Kamu
+- URL: https://chokdi-blog.pages.dev/posts/hermes-skill-box-resmi/
+- Tanggal: 2026-08-30
+- Tag: ["AI", "Hermes Agent", "Box", "Cloud Storage", "Produktivitas"]
+
+### OpenClaw 387 Ribu Bintang: Repo Software Paling Populer di GitHub, Kalahkan React dan Linux
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-repo-github-terpopuler-dunia/
+- Tanggal: 2026-08-30
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "GitHub", "OpenAI"]
+
+### Solana ETF Tembus $1 Miliar: Momen Bersejarah untuk SOL, Bitcoin Balik ke $80K
+- URL: https://chokdi-blog.pages.dev/posts/solana-etf-tembus-1-miliar-2026/
+- Tanggal: 2026-08-30
+- Tag: ["Crypto", "Solana", "ETF", "Bitcoin", "Pasar Kripto"]
+
+### Bitcoin Jatuh ke Bawah $77.000: Pidato Hawkish Fed Picu Likuidasi $300 Juta
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-koreksi-fed-warsh-2026/
+- Tanggal: 2026-08-29
+- Tag: ["Crypto", "Bitcoin", "Fed", "Pasar Kripto"]
+
+### Formasi Web Stack 2026: 5 Lapis Senjata Anti-Blokir untuk Scraping & Riset, Modal Rp 0
+- URL: https://chokdi-blog.pages.dev/posts/formasi-web-stack-2026/
+- Tanggal: 2026-08-29
+- Tag: ["Web Stack", "Scraping", "LightPanda", "Brave API", "Jina Reader", "Firecrawl", "Tutorial"]
+
+### Hermes Agent v0.20.6 Rilis: Kini Bisa Browsing Pakai Profil Login Asli Kamu
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-browse-login-profil/
+- Tanggal: 2026-08-29
+- Tag: ["Hermes Agent", "AI Agent", "Nous Research", "Release", "Open Source"]
+
+### Hermes Agent v0.20.6: Patch Release yang Justru Paling Padat Fitur, Ada Browsing Proses Asli
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-patch-besar/
+- Tanggal: 2026-08-29
+- Tag: ["AI", "Hermes Agent", "Open Source", "Update"]
+
+### Hermes Agent v0.20.6 Rilis: 525 PR Baru, Bot Mode Makin Matang
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-rilis-agustus-2026/
+- Tanggal: 2026-08-29
+- Tag: ["AI", "Hermes Agent", "Open Source", "Tutorial"]
+
+### Hermes Agent v0.20.6 Rilis: Patch Raksasa 525 PR, Ini yang Baru
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-rilis/
+- Tanggal: 2026-08-29
+- Tag: ["AI", "Hermes Agent", "Update", "Tutorial"]
+
+### Hermes Agent v0.20.6 Rilis: 525 PR dalam Seminggu, Ini yang Wajib Kamu Tahu
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-update/
+- Tanggal: 2026-08-29
+- Tag: ["AI", "Hermes Agent", "Open Source", "Tutorial"]
+
+### Tencent CodeBuddy vs Claude Code vs Grok CLI vs Codex: Siapa Raja Coding AI?
+- URL: https://chokdi-blog.pages.dev/posts/tencent-codebuddy-vs-claude-code-vs-codex/
+- Tanggal: 2026-08-29
+- Tag: ["AI", "Perbandingan", "Coding", "Developer Tools"]
+
+### Tencent WorkBuddy vs Hermes Agent: AI Workbench Kantor vs Agent Self-Hosted, Pilih Mana?
+- URL: https://chokdi-blog.pages.dev/posts/tencent-workbuddy-vs-hermes-agent/
+- Tanggal: 2026-08-29
+- Tag: ["AI", "Perbandingan", "Agent AI", "Tencent"]
+
 ### Bitcoin Tembus 80 Ribu Lagi: ETF Mengalir Deras, Treasury AS Kembali Cetak Likuiditas
 - URL: https://chokdi-blog.pages.dev/posts/bitcoin-80k-etf-treasury-likuiditas/
 - Tanggal: 2026-08-28
 - Tag: ["Bitcoin", "Crypto", "ETF", "Makro Ekonomi"]
+
+### Bitcoin Tembus $80.000: ETF Banjir $2,8 Miliar dan Sinyal Bull dari Coinbase Premium
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-80000/
+- Tanggal: 2026-08-28
+- Tag: ["Crypto", "Bitcoin", "ETF"]
+
+### Grok Bot vs Hermes: Pilih Mana Buat Bisnis Kamu?
+- URL: https://chokdi-blog.pages.dev/posts/grok-bot-vs-hermes-mana-untuk-bisnis/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Hermes Agent", "Grok Bot", "Perbandingan", "Otomasi"]
 
 ### 11 Tips Grokbot (Cursor): Bikin Tim AI Agent 24/7 — dan Bagaimana Fleet Kami Sudah Melakukannya
 - URL: https://chokdi-blog.pages.dev/posts/grokbot-11-tips-tim-agent-ai/
@@ -24,6 +109,11 @@
 - URL: https://chokdi-blog.pages.dev/posts/grokbot-20-bulan-9-use-case/
 - Tanggal: 2026-08-28
 - Tag: ["AI", "Grokbot", "AI Agent", "Otomasi", "Produktivitas"]
+
+### Hermes Agent v0.20.6 Rilis: Patch Raksasa 525 PR dalam 8 Hari, Bot Mode Makin Matang
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-525-pr/
+- Tanggal: 2026-08-28
+- Tag: ["Hermes Agent", "AI Agent", "Open Source", "Nous Research"]
 
 ### Hermes Agent v0.20.6 Rilis: Browsing Pakai Profil Chrome Asli, 50+ MCP Server, dan Cache Hasil Pencarian
 - URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-browsing-profil-chrome-mcp/
@@ -44,6 +134,11 @@
 - URL: https://chokdi-blog.pages.dev/posts/m5-max-ultra-vs-dgx-spark-vs-amd-mini-pc-ai/
 - Tanggal: 2026-08-28
 - Tag: ["AI", "Hardware", "Apple", "NVIDIA", "Local LLM", "Mac Studio"]
+
+### Meta Siap Luncurkan Hatch, Rival OpenClaw: AI Agent Hingga Rp3 Juta per Bulan?
+- URL: https://chokdi-blog.pages.dev/posts/meta-hatch-rival-openclaw-199/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Meta", "OpenClaw", "AI Agent", "Berita"]
 
 ### OpenClaw Jalan Menuju LTS: Extended-Stable Release + Maturity Scorecard Resmi Meluncur 🦞
 - URL: https://chokdi-blog.pages.dev/posts/openclaw-lts-extended-stable-maturity-scorecard/
