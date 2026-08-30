@@ -5,6 +5,91 @@
 - Semua artikel berbahasa Indonesia, gaya santai
 - Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
 
+### Grok Bot $20/Bulan: 12 Use Case & 4 Power Moves yang Bikin Kerja Otomatis
+- URL: https://chokdi-blog.pages.dev/posts/grok-bot-12-use-case-4-power-moves/
+- Tanggal: 2026-08-30
+- Tag: ["AI", "Grokbot", "AI Agent", "Otomasi", "Produktivitas", "Tutorial"]
+
+### Bitcoin Tembus 80 Ribu Lagi: ETF Mengalir Deras, Treasury AS Kembali Cetak Likuiditas
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-80k-etf-treasury-likuiditas/
+- Tanggal: 2026-08-28
+- Tag: ["Bitcoin", "Crypto", "ETF", "Makro Ekonomi"]
+
+### 11 Tips Grokbot (Cursor): Bikin Tim AI Agent 24/7 — dan Bagaimana Fleet Kami Sudah Melakukannya
+- URL: https://chokdi-blog.pages.dev/posts/grokbot-11-tips-tim-agent-ai/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "AI Agent", "Grokbot", "Cursor", "Otomasi", "Hermes Agent"]
+
+### Grok Bot Turun Harga jadi $20/Bulan! 9 Use Case Gila dari Tim Bot AI Paul Lipsky
+- URL: https://chokdi-blog.pages.dev/posts/grokbot-20-bulan-9-use-case/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Grokbot", "AI Agent", "Otomasi", "Produktivitas"]
+
+### Hermes Agent v0.20.6 Rilis: Browsing Pakai Profil Chrome Asli, 50+ MCP Server, dan Cache Hasil Pencarian
+- URL: https://chokdi-blog.pages.dev/posts/hermes-agent-v0206-browsing-profil-chrome-mcp/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Hermes Agent", "Open Source", "Agentic AI"]
+
+### Hermes Agent Sekarang Bisa Bikin Video: Higgsfield MCP — Agent Kamu Punya Tangan!
+- URL: https://chokdi-blog.pages.dev/posts/hermes-higgsfield-mcp-video/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Hermes Agent", "Video", "MCP", "Tutorial"]
+
+### Lihat Otak AI Kamu: Memory Graph Hermes Agent — Skills, Memories, dan Semua Koneksinya!
+- URL: https://chokdi-blog.pages.dev/posts/hermes-memory-graph-journey/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Hermes Agent", "Tutorial", "Memory", "AI Agent"]
+
+### Apple M5 Max/Ultra vs NVIDIA DGX Spark vs AMD: Mini PC AI 2026 — Unified Memory Bukan Obat Segalanya!
+- URL: https://chokdi-blog.pages.dev/posts/m5-max-ultra-vs-dgx-spark-vs-amd-mini-pc-ai/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Hardware", "Apple", "NVIDIA", "Local LLM", "Mac Studio"]
+
+### OpenClaw Jalan Menuju LTS: Extended-Stable Release + Maturity Scorecard Resmi Meluncur 🦞
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-lts-extended-stable-maturity-scorecard/
+- Tanggal: 2026-08-28
+- Tag: ["AI Agent", "OpenClaw", "Open Source", "Self-Hosted AI", "LTS"]
+
+### Qwen3.8-Flash-Next-Uncensored Rilis Open Weights: 262K Konteks, Native MLX, Tanpa Filter!
+- URL: https://chokdi-blog.pages.dev/posts/qwen38-flash-next-uncensored-open-weights/
+- Tanggal: 2026-08-28
+- Tag: ["AI", "Qwen", "Open Weights", "LLM", "Local LLM", "Apple Silicon"]
+
+### Situs Slot Gacor Deposit 5000: 7 Rekomendasi Modal Kecil, Maxwin Gede di 2026
+- URL: https://chokdi-blog.pages.dev/posts/slot-gacor-deposit-5000-2026/
+- Tanggal: 2026-08-28
+- Tag: ["Slot Gacor", "Deposit 5000", "Slot Deposit Qris", "Judi Online", "Slot Gacor 2026"]
+
+### Bitcoin Naik 28% dalam 10 Hari: Apakah Bull Market Baru Sudah Mulai?
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-naik-28-persen/
+- Tanggal: 2026-08-27
+- Tag: ["Bitcoin", "Crypto", "ETF", "Analisis Pasar"]
+
+### Bitcoin Melonjak 23% dalam Seminggu: Short Squeeze $2,7 Miliar dan Arus ETF yang Menggila
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-reli-23-persen-etf-short-squeeze/
+- Tanggal: 2026-08-27
+- Tag: ["Crypto", "Bitcoin", "ETF", "Analisis"]
+
+### Bitcoin Tembus US$80.000: Reli Terbesar 2026 dan Apa Artinya untuk Kamu
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-tembus-80000-agustus-2026/
+- Tanggal: 2026-08-27
+- Tag: ["Crypto", "Bitcoin", "Berita"]
+
+### Sejarah Baru Bitcoin: Transaksi Quantum-Resistant Pertama Sukses di Mainnet!
+- URL: https://chokdi-blog.pages.dev/posts/bitcoin-transaksi-quantum-resistant-pertama/
+- Tanggal: 2026-08-27
+- Tag: ["Crypto", "Bitcoin", "Quantum"]
+
+### Grok 4.6 Diskon 50% di Nous Portal: Model Agentic Murah untuk Hermes Agent
+- URL: https://chokdi-blog.pages.dev/posts/grok-46-diskon-50-persen-nous-portal/
+- Tanggal: 2026-08-27
+- Tag: ["AI", "Hermes Agent", "Grok", "Nous Research", "Model Murah"]
+
+### OpenClaw 2026.8.1: Patch Keamanan Terbesar Tahun Ini — Secret Egress Binding, Plugin Provenance, dan Pelajaran NemoClaw
+- URL: https://chokdi-blog.pages.dev/posts/openclaw-202681-patch-keamanan-nemoclaw/
+- Tanggal: 2026-08-27
+- Tag: ["OpenClaw", "AI Agent", "Keamanan", "CVE", "Open Source", "2026"]
+
 ### Bitcoin Tembus $82.000: Pause Hormuz Bikin Minyak Anjlok, Short Sellers Babak Belur
 - URL: https://chokdi-blog.pages.dev/posts/bitcoin-82k-pause-hormuz-short-squeeze/
 - Tanggal: 2026-08-26
