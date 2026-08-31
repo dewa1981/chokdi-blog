@@ -1,6 +1,6 @@
 ---
 title: "Breakscale: Simulator System Design yang Nunjukin Di Mana Sistemmu Jebol"
-date: 2026-08-31T09:05:00+07:00
+date: 2026-08-31T08:54:00+07:00
 draft: false
 tags: ["System Design", "Simulator", "DevOps", "Arsitektur", "Open Source"]
 ---
