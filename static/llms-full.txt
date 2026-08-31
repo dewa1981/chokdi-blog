@@ -5,6 +5,31 @@
 - Semua artikel berbahasa Indonesia, gaya santai
 - Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
 
+### 3 Cara AI Agent Browsing: TinyFish, Browse-as-You & Browser Extension
+- URL: https://chokdi-blog.pages.dev/posts/3-cara-browsing-ai-agent-tinyfish-browse-as-you-extension/
+- Tanggal: 2026-08-31
+- Tag: ["AI", "Hermes Agent", "TinyFish", "Browser", "Tutorial", "Otomasi"]
+
+### Breakscale: Simulator System Design yang Nunjukin Di Mana Sistemmu Jebol
+- URL: https://chokdi-blog.pages.dev/posts/breakscale-simulator-system-design/
+- Tanggal: 2026-08-31
+- Tag: ["System Design", "Simulator", "DevOps", "Arsitektur", "Open Source"]
+
+### Hermes Agent v0.20.6 Rilis: Bot Mode Kini Jadi Bawaan, 525 PR Baru dalam Seminggu
+- URL: https://chokdi-blog.pages.dev/posts/hermes-v0206-bot-mode/
+- Tanggal: 2026-08-31
+- Tag: ["AI", "Hermes Agent", "Open Source"]
+
+### Kenapa Kimi K3 Open Source? Ini Untungnya Buat Moonshot AI
+- URL: https://chokdi-blog.pages.dev/posts/kenapa-kimi-k3-open-source/
+- Tanggal: 2026-08-31
+- Tag: ["AI", "Open Source", "Kimi", "Moonshot AI"]
+
+### SBI Caplok 20% Saham Ajaib US$270 Juta: Gerbang Stablecoin Yen (JPYSC) ke Asia Tenggara
+- URL: https://chokdi-blog.pages.dev/posts/sbi-caplok-ajaib-stablecoin-yen/
+- Tanggal: 2026-08-31
+- Tag: ["Crypto", "Stablecoin", "Indonesia"]
+
 ### 39 Asosiasi Bank AS Bangun Blockchain Sendiri: BankChain Alliance Target 2027 🏦⛓️
 - URL: https://chokdi-blog.pages.dev/posts/bankchain-alliance-39-asosiasi-bank-as/
 - Tanggal: 2026-08-30
