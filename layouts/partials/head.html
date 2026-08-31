@@ -1,0 +1,89 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{- $desc := .Description -}}
+    {{- if not $desc }}{{ $desc = .Summary | plainify | truncate 155 }}{{ end -}}
+    {{- if not $desc }}{{ $desc = .Site.Params.description }}{{ end -}}
+    {{- with $desc -}}
+    <meta name="description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
+    <meta name="twitter:description" content="{{ . }}">
+    {{- end -}}
+    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+    {{ with .OutputFormats.Get "rss" -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    {{ $resources := slice -}}
+
+    {{ $resources = $resources | append (resources.Get "css/main.css") -}}
+
+    {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
+
+    {{ $dark := .Site.Params.dark | default "auto" -}}
+    {{ if not (eq $dark "off") -}}
+        {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
+    {{ end -}}
+
+    {{ if .Site.Params.highlight -}}
+        {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
+    {{ end -}}
+
+    {{ $css := $resources | resources.Concat "css/style.css" | minify }}
+    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <title>{{ .Title }}</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:image" content="{{ "images/og-default.png" | absURL }}">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:image" content="{{ "images/og-default.png" | absURL }}">
+
+    <!-- Structured Data (JSON-LD) — GEO fix 31-Agu-2026: safeJS cegah double-escape jsonify -->
+    {{ if .IsPage }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title | jsonify | safeJS }},
+      "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+      "author": {"@type": "Person", "name": {{ .Site.Params.author | default "Chokdi" | jsonify | safeJS }}, "url": "{{ .Site.BaseURL }}", "sameAs": ["https://github.com/dewa1981", "https://t.me/chokdi_blog"]},
+      "url": {{ .Permalink | jsonify | safeJS }},
+      "image": "{{ "images/og-default.png" | absURL }}",
+      "publisher": {"@type": "Organization", "name": {{ .Site.Title | jsonify | safeJS }}, "url": "{{ .Site.BaseURL }}", "logo": {"@type": "ImageObject", "url": "{{ "images/og-default.png" | absURL }}"}}
+    }
+    </script>
+    {{ else }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ .Site.Title | jsonify | safeJS }},
+      "url": {{ .Permalink | jsonify | safeJS }}
+    }
+    </script>
+    {{ if .IsHome }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": {{ .Site.Title | jsonify | safeJS }},
+      "url": "{{ .Site.BaseURL }}",
+      "logo": "{{ "images/og-default.png" | absURL }}",
+      "sameAs": ["https://github.com/dewa1981", "https://t.me/chokdi_blog"]
+    }
+    </script>
+    {{ end }}
+    {{ end }}
+</head>

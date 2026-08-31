@@ -1,4 +1,5 @@
 baseURL = "https://chokdi.ano99.com/"
+defaultContentLanguage = "id"
 languageCode = "id-id"
 title = "Chokdi Blog 🐷"
 theme = "etch"

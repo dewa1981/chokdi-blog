@@ -2,7 +2,7 @@
 """Generate llms.txt + llms-full.txt dari artikel Hugo chokdi-blog."""
 import os, re, glob, datetime
 
-BASE = "https://chokdi-blog.pages.dev"
+BASE = "https://chokdi.ano99.com"
 POSTS_DIR = "/opt/data/github-mirror/chokdi-blog/content/posts"
 OUT = "/opt/data/github-mirror/chokdi-blog/static"
 
