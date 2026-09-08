@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Update: Rilis "Pantheon" v0.21.0 dan Patch v0.21.1, AI Agent Berubah Jadi Tim Lengkap"
+title: "Hermes Agent Update: Rilis Pantheon v0.21.0 dan Patch v0.21.1, AI Agent Berubah Jadi Tim Lengkap"
 date: 2026-09-08T07:00:00+07:00
 draft: false
 tags: ["AI", "Hermes Agent", "Nous Research", "Open Source"]
