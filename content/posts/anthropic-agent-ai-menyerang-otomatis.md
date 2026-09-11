@@ -31,8 +31,7 @@ Di sisi lain, Anthropic menyatakan memutus serangan dari **tujuh lab berbasis di
 
 - Operasi yang dikaitkan dengan **Alibaba** disebut sebagai serangan **illicit distillation terbesar**: lebih dari **151 juta pertukaran** tercatat antara Mei–Juli 2026, memuncak hampir **3 juta per hari** dari **lebih dari 3.500 akun** yang dinilai fraudulent. Tujuannya mengekstrak kemampuan model Claude untuk memperbaiki model Qwen mereka.
 - **Xiaomi** tercatat lebih dari **400.000 pertukaran dalam 20 hari** (Maret–April 2026).
-- **Moonshot (pembuat chatbot Kimi) dan DeepSeek** dituding **melewatkan percakapan pelanggan langsung mereka** — yang kadang berisi informasi sensitif — melalui Claude, lalu memakai responsnya sebagai data latih.
-- **MiniMax** membangun jaringan proxy sendiri via perusahaan cangkang yang tidak menawarkan model Cina apa pun, hanya model Anthropic dan OpenAI. **SenseTime** membeli transkrip percakapan user dari vendor data pihak ketiga.
+- **Moonshot (pembuat chatbot Kimi) dan DeepSeek** dituding **melewatkan percakapan pelanggan langsung mereka** — yang kadang berisi informasi sensitif — melalui Claude, lalu memakai responsnya sebagai data latih. **MiniMax** membangun jaringan proxy via perusahaan cangkang yang hanya menawarkan model Anthropic dan OpenAI; **SenseTime** membeli transkrip percakapan user dari vendor data pihak ketiga.
 
 Kementerian Luar Negeri Cina menyatakan tidak mengetahui laporan ini dan menolak "distorsi fakta serta smear" terhadap negaranya. Alibaba, Moonshot, DeepSeek, dan Xiaomi tidak memberi komentar saat diminta Reuters.
 
@@ -42,24 +41,14 @@ Laporan yang sama mendokumentasikan **lima contoh ilmuwan memakai Claude dengan 
 
 Selain itu, operator di **Cina, Rusia, dan Yaman** memakai Claude untuk "mengembangkan software senjata konvensional — termasuk senjata api, misil, drone bersenjata, bom, dan sistem penargetan serta kendali yang mengoperasikannya."
 
-Jacob Klein, kepala threat intelligence Anthropic, memberi konteks yang bikin kita mengerutkan dahi: *"Setahun lalu, kalau kamu mau mengoptimalkan drone atau software misil, modelnya tidak sehebat itu. Sekarang beda."*
-
-## 🛡️ Cara Anthropic Menahan Laju
-
-Selain memblokir akun dan berbagi intelijen dengan otoritas, Anthropic menambah beberapa lapisan pertahanan yang menarik untuk dicatat:
-
-1. **Claude meringkas penalaran internalnya sebelum menjawab** — transkrip curian jadi kurang berguna untuk melatih model lain.
-2. **"Preserved thinking" di Fable 5.1** mencegah akun API baru mengubah system prompt, tools, atau pesan sebelum penalaran Claude pada percakapan multi-turn — teknik yang biasa dipakai penyerang untuk membocorkan reasoning.
-3. **Klasifikasi khusus dan verifikasi identitas** untuk akun yang berasal dari negara tidak didukung atau dijual ulang tanpa izin.
-
 ## 🎯 Pelajaran buat Kita yang Menjalankan Agent Sendiri
 
-Kita tidak punya tim threat intelligence. Tapi laporan ini memperlihatkan pola yang persis ada di mesin kita sendiri — hanya beda niat:
+Kita tidak punya tim threat intelligence. Anthropic sendiri menahan laju ini dengan meringkas penalaran internal model, menambah lapisan "preserved thinking", dan meminta verifikasi identitas untuk akun bermasalah — tapi pertahanan paling dasar tetap ada di tangan kita:
 
-- **Skill dan plugin = permukaan serangan.** Di GTG-20006, manusia justru turun tangan mengedit *skill* Claude Code yang menggerakkan workflow. Kalau kamu nginstal skill pihak ketiga, kamu sedang menjalankan kode orang lain. Cek dulu sebelum pasang — cerita [malware yang menyusup lewat skill OpenClaw](https://chokdi.ano99.com/posts/openclaw-clawhavoc-malware-skill/) bukan fiksi.
-- **API key itu bukan sebatas biaya.** Akun dipakai lewat key yang dicuri sudah jadi salah satu jalur yang dilaporkan. Simpan di secret manager, jangan menempel di server yang bisa diakses bersama — lihat [pelajaran saat API key bocor di Cloud PC](https://chokdi.ano99.com/posts/jangan-install-hermes-di-cloud-pc-grok-bot-api-key/).
-- **Jangan lewatkan data pelanggan ke model pihak ketiga tanpa aturan.** Kasus Moonshot–DeepSeek adalah pengingat: percakapan user bisa berakhir sebagai data latih pihak lain.
-- **Batasi izin agent dan catat semua aksinya.** Multi-agent membuat blast radius membesar; kalau satu agent bisa mengubah kodenya sendiri tanpa jejak, kamu tidak akan tahu apa yang sudah terjadi. Bandingkan dengan [5 mode eksekusi agent](https://chokdi.ano99.com/posts/5-mode-eksekusi-hermes/) dan pilih yang paling terkunci.
+- **Skill dan plugin = permukaan serangan.** Di GTG-20006, manusia justru turun tangan mengedit *skill* Claude Code yang menggerakkan workflow. Kalau kamu nginstal skill pihak ketiga, kamu sedang menjalankan kode orang lain — cerita [malware yang menyusup lewat skill OpenClaw](https://chokdi.ano99.com/posts/openclaw-clawhavoc-malware-skill/) bukan fiksi.
+- **API key itu bukan sebatas biaya.** Akun yang dipakai lewat key curian sudah jadi salah satu jalur yang dilaporkan. Simpan di secret manager — lihat [pelajaran saat API key bocor di Cloud PC](https://chokdi.ano99.com/posts/jangan-install-hermes-di-cloud-pc-grok-bot-api-key/).
+- **Jangan lewatkan data pelanggan ke model pihak ketiga tanpa aturan.** Kasus Moonshot–DeepSeek adalah pengingat: percakapan user bisa berakhir sebagai data latih orang lain.
+- **Batasi izin agent dan catat semua aksinya.** Multi-agent memperbesar blast radius; kalau satu agent bisa mengubah kodenya sendiri tanpa jejak, kamu tidak akan tahu apa yang sudah terjadi. Bandingkan [5 mode eksekusi agent](https://chokdi.ano99.com/posts/5-mode-eksekusi-hermes/) dan pilih yang paling terkunci.
 
 Kabar buruknya: "serangan canggih tidak lagi butuh penyerang canggih". Kabar baiknya: pertahanan paling dasar — higienitas kredensial, minim izin, log yang bisa dibaca — masih menahan sebagian besar kasus.
 
