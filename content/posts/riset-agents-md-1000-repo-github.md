@@ -1,6 +1,6 @@
 ---
 title: "Riset 1.000 Repo GitHub: Ternyata AGENTS.md Kita Sudah di Atas Rata-Rata"
-date: 2026-09-14T19:00:00+07:00
+date: 2026-09-14T18:00:00+07:00
 draft: false
 tags: ["AI", "Agent", "GitHub", "Best Practice", "AGENTS.md"]
 ---
