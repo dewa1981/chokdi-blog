@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin $76K Sebelum Dua Hari Penentu: ETF Outflow $462 Juta dan Vote CLARITY Act"
-date: 2026-09-14T10:15:00+07:00
+date: 2026-09-14T09:15:00+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "ETF", "CLARITY Act", "Regulasi"]
 ---
