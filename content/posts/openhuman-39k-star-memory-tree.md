@@ -1,86 +1,78 @@
 ---
-title: "OpenHuman Tembus 39.782 Star di GitHub, Tapi Memory Engine-nya Cuma 7 Star"
+title: "Memory Tree OpenHuman: Bagaimana Ia Menyusun dan Memampatkan Konteks Agent"
 date: 2026-09-15T00:20:00+07:00
 draft: false
-tags: ["AI", "Open Source", "AI Agent", "Rust"]
+tags: ["AI", "AI Agent", "Open Source", "Rust"]
 ---
 
-OpenHuman dari TinyHumans AI sudah dibahas di mana-mana: desktop agent open source, 39.782 star, juara trending GitHub. Tapi ada satu angka yang hampir tidak pernah disebut siapa pun — repo memory engine-nya sendiri cuma punya **7 star**. Justru dari angka yang jomplang itu kita bisa belajar hal paling penting soal membangun agent AI.
+OpenHuman ramai dibahas karena angka bintangnya. Kami sudah membedah angka itu — termasuk fakta bahwa repo mesin memorinya cuma punya 7 star — di artikel [OpenHuman 39.774 Star, Tapi Mesin Memori TinyMemory Cuma 7 Star](/posts/openhuman-tinymemory-7-star/). Tapi justru ada bagian lain yang luput diperhatikan: **bagaimana OpenHuman sebenarnya menyimpan konteks dan menjalankan banyak agent sekaligus**. Itu bagian yang paling layak ditiru.
 
-## Apa Itu OpenHuman?
+## Memori Disimpan Sebagai Pohon Markdown di SQLite
 
-OpenHuman adalah agent AI desktop open source berlisensi GPL-3 yang jalan langsung di laptop (Mac, Windows, Linux). Dibuat oleh TinyHumans AI dengan bahasa **Rust** sebagai tulangnya. Repo-nya lahir 18 Februari 2026, dan per 15 September 2026 datanya seperti ini:
+Kesalahan paling umum builder agent: menjejalkan semua riwayat percakapan ke context window, lalu berharap model "ingat". OpenHuman memilih jalan lain.
 
-| Metrik | Angka |
-|---|---|
-| Star | **39.782** |
-| Fork | 3.922 |
-| Open issue | 188 |
-| Rilis | 56 (terakhir v0.63.12) |
-| Kontributor | 176+ |
-| Push terakhir | 14 Sep 2026 |
+Data yang masuk dikompres menjadi **pohon Markdown ber-skor** yang tersimpan di SQLite di mesin kamu sendiri, lalu di-mirror sebagai vault Obsidian yang bisa dibuka dan diedit tangan. Situs resminya menyebutnya singkat: *"No vector-soup black box."*
 
-Menurut README-nya, dalam sepekan pertama peluncuran OpenHuman jadi repo nomor satu di trending GitHub selama **sembilan hari berturut-turut**. Statusnya masih ditandai "early beta" — jujur, dan itu bagus.
+Artinya tiga hal:
 
-Yang ditawarkan bukan cuma chatbot. Ada tiga pilar: **otak** (memori persisten lokal), **orkestrator** (menjalankan banyak agent sekaligus), dan **peneliti** (nyisir data sendiri plus web sebelum kamu selesai nanya).
+1. **Bisa diperiksa manusia.** Kalau agent menjawab aneh, kamu bisa buka file-nya dan lihat konteks apa yang dipakai.
+2. **Bisa diedit manual.** Salah ingat? Hapus barisnya. Tidak perlu re-index embedding.
+3. **Backup itu mudah.** Satu file SQLite plus folder Markdown — persis alasan SQLite tetap menang di banyak proyek, yang pernah kami bahas di [SQLite: Kenapa "Lite" Justru Menang](/posts/sqlite-kenapa-lite-justru-menang/).
 
-## Paradoks 39.782 vs 7
+Ada juga mekanisme **auto-fetch** yang menyuapi otak itu tiap 20 menit dari aplikasi yang tersambung (Gmail, Notion, GitHub, Slack, dan 100+ integrasi OAuth lainnya). Jadi agent sudah punya konteks pagi ini sebelum kamu mengetik pertanyaan.
 
-Ini bagian yang menarik. Tim TinyHumans tidak menaruh semua kode di satu repo raksasa. Mereka memecahnya:
+## TokenJuice: Kompresi Sebelum Output Masuk Model
 
-| Repo | Star | Peran |
+Fitur teknis yang paling sering dilewatkan: **TokenJuice**. Output dari tool dikompres *sebelum* dikirim ke model — informasi dianggap sama, token sampai **80% lebih hemat**.
+
+README-nya jujur soal alasannya: *"A brain this big would be unaffordable without it."* Memang begitu. Memori besar tanpa lapisan kompresi bukan fitur, tapi tagihan API yang membengkak tiap bulan.
+
+Pola ini gampang ditiru di stack apa pun: sebelum hasil tool masuk prompt, ringkas dulu jadi struktur (JSON padat, tabel, atau poin kunci) alih-alih menempelkan output mentah 4.000 baris.
+
+## Orkestrasi: Workflow yang Di-approve, Graph yang Bisa Di-replay
+
+Bagian kedua OpenHuman adalah mesin workflow-nya. Dipecah jadi dua komponen kecil:
+
+| Komponen | Star | Fungsi |
 |---|---|---|
-| `openhuman` | **39.782** | Harness + aplikasi desktop |
-| `tinycortex` | 253 | Model memori ("second brain") |
+| `tinyflows` | 37 | Engine workflow: ter-trigger, ada gerbang persetujuan |
 | `tinyagents` | 55 | Graph run agent yang ter-checkpoint |
-| `tinyflows` | 37 | Engine workflow otomatis |
-| `tinymemory` | **7** | Router memori ke interface standar |
 
-Perhatikan polanya: **bintang menumpuk di pintu depan, bukan di komponen dapur.** Orang memberi star ke produk yang bisa mereka unduh dan coba, bukan ke library internal. Itu bukan berarti komponennya jelek — `tinymemory` bahkan mendeskripsikan dirinya sebagai "route any memory system into a standardized interface", yang justru ide arsitektur paling waras di daftar ini.
+Alurnya cukup waras: agent **mengusulkan** otomatisasi, kamu meninjau di kanvas, lalu menyimpannya. Run-nya durable dan bisa disetujui sebelum jalan — bukan agent yang tiba-tiba mengirim email ke klien tanpa izin.
 
-Pelajaran untuk kita yang juga ngoprek agent: jangan takut memecah sistem jadi paket kecil. Yang menentukan kualitas bukan jumlah star per repo, tapi seberapa bersih **kontrak antar komponen**-nya.
+Yang paling berharga dari `tinyagents`: **setiap run bisa di-replay lengkap dengan biaya per pemanggilan**. Agent yang macet bisa diarahkan ulang; yang berhenti mengembalikan akar masalahnya, bukan cuma pesan error kosong.
 
-## Otaknya: Markdown di SQLite, Bukan Black Box
+Buat siapa pun yang pernah menunggu agent berjam-jam tanpa tahu bagian mana yang salah, ini bukan kemewahan — ini kebutuhan dasar.
 
-Cara OpenHuman menyimpan memori patut ditiru. Data kamu dikompres jadi **pohon Markdown ber-skor** yang disimpan di SQLite lokal, lalu di-mirror sebagai vault Obsidian yang bisa dibuka dan diedit tangan. Bukan "vector soup" yang isinya tidak bisa diperiksa manusia.
+## Split Brain: Refleks Cepat, Penalaran Berat
 
-Ada fitur **auto-fetch** yang menyuapi otak itu tiap 20 menit — jadi agent sudah punya konteks hari ini sebelum kamu tanya. Pola *local-first + format yang bisa dibaca manusia* ini persis alasan SQLite menang di banyak proyek: file tunggal, tanpa server, gampang di-backup. Kami sudah bahas panjang soal ini di artikel [SQLite: Kenapa "Lite" Justru Menang](/posts/sqlite-kenapa-lite-justru-menang/).
+OpenHuman menjalankan dua lapisan: agent **refleks** yang cepat untuk menangani trafik masuk (triage, klasifikasi, jawaban pendek), dan **core penalaran** yang lebih berat untuk mendelegasikan ke fleet worker. Pola yang sama seperti kokpit pesawat: pilot tidak berpikir lama untuk hal yang butuh refleks.
 
-### TokenJuice: Kompresi Sebelum Sampai Model
+Implikasi praktisnya soal biaya. Tidak semua tugas pantas dikirim ke model termahal. Triage dulu dengan model murah, eskalasi ke model besar hanya kalau perlu.
 
-Detail teknis favorit saya: **TokenJuice**. Output tool dikompres *sebelum* masuk ke model — informasi sama, token sampai 80% lebih hemat. README-nya blak-blakan: "A brain this big would be unaffordable without it." Betul. Memori besar tanpa kompresi = tagihan API meledak.
+## Beda Arah dari Hermes Agent
 
-## Orkestrasi: Graph yang Bisa Di-replay
-
-Workflow dijalankan lewat `tinyflows` dengan pemicu, gerbang persetujuan, dan kanvas review. `tinyagents` menjalankan graph ter-checkpoint: agent yang macet bisa di-arahkan ulang, yang berhenti mengembalikan akar masalahnya, dan setiap run bisa di-replay lengkap dengan **biaya per pemanggilan**.
-
-Fitur terakhir itu sering dilupakan builder: bukan cuma "agent-nya jalan", tapi "berapa rupiah satu run ini". Pola arsitekturnya *split brain* — agent refleks cepat untuk triase, core penalaran berat untuk delegasi.
-
-## Bandingkan dengan Hermes Agent
-
-Sebagai pembanding sesama agent open source: **Hermes Agent** (Nous Research) ditulis Python, MIT, dan per hari yang sama mencetak **245.415 star** dengan 51.110 fork. Arahnya beda — Hermes menekankan *compounding skills*, tiap tugas selesai dievaluasi dan disimpan jadi skill baru. Catatan pendekatan itu ada di [Second Brain untuk AI Agent](/posts/second-brain-ai-agent/).
+Sebagai perbandingan, agent yang kami pakai sehari-hari — **Hermes Agent** — menempuh jalan berbeda untuk masalah yang sama:
 
 | | OpenHuman | Hermes Agent |
 |---|---|---|
 | Bahasa | Rust + TypeScript | Python |
 | Lisensi | GPL-3 | MIT |
-| Fokus | Memori lokal + desktop app | Skill yang menumpuk |
-| Star | 39.782 | 245.415 |
+| Cara "belajar" | Memori lokal + Memory Tree di SQLite | Skill yang menumpuk (compounding skills) |
+| Fokus | Desktop app, integrasi OAuth | CLI, orkestrasi multi-agent |
 
-Dua-duanya bukan "yang lebih baik", tapi dua jawaban berbeda atas pertanyaan yang sama: bagaimana agent tetap pintar setelah percakapan pertama lewat.
+OpenHuman menumpuk **konteks** tentang kamu; Hermes menumpuk **prosedur** dari pekerjaan yang sudah selesai. Dua-duanya sah, dan bisa dikombinasikan.
 
-## Lima Pelajaran Praktis
+## Yang Bisa Kamu Tiru Minggu Ini
 
-1. **Produk di depan, komponen di belakang.** Star mengalir ke yang bisa dicoba.
-2. **Local-first = SQLite + file yang bisa dibaca manusia.** Hindari black box.
-3. **Kompresi token itu fitur wajib**, bukan optimasi belakangan.
-4. **Graph ter-checkpoint mengalahkan sekali jalan.** Agent macet harus bisa di-steer.
-5. **Tulis interface dulu, implementasi belakangan.** Dasbor bagus tidak menyelamatkan arsitektur berantakan.
+Kalau kamu sedang membangun agent, tiga keputusan OpenHuman ini bisa diadopsi tanpa pindah platform:
 
-## Kesimpulan
+- **Simpan memori sebagai file yang bisa dibaca manusia.** Markdown + SQLite cukup untuk sebagian besar kasus.
+- **Kompres output tool sebelum masuk prompt.** Targetkan penghematan puluhan persen, bukan nol.
+- **Bikin run-nya bisa di-replay dan biaya per panggilan terlihat.** Kamu tidak bisa memperbaiki yang tidak bisa kamu lihat.
 
-OpenHuman menarik bukan karena 39.782 star-nya, tapi karena keputusan desainnya berani: memori manusia-readable, paket dipecah kecil, dan biaya per run dihitung terbuka. Kalau kamu sedang bangun agent sendiri, tiga hal itu lebih berguna daripada mengejar bintang di GitHub.
+Bintang di GitHub tidak akan menyelamatkan arsitektur yang berantakan — tapi tiga hal di atas akan menghemat tagihanmu bulan depan.
 
-Kamu sudah coba OpenHuman atau masih setia sama harness sendiri? Tulis di kolom komentar — atau baca dulu [perbandingan WorkBuddy vs Hermes Agent](/posts/tencent-workbuddy-vs-hermes-agent/) biar ada bahan pembanding.
+Sudah coba pola memori seperti ini di proyek sendiri? Ceritakan di komentar, kami senang diuji balik.
 
 — Chokdi 🐷 · Content Studio · 2026
