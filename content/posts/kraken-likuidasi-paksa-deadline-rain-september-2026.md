@@ -35,40 +35,38 @@ Logikanya sederhana. Token yang sudah dikeluarkan dari trading berbulan-bulan pr
 Kraken nggak melakukan ini sekali. Sepanjang 2026 ada beberapa siklus, masing-masing dengan tiga tahap: trading dimatikan → penarikan ditutup → likuidasi paksa. Yang masih harus kamu catat:
 
 **Siklus Juni — deadline 25 September 2026, 14:00 UTC (26 Sep, 21:00 WIB)**
-14 aset: TITCOIN, MXC, TOKE, ASRR, ART, UNITE, TANSSI, MIRROR, SOGNI, ALMANAK, VERSE, XRT, RETARDIO, RAVE.
-Jendela likuidasi: 28 September – 2 Oktober 2026.
+14 aset: TITCOIN, MXC, TOKE, ASRR, ART, UNITE, TANSSI, MIRROR, SOGNI, ALMANAK, VERSE, XRT, RETARDIO, RAVE. Jendela likuidasi: 28 September – 2 Oktober 2026.
 
 **Siklus Juli — deadline 6 November 2026, 14:00 UTC**
-21 aset: SIDEKICK, AI3, LOCKIN, SLAY, MNGO, GHIBLI, HOUSE, ACX, OMNI, KP3R, KIN, NTRN, KOBAN, HIPPO, CLV, WEN, KEY, YALA, TREMP, ESX, U2U.
-Trading & deposit sudah mati sejak 10 Agustus 2026 — artinya kamu sudah nggak bisa jual aset ini di Kraken.
+21 aset: SIDEKICK, AI3, LOCKIN, SLAY, MNGO, GHIBLI, HOUSE, ACX, OMNI, KP3R, KIN, NTRN, KOBAN, HIPPO, CLV, WEN, KEY, YALA, TREMP, ESX, U2U. Trading & deposit sudah mati sejak 10 Agustus 2026 — artinya kamu sudah nggak bisa jual aset ini di Kraken.
 
-**Siklus Mei — sudah lewat.** 21 token (AURA, BIT, BOND, BSX, FARM, GARI, K, KET, KINTO, LOBO, MOON, MV, NYM, RAIIN, RHEA, SAROS, SDN, SPC, SPICE, TEA, TEER) penarikan ditutup 27 Agustus, likuidasi 1–5 September 2026.
+**Siklus Mei — sudah lewat.** 21 token penarikan ditutup 27 Agustus, likuidasi 1–5 September 2026.
 
-Ada juga catatan khusus: **TEER**. Kraken menyebut proyeknya sudah berhenti beroperasi dan transaksi on-chain-nya nggak jalan sama sekali. Trading, deposit, dan penarikan semuanya dihentikan. Untuk kasus seperti ini satu-satunya langkah yang bisa dilakukan adalah **dokumentasikan posisimu** — ekspor account statement dan riwayat transaksi sebelum data apa pun berubah.
+Catatan khusus: **TEER**. Kraken menyebut proyeknya berhenti beroperasi dan transaksi on-chain-nya nggak jalan. Trading, deposit, dan penarikan semuanya dihentikan — satu-satunya langkah adalah **dokumentasikan posisimu**: ekspor account statement dan riwayat transaksi selagi datanya masih bisa diambil.
 
 ## 🔍 Cara Cek Akun Kraken Kamu (5 Menit)
 
-Ini nggak cuma buat yang sadar pegang token di list atas. Saldo sisa dari airdrop sering muncul di tempat yang nggak kamu duga.
+Saldo sisa dari airdrop sering muncul di tempat yang nggak kamu duga.
 
 1. Buka balance overview dan set tampilan supaya **posisi terkecil pun kelihatan** — banyak antarmuka nyembunyikan saldo receh secara default.
-2. Cocokkan simbol tickernya dengan tiga list di atas. Hati-hati simbol ambigu seperti **K**, **ART**, atau **KEY** — gampang ketuker dengan aset lain.
-3. Kalau ketemu token dari siklus Juni atau Juli: cek dulu apakah trading-nya masih terbuka. Kalau masih bisa, **jual di order book** — itu jalur paling terkendali.
+2. Cocokkan simbol tickernya dengan tiga list di atas. Hati-hati simbol ambigu seperti **K**, **ART**, atau **KEY** — gampang ketuker.
+3. Kalau ketemu token dari siklus Juni atau Juli: cek apakah trading-nya masih terbuka. Kalau masih bisa, **jual di order book** — jalur paling terkendali.
 4. Kalau trading sudah diblokir, siapkan penarikan ke wallet yang private key-nya kamu pegang sendiri, atau ke exchange yang masih listing aset itu. **Cek network-nya dulu**, dan untuk nominal besar tes dengan jumlah kecil.
-5. Terakhir: ekspor riwayat transaksi dan simpan. Likuidasi paksa itu tetap sebuah *disposal* — dari sisi pajak dia jual seperti jual biasa, dan kamu butuh buktinya.
+5. Terakhir: ekspor riwayat transaksi dan simpan. Likuidasi paksa tetap sebuah *disposal* — dari sisi pajak dia jual seperti jual biasa, dan kamu butuh buktinya.
 
 ## 🛡️ Pelajaran yang Lebih Besar: Exchange Bukan Vault
 
-Alasan Kraken konsisten dipakai setiap kali: aset-aset ini "tidak lagi memenuhi standar performa atau kepatuhan internal" mereka. Nggak ada penjelasan per token, nggak ada mekanisme banding. Siklusnya juga tetap jalan beberapa bulan terakhir, jadi jangan buru-buru menyalahkan regulasi Eropa (MiCA) — walaupun memang kasus berbeda seperti Revolut yang **menghapus USDT untuk pengguna EU** pada akhir Agustus 2026 dipicu kerangka hukum yang berlaku untuk semua penyedia berlisensi.
+Alasan Kraken konsisten dipakai: aset-aset ini "tidak lagi memenuhi standar performa atau kepatuhan internal" mereka. Nggak ada penjelasan per token, nggak ada mekanisme banding. Jangan buru-buru menyalahkan regulasi Eropa (MiCA) — walaupun kasus berbeda seperti Revolut yang **menghapus USDT untuk pengguna EU** pada akhir Agustus 2026 memang dipicu kerangka hukum yang berlaku untuk semua penyedia berlisensi.
 
-Bedanya penting: aturan regulasi berlaku sama ke semua exchange, tapi siklus "kualitas internal" bisa menghantam aset berbeda di setiap bursa. **Token yang dibuang Kraken bisa saja masih diperdagangkan normal di tempat lain** — dan di situlah peluangmu menyelamatkan posisi alih-alih menghapusnya jadi kerugian.
+Bedanya penting: aturan regulasi berlaku sama ke semua exchange, tapi siklus "kualitas internal" bisa menghantam aset berbeda di setiap bursa. **Token yang dibuang Kraken bisa saja masih diperdagangkan normal di tempat lain** — di situlah peluangmu menyelamatkan posisi alih-alih menghapusnya jadi kerugian.
 
-Kebiasaan kecil yang menyelamatkan banyak duit: **cek halaman status exchange yang kamu pakai sekali seperempat**. Delisting biasanya diumumkan berminggu-minggu sebelum tahap pertama, saat trading masih terbuka dan kamu masih bisa keluar dengan tenang.
+Kebiasaan kecil yang menyelamatkan banyak duit: **cek halaman status exchange sekali seperempat**. Delisting biasanya diumumkan berminggu-minggu sebelum tahap pertama, saat trading masih terbuka dan kamu masih bisa keluar dengan tenang.
 
 ## Kesimpulan
 
-Empat siklus dalam empat bulan, 63 entri token, semuanya dengan alasan umum yang sama. Pola yang jelas: aset yang nggak laku akan dilepas dari bursa besar secara bertahap, dan pemegang yang nggak memantau status page akan tahu setelah penarikan sudah ditutup.
+Empat siklus dalam empat bulan, 63 entri token, semuanya dengan alasan umum yang sama. Pola yang jelas: aset yang nggak laku dilepas dari bursa besar secara bertahap, dan pemegang yang nggak memantau status page baru tahu setelah penarikan ditutup.
 
-Prioritas hari ini jelas — **RAIN, deadline 21:00 WIB malam ini**. Setelah itu, masukkan 26 September (siklus Juni) dan 6 November (siklus Juli) ke kalender kamu sekarang. Jangan andalkan notifikasi email bursa; jadwalkan sendiri.
+Prioritas hari ini jelas — **RAIN, deadline 21:00 WIB malam ini**. Setelah itu, masukkan 26 September (siklus Juni) dan 6 November (siklus Juli) ke kalender sekarang. Jangan andalkan notifikasi email bursa; jadwalkan sendiri.
 
 Simpan aset jangka panjang di wallet yang private key-nya kamu pegang. Exchange itu tempat transit, bukan gudang.
 
