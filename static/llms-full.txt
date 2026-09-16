@@ -5,6 +5,504 @@
 - Semua artikel berbahasa Indonesia, gaya santai
 - Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
 
+### Gods Eye View: Mata Satelit di Browser, Dibangun dari Data Publik — dan Jebakan Lisensinya
+- URL: https://chokdi.ano99.com/posts/gods-eye-view-satelit-osint-lisensi/
+- Tanggal: 2026-09-17
+- Tag: ["OSINT", "Open Source", "Data Center", "Infrastruktur"]
+
+### OpenClaw 2026.9.4: Ubah Obrolan Lama Jadi Skill, Cari Plugin & Skill dalam Satu Kotak
+- URL: https://chokdi.ano99.com/posts/openclaw-294-skill-dari-obrolan/
+- Tanggal: 2026-09-17
+- Tag: ["OpenClaw", "AI Agent", "Tutorial", "Self-Host", "Update"]
+
+### CLARITY Act Diujung Tanduk: Senat Voting, Odds Anjlok 17%, Bitcoin ke $76 Ribu
+- URL: https://chokdi.ano99.com/posts/clarity-act-senat-vote-bitcoin-76-ribu/
+- Tanggal: 2026-09-16
+- Tag: ["Crypto", "Regulasi", "Bitcoin", "CLARITY Act", "Amerika Serikat"]
+
+### DeepSeek Harness: 225 Ribu Bintang dalam Sebulan, Arsitektur Semuanya Plugin
+- URL: https://chokdi.ano99.com/posts/deepseek-harness-semua-plugin/
+- Tanggal: 2026-09-16
+- Tag: ["AI", "DeepSeek", "Agent", "Open Source"]
+
+### Docker Backend di Hermes: Sandbox per Sesi Biar Agent AI Gak Bisa Rusak Server
+- URL: https://chokdi.ano99.com/posts/docker-backend-hermes-sandbox-agent/
+- Tanggal: 2026-09-16
+- Tag: ["Hermes Agent", "Docker", "Keamanan", "Tutorial"]
+
+### Fed Hike Pertama 3 Tahun & CLARITY Act Gagal: Bitcoin Uji $75 Ribu
+- URL: https://chokdi.ano99.com/posts/fed-hike-clarity-act-bitcoin-75-ribu/
+- Tanggal: 2026-09-16
+- Tag: ["Crypto", "Bitcoin", "Fed", "Regulasi", "Makro"]
+
+### Hermes Agent Jadi Terminal Agent Default di Omarchy Linux
+- URL: https://chokdi.ano99.com/posts/hermes-terminal-agent-default-omarchy/
+- Tanggal: 2026-09-16
+- Tag: ["AI", "Hermes Agent", "OpenClaw", "Linux", "Agentic AI", "VPS"]
+
+### OpenSpace HKUDS: Layer Manajemen Skill untuk AI Agent yang Bisa Berevolusi Sendiri
+- URL: https://chokdi.ano99.com/posts/openspace-skill-agent-evolusi/
+- Tanggal: 2026-09-16
+- Tag: ["AI", "AI Agent", "Open Source", "Skill", "Hermes"]
+
+### Cron Job Bilang OK Tapi Bohong: 7 Pola Silent Failure yang Kami Temukan
+- URL: https://chokdi.ano99.com/posts/cron-job-bilang-ok-tapi-bohong/
+- Tanggal: 2026-09-15
+- Tag: ["DevOps", "Monitoring", "Cron", "Otomasi"]
+
+### Hermes Agent v0.21.3 Rilis: Session Cloud/Desktop Tak Lagi Suka Expired
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0213-session-cloud-expired/
+- Tanggal: 2026-09-15
+- Tag: ["Hermes Agent", "AI", "Update", "Self-Hosting"]
+
+### Hermes Agent v0.21.2: Patch Penyelamat state.db yang Sempat Bikin Chat Gagal Dibuka
+- URL: https://chokdi.ano99.com/posts/hermes-v0212-state-db-patch/
+- Tanggal: 2026-09-15
+- Tag: ["hermes-agent", "ai-agent", "database", "sqlite", "open-source"]
+
+### Kraken Likuidasi Paksa Token Hari Ini: Deadline RAIN Tutup 21:00 WIB
+- URL: https://chokdi.ano99.com/posts/kraken-likuidasi-paksa-deadline-rain-september-2026/
+- Tanggal: 2026-09-15
+- Tag: ["Crypto", "Kraken", "Exchange", "Keamanan Aset", "Delisting"]
+
+### Memory Tree OpenHuman: Bagaimana Ia Menyusun dan Memampatkan Konteks Agent
+- URL: https://chokdi.ano99.com/posts/openhuman-39k-star-memory-tree/
+- Tanggal: 2026-09-15
+- Tag: ["AI", "AI Agent", "Open Source", "Rust"]
+
+### Termany: Terminal Satu Jendela untuk 11 Agent Coding, Hermes Didukung Native
+- URL: https://chokdi.ano99.com/posts/termany-terminal-agent-native/
+- Tanggal: 2026-09-15
+- Tag: ["AI", "Agent", "Hermes", "OpenClaw", "Tools"]
+
+### Bitcoin $76K Sebelum Dua Hari Penentu: ETF Outflow $462 Juta dan Vote CLARITY Act
+- URL: https://chokdi.ano99.com/posts/bitcoin-etf-outflow-clarity-act-vote-2026/
+- Tanggal: 2026-09-14
+- Tag: ["Bitcoin", "Crypto", "ETF", "CLARITY Act", "Regulasi"]
+
+### Circle Akuisisi Tazapay US$400 Juta: Perang Stablecoin Pindah ke Asia Tenggara
+- URL: https://chokdi.ano99.com/posts/circle-akuisisi-tazapay-400-juta/
+- Tanggal: 2026-09-14
+- Tag: ["Crypto", "Stablecoin", "Circle", "USDC"]
+
+### Hermes Agent v0.21.2: Patch yang Menyelamatkan state.db
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0212-state-db-patch/
+- Tanggal: 2026-09-14
+- Tag: ["AI", "Hermes Agent", "Open Source", "Update"]
+
+### Hermes Agent vs OpenClaw 2026: Pilih Mana buat Self-Host di VPS?
+- URL: https://chokdi.ano99.com/posts/hermes-vs-openclaw-selfhost-vps/
+- Tanggal: 2026-09-14
+- Tag: ["AI", "Hermes Agent", "OpenClaw", "Self-Hosted", "VPS", "Tutorial"]
+
+### OpenClaw 2026.9.4: Update Gagal Kini Bisa Balik Sendiri + Plugin Terpadu
+- URL: https://chokdi.ano99.com/posts/openclaw-202694-rollback-update/
+- Tanggal: 2026-09-14
+- Tag: ["OpenClaw", "AI", "Self-Hosted", "Update"]
+
+### OpenHuman 39.774 Star, Tapi Mesin Memori TinyMemory Cuma 7 Star
+- URL: https://chokdi.ano99.com/posts/openhuman-tinymemory-7-star/
+- Tanggal: 2026-09-14
+- Tag: ["AI", "Agent", "Open Source", "Riset"]
+
+### Riset 1.000 Repo GitHub: Ternyata AGENTS.md Kita Sudah di Atas Rata-Rata
+- URL: https://chokdi.ano99.com/posts/riset-agents-md-1000-repo-github/
+- Tanggal: 2026-09-14
+- Tag: ["AI", "Agent", "GitHub", "Best Practice", "AGENTS.md"]
+
+### Riset TRM Labs: Belanja Agen AI On-Chain Cuma 0,6–7,5% dari Volume x402
+- URL: https://chokdi.ano99.com/posts/x402-riset-trm-labs-agen-ai/
+- Tanggal: 2026-09-14
+- Tag: ["AI", "Crypto", "Riset"]
+
+### Dua Miliarder Kripto Danai Partai Farage £72 Juta — Rekor Donasi Politik Inggris
+- URL: https://chokdi.ano99.com/posts/dua-miliarder-kripto-danai-partai-farage/
+- Tanggal: 2026-09-13
+- Tag: ["Crypto", "Regulasi", "Politik"]
+
+### Rotasi ETF Crypto 11 September: Bitcoin Keluar $13 Juta, Ethereum Masuk $216 Juta
+- URL: https://chokdi.ano99.com/posts/etf-crypto-rotasi-bitcoin-ke-ethereum-11-september-2026/
+- Tanggal: 2026-09-13
+- Tag: ["crypto", "bitcoin", "ethereum", "etf", "defi", "on-chain"]
+
+### Hermes Agent v0.21.2: Patch Darurat state.db yang Bikin Session Korup
+- URL: https://chokdi.ano99.com/posts/hermes-v0212-patch-state-db/
+- Tanggal: 2026-09-13
+- Tag: ["AI", "Hermes Agent", "Open Source", "Troubleshooting"]
+
+### LP Judol & Blockchain: Kenapa Situs Judi Andalkan Pembayaran USDT dan Dompet On-Chain
+- URL: https://chokdi.ano99.com/posts/lp-judol-blockchain-pembayaran-usdt/
+- Tanggal: 2026-09-13
+- Tag: ["Judi", "Landing Page", "Crypto", "USDT", "Blockchain", "On-Chain", "Bisnis"]
+
+### Revolut Bocor Data KYC ke Penipu: Paspor, Selfie, dan Riwayat Bitcoin Pelanggan Ikut Terbongkar
+- URL: https://chokdi.ano99.com/posts/revolut-bocor-data-kyc-bitcoin/
+- Tanggal: 2026-09-13
+- Tag: ["Crypto", "Keamanan", "Privasi"]
+
+### Ripple Incar US$13 Triliun Kas Perusahaan: RLUSD Jadi Rel Baru Treasury Korporat
+- URL: https://chokdi.ano99.com/posts/ripple-rlusd-13-triliun-kas-korporat/
+- Tanggal: 2026-09-13
+- Tag: ["Crypto", "Stablecoin", "Ripple", "XRP"]
+
+### Bitcoin Bertahan di US$78 Ribu: Rekor Transaksi On-Chain 893.391 Keping, Altcoin IOST & VTHO Melesat
+- URL: https://chokdi.ano99.com/posts/bitcoin-rekor-transaksi-onchain-altcoin-iost-vtho/
+- Tanggal: 2026-09-12
+- Tag: ["Crypto", "Bitcoin", "On-Chain", "Altcoin", "Fed", "CLARITY Act", "2026"]
+
+### Hermes Agent v0.21.2: Patch state.db, Akar Korupsi Database Akhirnya Dibasmi
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0212-patch-state-db/
+- Tanggal: 2026-09-12
+- Tag: ["Hermes Agent", "AI Agent", "Update", "Self-Hosted"]
+
+### Hermes Agent: Satu Gateway untuk Semua Profil Bot — `hermes gateway migrate --multiplex`
+- URL: https://chokdi.ano99.com/posts/hermes-gateway-multiplex-satu-gateway/
+- Tanggal: 2026-09-12
+- Tag: ["Hermes Agent", "AI Agent", "Self-Hosted", "Update", "Multi-Agent"]
+
+### Hermes Agent v0.21.1: Plugin Lama Mati 14 September, Cek Sekarang
+- URL: https://chokdi.ano99.com/posts/hermes-plugin-compat-14-september/
+- Tanggal: 2026-09-12
+- Tag: ["Hermes Agent", "Plugin", "Update", "AI Agent"]
+
+### Anthropic Bekuk Hacker Rusia & 7 Lab Cina: Agent AI Kini Menyerang Otomatis
+- URL: https://chokdi.ano99.com/posts/anthropic-agent-ai-menyerang-otomatis/
+- Tanggal: 2026-09-11
+- Tag: ["AI Agent", "Keamanan", "Anthropic", "Berita"]
+
+### Bitcoin Cetak 893.391 Transaksi On-Chain Tertinggi ke-4 Sepanjang Sejarah, tapi Harga Justru Turun 📉
+- URL: https://chokdi.ano99.com/posts/bitcoin-transaksi-onchain-tertinggi-harga-turun/
+- Tanggal: 2026-09-11
+- Tag: ["Bitcoin", "Crypto", "On-Chain", "CryptoQuant", "DCA", "Investasi"]
+
+### CLARITY Act Voting di Senat 15 September: Kenapa XRP Naik 35% tapi Undang-Undangnya Belum Tentu Lahir
+- URL: https://chokdi.ano99.com/posts/clarity-act-voting-senat-15-september-xrp/
+- Tanggal: 2026-09-11
+- Tag: ["Crypto", "XRP", "Regulasi", "Bitcoin"]
+
+### OpenClaw 2026.9.3 Rilis: Update Aman, Skill Workshop, dan Peringatan Gateway Buat Multi-Agent
+- URL: https://chokdi.ano99.com/posts/openclaw-2026-9-3-update-agent-aman/
+- Tanggal: 2026-09-11
+- Tag: ["AI", "OpenClaw", "AI Agent", "Update", "Keamanan"]
+
+### OpenClaw 2026.9.4 Rilis: Update Gagal Kini Bisa Balik Sendiri ke Versi Lama
+- URL: https://chokdi.ano99.com/posts/openclaw-202694-rollback-update-gagal/
+- Tanggal: 2026-09-11
+- Tag: ["AI Agent", "OpenClaw", "Update"]
+
+### Riset Baru: Serangan Quantum ke Bitcoin Turun 50%, AI Bantu Pecahkan Rekor Google
+- URL: https://chokdi.ano99.com/posts/serangan-quantum-bitcoin-turun-50-persen/
+- Tanggal: 2026-09-11
+- Tag: ["Crypto", "Bitcoin", "Ethereum", "Quantum", "AI Agent"]
+
+### Meta Resmi Rilis Muse (dulu Hatch): AI Agent yang Bisa Kirim Email, Booking Travel, sampai Jual Mobil
+- URL: https://chokdi.ano99.com/posts/meta-muse-ai-agent-openclaw/
+- Tanggal: 2026-09-10
+- Tag: ["AI", "Meta", "Muse", "OpenClaw", "AI Agent", "Berita"]
+
+### Nasdaq Suntik US$100 Juta ke Kraken: Saham Tokenized Naik Kelas
+- URL: https://chokdi.ano99.com/posts/nasdaq-kraken-saham-tokenized/
+- Tanggal: 2026-09-10
+- Tag: ["Crypto", "Tokenized Stocks", "Nasdaq", "Kraken"]
+
+### OpenAI Kerahkan 10.000 Agent AI untuk Pecahkan Masalah Matematika Navier–Stokes US$1 Juta
+- URL: https://chokdi.ano99.com/posts/openai-10-ribu-agent-navier-stokes/
+- Tanggal: 2026-09-10
+- Tag: ["AI Agent", "OpenAI", "Matematika", "Riset AI", "Berita"]
+
+### OpenClaw 2026.9.3 Wajib Node 24: Update Aman yang Bisa Bikin Gateway Mati Kalau Salah Urutan
+- URL: https://chokdi.ano99.com/posts/openclaw-2026093-node24/
+- Tanggal: 2026-09-10
+- Tag: ["AI", "OpenClaw", "AI Agent", "Open Source", "Tutorial"]
+
+### OpenClaw Rilis v2026.9.3: Update Aman, Reconnect Cepat, dan Live Browser Automation
+- URL: https://chokdi.ano99.com/posts/openclaw-v202693-update-aman-recovery/
+- Tanggal: 2026-09-10
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "Nous Research"]
+
+### Stop Rogue AI Act: AS Mulai Atur AI Agent yang Berjalan di Jaringanmu
+- URL: https://chokdi.ano99.com/posts/stop-rogue-ai-act-nist-agent-security/
+- Tanggal: 2026-09-10
+- Tag: ["AI", "AI Agent", "Regulasi", "Keamanan", "NIST", "Stop Rogue AI Act"]
+
+### Bitcoin Masih di Bawah $80K: Pekan Rektember Ini Ditentukan CPI 11 September & FOMC 16 September
+- URL: https://chokdi.ano99.com/posts/bitcoin-rektember-cpi-fomc-2026/
+- Tanggal: 2026-09-09
+- Tag: ["Crypto", "Bitcoin", "Makro"]
+
+### Bitmine Borong 28.086 ETH dalam Sepekan: Treasury 5,93 Juta ETH, MicroStrategy-nya Ethereum Makin Gila
+- URL: https://chokdi.ano99.com/posts/bitmine-borong-28-ribu-eth/
+- Tanggal: 2026-09-09
+- Tag: ["Crypto", "Ethereum", "Treasury"]
+
+### Hermes Agent Resmi Masuk Omarchy — Distro Linux Agentic Buatan DHH Kini First-Class
+- URL: https://chokdi.ano99.com/posts/hermes-agent-masuk-omarchy/
+- Tanggal: 2026-09-09
+- Tag: ["AI", "Hermes Agent", "Linux", "Open Source"]
+
+### Perplexity Search API Resmi Masuk Hermes Agent — Ini Cara Mengaktifkannya
+- URL: https://chokdi.ano99.com/posts/hermes-agent-perplexity-search-api/
+- Tanggal: 2026-09-09
+- Tag: ["AI", "Hermes Agent", "Tutorial", "Open Source"]
+
+### OpenClaw Kini Repo GitHub Paling Di-★: 389 Ribu Stars, Kalahkan React & Linux
+- URL: https://chokdi.ano99.com/posts/openclaw-repo-github-paling-stars/
+- Tanggal: 2026-09-09
+- Tag: ["AI", "OpenClaw", "Open Source", "GitHub", "AI Agent"]
+
+### OpenClaw v2026.9.3 Rilis: Update Lebih Aman dan Browser Automation yang Bisa Ditonton Langsung
+- URL: https://chokdi.ano99.com/posts/openclaw-update-reliability-sep-2026/
+- Tanggal: 2026-09-09
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "Update"]
+
+### Bayar Gas Ethereum Tanpa Punya ETH: EIP-8141 Frame Transactions Resmi Dikunci ke Upgrade Hegotá 2027
+- URL: https://chokdi.ano99.com/posts/gas-ethereum-bisa-dibayar-tanpa-eth/
+- Tanggal: 2026-09-08
+- Tag: ["Ethereum", "Kripto", "EIP-8141"]
+
+### Harmony Matikan Blockchain-nya: Rantai Pertama yang Menyerah pada AI Agents, ONE Migrasi ke Ethereum
+- URL: https://chokdi.ano99.com/posts/harmony-sunset-one-migrasi-ethereum/
+- Tanggal: 2026-09-08
+- Tag: ["Crypto", "Blockchain", "AI"]
+
+### Hermes Agent Update: Rilis Pantheon v0.21.0 dan Patch v0.21.1, AI Agent Berubah Jadi Tim Lengkap
+- URL: https://chokdi.ano99.com/posts/hermes-agent-pantheon-v021-update/
+- Tanggal: 2026-09-08
+- Tag: ["AI", "Hermes Agent", "Nous Research", "Open Source"]
+
+### Hermes Agent Rilis v0.21.1: 632 Pull Request dalam Satu Update AI Agent Open Source Terkini
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0211-september-2026/
+- Tanggal: 2026-09-08
+- Tag: ["Hermes Agent", "AI", "Open Source", "Nous Research"]
+
+### Liquid Network Lumpuh: 4.000 BTC (US$320 Juta) Ditarik Peretas yang Ngaku White-Hat
+- URL: https://chokdi.ano99.com/posts/liquid-network-pause-4000-btc/
+- Tanggal: 2026-09-08
+- Tag: ["Bitcoin", "Kripto", "Keamanan", "Liquid Network"]
+
+### OpenClaw Berhijrah ke Mode Swarm — GPT-6 Astra & Chat Lebih Ngebut (Update September 2026)
+- URL: https://chokdi.ano99.com/posts/openclaw-september-2026-mode-swarm/
+- Tanggal: 2026-09-08
+- Tag: ["AI", "OpenClaw", "Open Source", "Agent", "Automation"]
+
+### Bitcoin Tembus US$80.000 di Awal September: Rektember Terbantahkan, Crypto Winter Mau Lelah?
+- URL: https://chokdi.ano99.com/posts/bitcoin-tembus-80ribu-rektember-defied-september-2026/
+- Tanggal: 2026-09-07
+- Tag: ["Bitcoin", "Crypto", "Rektember", "FOMC", "ETF"]
+
+### Coldcard Hacker Mulai Cuci BTC Curian: 97 Bitcoin Dipindah via THORChain dan CoinJoin
+- URL: https://chokdi.ano99.com/posts/coldcard-gelombang-3-cuci-bitcoin/
+- Tanggal: 2026-09-07
+
+### Hermes Agent v0.20.6 Rilis: ~525 PR Baru, Ledakan MCP Catalog + Browsing Profil Asli
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0206-update-agustus/
+- Tanggal: 2026-09-07
+- Tag: ["AI", "Hermes Agent", "Open Source", "MCP", "Automation"]
+
+### Hermes Desktop Kini Pasang AI Lokal Sekali Klik: Tanpa API Key, Data Tetap di Komputer
+- URL: https://chokdi.ano99.com/posts/hermes-desktop-model-lokal-sekali-klik/
+- Tanggal: 2026-09-07
+- Tag: ["Hermes Agent", "AI Lokal", "Tutorial"]
+
+### Liquid Network Kena Eksploit US$320 Juta: 4.000 BTC Ludes, Hacker Ngaku White Hat
+- URL: https://chokdi.ano99.com/posts/liquid-network-exploit-4000-btc/
+- Tanggal: 2026-09-07
+- Tag: ["Bitcoin", "Crypto", "Keamanan", "Hack", "Liquid Network"]
+
+### OpenClaw 2.0 (v2026.8.1) Sudah Rilis — Install Lebih Gampang, Browser Baru, dan Sesi Cloud Berbagi
+- URL: https://chokdi.ano99.com/posts/openclaw-2-0-rilis-terbesar-2026/
+- Tanggal: 2026-09-07
+- Tag: ["AI", "OpenClaw", "Open Source", "Automation", "Agentic"]
+
+### Bitcoin Anjlok ke Bawah US$80 Ribu: Data Tenaga Kerja AS Terlalu Panas, Suku Bunga Naik Lagi?
+- URL: https://chokdi.ano99.com/posts/bitcoin-anjlok-bawah-80-ribu-data-nfp/
+- Tanggal: 2026-09-06
+- Tag: ["Bitcoin", "Crypto", "NFP", "Federal Reserve", "Ekonomi"]
+
+### Bitcoin Tembus $82 Ribu Jelang Keputusan The Fed: Rektember atau Reli Berlanjut?
+- URL: https://chokdi.ano99.com/posts/bitcoin-vs-fed-september-2026/
+- Tanggal: 2026-09-06
+- Tag: ["Bitcoin", "The Fed", "Suku Bunga", "ETF", "Crypto"]
+
+### OpenClaw 2.0 vs v2026.9.2: Dari 16.000 PR Sampai Dukungan GPT-6 Astra
+- URL: https://chokdi.ano99.com/posts/openclaw-2-0-gpt6-astra/
+- Tanggal: 2026-09-06
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "GPT-6"]
+
+### Pendanaan Kripto Asia Tenggara Pulih ke US$680 Juta di 2026, Investor Kini Pilih-pilih Perusahaan
+- URL: https://chokdi.ano99.com/posts/pendanaan-kripto-asia-tenggara-2026/
+- Tanggal: 2026-09-06
+- Tag: ["Kripto", "Asia Tenggara", "Funding", "Startup"]
+
+### Rektember 2026: Bitcoin Memasuki September yang Sejarahnya Selalu Merah, Tapi Raksasa Korporasi Justru Borong BTC
+- URL: https://chokdi.ano99.com/posts/rektember-bitcoin-september-2026/
+- Tanggal: 2026-09-06
+- Tag: ["Crypto", "Bitcoin", "Analisis", "Berita"]
+
+### Zcash (ZEC) Tembus US$1.000 Pertama Kali: Short Seller Rugi Besar, ETF ZEC Jadi Katalis Utama
+- URL: https://chokdi.ano99.com/posts/zcash-tembus-1000-pertama-kali/
+- Tanggal: 2026-09-06
+- Tag: ["Zcash", "Altcoin", "ETF", "Crypto", "Privacy Coin"]
+
+### Alchemy CLI: 12 Hal On-Chain yang Kini Cukup Satu Perintah Terminal
+- URL: https://chokdi.ano99.com/posts/alchemy-cli-12-hal-on-chain-satu-perintah/
+- Tanggal: 2026-09-05
+- Tag: ["Crypto", "Blockchain", "Tools", "AI Agent", "Developer"]
+
+### CLARITY Act: Vote Penentu 15 September, Regulasi Kripto Terbesar AS Bisa Gagal Lagi
+- URL: https://chokdi.ano99.com/posts/clarity-act-vote-15-september-2026/
+- Tanggal: 2026-09-05
+- Tag: ["Kripto", "Regulasi", "Bitcoin"]
+
+### Pendanaan Kripto Asia Tenggara Bangkit ke US$680 Juta: Jakarta Jadi Hub Nomor 2
+- URL: https://chokdi.ano99.com/posts/pendanaan-kripto-sea-680-juta-jakarta/
+- Tanggal: 2026-09-05
+- Tag: ["Kripto", "Funding", "Asia Tenggara", "Jakarta", "Startup"]
+
+### SEC Anggap BTC, ETH, SOL & XRP Digital Commodity: ETF Crypto Aktif Kini Resmi, Begini Artinya Buat Investor
+- URL: https://chokdi.ano99.com/posts/sec-nasdaq-texas-big-four-etf-aktif-september-2026/
+- Tanggal: 2026-09-05
+- Tag: ["Crypto", "SEC", "Bitcoin", "Ethereum", "Solana", "XRP", "ETF", "Regulasi", "2026"]
+
+### Standard Chartered Buka Trading Spot Bitcoin & Ether di UAE, Bank Raksasa Global Pertama yang Terjun Langsung
+- URL: https://chokdi.ano99.com/posts/standard-chartered-spot-bitcoin-ether-uae/
+- Tanggal: 2026-09-05
+- Tag: ["Crypto", "Bitcoin", "Ethereum", "Bank", "Institusional"]
+
+### Bitcoin ETF Catat Inflow US$731 Juta dalam Sehari: Terbesar Sejak Januari 2026
+- URL: https://chokdi.ano99.com/posts/bitcoin-etf-inflow-731-juta/
+- Tanggal: 2026-09-04
+- Tag: ["Bitcoin", "ETF", "Kripto", "BlackRock"]
+
+### Kapan Bitcoin Halving Berikutnya? Hitung Mundur ke April 2028
+- URL: https://chokdi.ano99.com/posts/bitcoin-halving-april-2028/
+- Tanggal: 2026-09-04
+- Tag: ["Bitcoin", "Crypto", "Edukasi"]
+
+### Hermes Agent Tembus 140 Ribu GitHub Stars dalam 3 Bulan — Agen AI Open Source Nomor 1 Dunia, Diakselerasi NVIDIA
+- URL: https://chokdi.ano99.com/posts/hermes-agent-140-ribu-github-stars-nvidia-2026/
+- Tanggal: 2026-09-04
+- Tag: ["Hermes Agent", "NVIDIA", "AI", "Open Source", "Qwen", "Agent"]
+
+### Nvidia Resmi Akuisisi Hugging Face US$12,9 Miliar: Rumah 3 Juta Model AI Kini Milik Raja Chip
+- URL: https://chokdi.ano99.com/posts/nvidia-akuisisi-hugging-face/
+- Tanggal: 2026-09-04
+- Tag: ["AI", "Nvidia", "Hugging Face", "Open Source", "Akuisisi"]
+
+### Update OpenClaw 2.0 Bikin Set Up Jebol? Ini Kisah Nyata dari Lapangan & Cara Aman Selamat dari Migrasi
+- URL: https://chokdi.ano99.com/posts/openclaw-2-0-upgrade-migrasi-lapangan/
+- Tanggal: 2026-09-04
+- Tag: ["AI", "OpenClaw", "AI Agent", "Tutorial", "Self-Hosted"]
+
+### Rally Privacy Coin: Zcash & Monero Naik Gila-gilaan, Ini Pemicunya
+- URL: https://chokdi.ano99.com/posts/zcash-monero-rally-privacy-coin-september-2026/
+- Tanggal: 2026-09-04
+- Tag: ["Crypto", "Altcoin", "Zcash", "Monero", "Bitcoin"]
+
+### Rektember 2026: Bitcoin Hadapi Ujian Berat
+- URL: https://chokdi.ano99.com/posts/bitcoin-rektember-2026-suku-bunga-fed/
+- Tanggal: 2026-09-03
+
+### Bitcoin Masuk Rektember: Setelah Rally 25% di Agustus, September Bisa Balas Dendam?
+- URL: https://chokdi.ano99.com/posts/bitcoin-rektember-september-2026/
+- Tanggal: 2026-09-03
+- Tag: ["Bitcoin", "Crypto", "Market", "Analisis", "Ekonomi"]
+
+### ETF Ethereum Cetak Rekor 9 Hari Beruntun, Institusi Mulai Pindah dari Bitcoin?
+- URL: https://chokdi.ano99.com/posts/etf-ethereum-rekor-inflow-september-2026/
+- Tanggal: 2026-09-03
+- Tag: ["Crypto", "Ethereum", "ETF", "Bitcoin"]
+
+### 1 September 2026, Bursa Kripto RI Wajib Lapor Lebih Ketat ke OJK: Ini Aturan Baru PADK 3/2026
+- URL: https://chokdi.ano99.com/posts/padk-ojk-3-2026-kripto/
+- Tanggal: 2026-09-03
+- Tag: ["Crypto", "Regulasi", "OJK", "Indonesia", "Keamanan"]
+
+### 21 Bank Raksasa Bakal Terbitkan Stablecoin USD Bersama di 2027
+- URL: https://chokdi.ano99.com/posts/stablecoin-21-bank-raksasa-2027/
+- Tanggal: 2026-09-03
+- Tag: ["Crypto", "Stablecoin", "Perbankan"]
+
+### Bitcoin vs Rektember 2026: ETF Inflow $3,5 Miliar vs Kutukan September — Siapa Menang?
+- URL: https://chokdi.ano99.com/posts/bitcoin-rektember-september-2026-etf/
+- Tanggal: 2026-09-02
+- Tag: ["Crypto", "Bitcoin", "Ethereum", "Altcoin", "Market Analysis", "ETF"]
+
+### BitMEX Resmi Tutup 23 September 2026: Era Perpetual 100x Berakhir
+- URL: https://chokdi.ano99.com/posts/bitmex-tutup-september-2026/
+- Tanggal: 2026-09-02
+- Tag: ["Crypto", "Bitcoin", "Exchange"]
+
+### Cloudflare API MCP + Code Mode: Akses 2500 Endpoint dalam 1.000 Token (2026)
+- URL: https://chokdi.ano99.com/posts/cloudflare-api-mcp-code-mode-2500-endpoint-1k-token/
+- Tanggal: 2026-09-02
+- Tag: ["Cloudflare", "MCP", "AI", "Agent", "DevOps", "Tutorial", "React"]
+
+### ClouDNS vs BunnyCDN vs Cloudflare: Mana yang Terbaik & Detail Harganya (2026)
+- URL: https://chokdi.ano99.com/posts/cloudns-vs-bunny-vs-cloudflare-terbaik-harga-2026/
+- Tanggal: 2026-09-02
+- Tag: ["CDN", "DNS", "Cloudflare", "BunnyCDN", "ClouDNS", "Perbandingan", "Harga", "Tutorial"]
+
+### Goldman Sachs Jadi Pemegang XRP ETF Terbesar di Wall Street: Pegang $87,4 Juta
+- URL: https://chokdi.ano99.com/posts/goldman-sachs-holder-terbesar-xrp-etf/
+- Tanggal: 2026-09-02
+- Tag: ["Crypto", "XRP", "ETF", "Goldman Sachs", "Institutional", "Market Analysis"]
+
+### Hermes Agent v0.21.0 The Pantheon — Agen AI Belajar dari Pengalaman, Sekarang Bisa Ngobrol Bot-to-Bot
+- URL: https://chokdi.ano99.com/posts/hermes-agent-pantheon-rilis-2026/
+- Tanggal: 2026-09-02
+- Tag: ["AI", "Hermes Agent", "Open Source", "Automation", "Agent"]
+
+### Jangan Install Hermes di Server Orang Asing: Gimana Bikin AI Agent Tanpa Jebakan API Key
+- URL: https://chokdi.ano99.com/posts/jangan-install-hermes-di-cloud-pc-grok-bot-api-key/
+- Tanggal: 2026-09-02
+- Tag: ["AI", "Agent", "Security", "Grok Bot", "Hermes Agent", "Cloud PC", "API Key", "Self-Host", "Tutorial"]
+
+### OpenClaw v2026.8.2 Rilis: Desktop App Linux Resmi, Home Dock, dan 4 Tema UI Baru
+- URL: https://chokdi.ano99.com/posts/openclaw-v202682-desktop-app-linux/
+- Tanggal: 2026-09-02
+- Tag: ["OpenClaw", "AI Agent", "Open Source", "Linux"]
+
+### Saylor Beli Lagi! Strategy Borong 4.603 Bitcoin Senilai $370 Juta Setelah Jeda 10 Minggu
+- URL: https://chokdi.ano99.com/posts/saylor-beli-lagi-4603-bitcoin/
+- Tanggal: 2026-09-02
+- Tag: ["Crypto", "Bitcoin", "Saylor", "Strategy", "MicroStrategy", "Market Analysis"]
+
+### Cara Setup Cloudflare Tunnel 2026: 12 Langkah Tanpa Buka Port
+- URL: https://chokdi.ano99.com/posts/cara-setup-cloudflare-tunnel-2026/
+- Tanggal: 2026-09-01
+- Tag: ["Cloudflare", "Tunnel", "Tutorial", "Self-Hosted", "Keamanan"]
+
+### Hermes Agent v0.20.6 Rilis: 525 PR Baru, Browsing Profil Asli & MCP Catalog 50+ Server 🤖
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0206-release-agustus-2026/
+- Tanggal: 2026-09-01
+- Tag: ["AI", "Hermes Agent", "Open Source", "Release"]
+
+### Hermes Agent v0.21.0 \"The Pantheon\" Rilis: Kini Bisa Jadi Tim Agen dengan Bot Mode
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0210-pantheon/
+- Tanggal: 2026-09-01
+- Tag: ["AI", "Hermes Agent", "Open Source", "Tutorial"]
+
+### Hermes Agent v0.21.0 Pantheon Rilis: Bot Mode Ubah AI Agent Jadi Tim yang Ngobrol Bareng
+- URL: https://chokdi.ano99.com/posts/hermes-v021-pantheon-bot-mode/
+- Tanggal: 2026-09-01
+- Tag: ["Hermes Agent", "AI", "Open Source", "Update"]
+
+### OpenClaw 2.0 Resmi Rilis (v2026.8.1): 8 Fitur Baru + Cara Upgrade Aman
+- URL: https://chokdi.ano99.com/posts/openclaw-2-0-stable/
+- Tanggal: 2026-09-01
+- Tag: ["AI", "OpenClaw", "AI Agent", "Tutorial"]
+
+### OpenClaw 2.0 Rilis: Update Terbesar dalam Sejarah, Kini Bisa Sesi Multiplayer Bareng Tim
+- URL: https://chokdi.ano99.com/posts/openclaw-2-0-update-terbesar/
+- Tanggal: 2026-09-01
+- Tag: ["OpenClaw", "AI Agent", "Open Source"]
+
+### OpenClaw 2026.9.1-beta.1: Rilisan September yang Fokus Bikin Agen Tidak Mogok Lagi
+- URL: https://chokdi.ano99.com/posts/openclaw-202691-beta-reliabilitas/
+- Tanggal: 2026-09-01
+- Tag: ["AI", "OpenClaw", "Open Source", "Update"]
+
 ### 3 Cara AI Agent Browsing: TinyFish, Browse-as-You & Browser Extension
 - URL: https://chokdi.ano99.com/posts/3-cara-browsing-ai-agent-tinyfish-browse-as-you-extension/
 - Tanggal: 2026-08-31
@@ -24,6 +522,11 @@
 - URL: https://chokdi.ano99.com/posts/breakscale-simulator-system-design/
 - Tanggal: 2026-08-31
 - Tag: ["System Design", "Simulator", "DevOps", "Arsitektur", "Open Source"]
+
+### Cronos Dihentikan Total Usai Exploit Tectonic Rp1,2 Triliun: 91% Dana Selamat, Ini Ceritanya
+- URL: https://chokdi.ano99.com/posts/cronos-halt-exploit-tectonic-75-juta/
+- Tanggal: 2026-08-31
+- Tag: ["Crypto", "DeFi", "Keamanan"]
 
 ### Hermes Agent v0.20.6 Rilis: Bot Mode Kini Jadi Bawaan, 525 PR Baru dalam Seminggu
 - URL: https://chokdi.ano99.com/posts/hermes-v0206-bot-mode/
