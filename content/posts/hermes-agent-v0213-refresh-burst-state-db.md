@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent v0.21.3: Fix Refresh Burst & Bocor Handle state.db — Panduan Aman Update"
-date: 2026-09-17T09:45:00+07:00
+date: 2026-09-17T09:30:00+07:00
 draft: false
 tags: ["Hermes Agent", "AI", "Nous Research", "Update", "Self-Hosted", "state.db", "Docker"]
 ---
