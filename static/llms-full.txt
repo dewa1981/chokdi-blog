@@ -5,10 +5,25 @@
 - Semua artikel berbahasa Indonesia, gaya santai
 - Topik utama: AI agent, Hermes, memory AI, VPS/DevOps, crypto, DDoS
 
+### Benchmark AI Trading Agent: Kimi K3 Menang Tipis, DeepSeek Cuma 2 Order dari 3.150 Langkah
+- URL: https://chokdi.ano99.com/posts/ai-trading-agent-benchmark-kimi-k3/
+- Tanggal: 2026-09-17
+- Tag: ["Crypto", "AI Agent", "Kimi K3", "DeepSeek", "Trading", "Benchmark"]
+
 ### Gods Eye View: Mata Satelit di Browser, Dibangun dari Data Publik — dan Jebakan Lisensinya
 - URL: https://chokdi.ano99.com/posts/gods-eye-view-satelit-osint-lisensi/
 - Tanggal: 2026-09-17
 - Tag: ["OSINT", "Open Source", "Data Center", "Infrastruktur"]
+
+### Hermes Agent v0.21.3: Fix Refresh Burst & Bocor Handle state.db — Panduan Aman Update
+- URL: https://chokdi.ano99.com/posts/hermes-agent-v0213-refresh-burst-state-db/
+- Tanggal: 2026-09-17
+- Tag: ["Hermes Agent", "AI", "Nous Research", "Update", "Self-Hosted", "state.db", "Docker"]
+
+### Migrasi MediaCMS v3 ke v8: 6 Jebakan Upgrade Lintas 2,5 Tahun
+- URL: https://chokdi.ano99.com/posts/migrasi-mediacms-v3-ke-v8-docker/
+- Tanggal: 2026-09-17
+- Tag: ["DevOps", "Docker", "Self-Hosted", "Migrasi"]
 
 ### OpenClaw 2026.9.4: Ubah Obrolan Lama Jadi Skill, Cari Plugin & Skill dalam Satu Kotak
 - URL: https://chokdi.ano99.com/posts/openclaw-294-skill-dari-obrolan/
