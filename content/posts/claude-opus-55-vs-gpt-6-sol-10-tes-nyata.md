@@ -1,6 +1,6 @@
 ---
 title: "Claude Opus 5.5 vs GPT-6 Sol: 10 Tes Nyata, Ini Pemenangnya"
-date: 2026-09-24T19:10:00+07:00
+date: 2026-09-24T17:05:00+07:00
 draft: false
 tags: ["AI", "Claude", "OpenAI", "Crypto", "Review"]
 ---
@@ -53,14 +53,14 @@ Ini bagian yang sering dilewatkan orang dan bisa menghemat uang paling banyak.
 
 - **Jangan matikan reasoning** di kerja agent. Sol dengan reasoning off dapat skor 28,1 dengan biaya **$0,33** — lebih mahal dan lebih jelek dari Sol di `low` (33,9 untuk $0,13). Model tanpa reasoning butuh lebih banyak langkah, dan setiap langkah mengirim ulang percakapan
 - **Sol:** berhenti di `xhigh` kecuali tugasnya benar-benar berat. `max` menambah 0,8 poin coding untuk 1,6x biaya, dan di AutomationBench malah **skor lebih rendah** sambil 24 persen lebih mahal
-- **Opus 5.5:** default-nya sekarang `medium` (turun dari `high` di Opus 5). Di Task yang pakai router dinamis, mengubah effort di tengah percakapan **membatalkan prompt cache** — dan cache read adalah baris tagihan terbesar untuk beban agentic
+- **Opus 5.5:** default-nya sekarang `medium` (turun dari `high` di Opus 5). Di tugas yang pakai router dinamis, mengubah effort di tengah percakapan **membatalkan prompt cache** — dan cache read adalah baris tagihan terbesar untuk beban agentic
 
 ## 🔓 Breaking Changes Opus 5.5 yang Bikin Error 400
 
 Kalau kamu punya agent yang sudah jalan di Opus 5, migrasi ke Opus 5.5 tidak sekadar tukar model ID. Empat hal ini bisa bikin kamu jengkel tengah malam:
 
 - **Thinking tidak bisa dimatikan lagi.** `thinking: {"type": "disabled"}` dan `{"type": "enabled", "budget_tokens": N}` dua-duanya balas **400 invalid_request_error**. Ganti pakai `{"type": "adaptive"}` + `output_config.effort`
-- **Forced tool use dihapus.** `tool_choice: {"type": "any"}` dan `{"type": "tool", "name": "..."}` ditolak. Pakai `auto` plus `strict: true`, lalu **verbatim cek di kode** apakah `tool_use` block benar-benar kembali
+- **Forced tool use dihapus.** `tool_choice: {"type": "any"}` dan `{"type": "tool", "name": "..."}` ditolak. Pakai `auto` plus `strict: true`, lalu **verifikasi di kode** apakah `tool_use` block benar-benar kembali
 - **Thinking block terikat ke model dan percakapan.** Kalau kamu edit history (rebuild system prompt tiap turn, tambah/hapus tool di tengah sesi), replay bisa bikin 400. Jaga history **append-only**
 - **`computer_20251124` ditolak** di Claude API dan Google Cloud. Pindah ke `computer_toolset_20260801`
 
@@ -92,7 +92,7 @@ Dan yang terakhir, nasihat yang paling sering diabaikan: **jangan pilih berdasar
 
 Claude Opus 5.5 bukan cuma versi lebih murah dari Opus 5 — dia naik di hampir semua benchmark **sambil** memotong biaya per tugas 40 persen, dan itu kombinasi yang jarang. GPT-6 Sol dan Luna menyerang dari arah berlawanan: harga ditekan sampai separuh, dengan taruhan bahwa sebagian besar pekerjaan orang sebenarnya tidak butuh model terbaik.
 
-Untuk kita yang menjalankan agent 24 jam di server, kesimpulan praktisnya: **pakai model murah untuk volume, model mahal untuk satu-shot yang penting, dan selalu ukur biaya per tugas selesai — bukan per token.** Dan kalau menjalankan dua agent paralel, isolasi foldernya. Percaya sama saya, itu lebih murah daripada belajar dari tagihan.
+Untuk kita yang menjalankan agent 24 jam di server, kesimpulan praktisnya: **pakai model murah untuk volume, model mahal untuk one-shot yang penting, dan selalu ukur biaya per tugas selesai — bukan per token.** Dan kalau menjalankan dua agent paralel, isolasi foldernya. Percaya sama saya, itu lebih murah daripada belajar dari tagihan.
 
 Bagaimana pengalaman kamu? Sudah coba Opus 5.5 atau GPT-6 Sol untuk kerjaan harian? Tulis di komentar — atau diskusikan saja dengan agent kamu sendiri, dia biasanya lebih jujur soal harga.
 
