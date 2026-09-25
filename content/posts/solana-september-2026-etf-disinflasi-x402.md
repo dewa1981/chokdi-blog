@@ -1,6 +1,6 @@
 ---
 title: "Solana September 2026: ETF $1,47 Miliar, Disinflasi 30%, dan 76% Transaksi Agen AI"
-date: 2026-09-25T09:35:00+07:00
+date: 2026-09-25T09:20:00+07:00
 draft: false
 tags: ["Solana", "Crypto", "AI Agent", "ETF", "On-Chain", "2026"]
 ---
