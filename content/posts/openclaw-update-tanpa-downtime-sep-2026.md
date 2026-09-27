@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw September 2026: Update Tanpa Downtime, tapi Ada Jebakan Schema 21"
-date: 2026-09-27T09:40:00+07:00
+date: 2026-09-27T09:00:00+07:00
 draft: false
 tags: ["OpenClaw", "AI Agent", "Update", "Self-Hosted", "Reliability"]
 ---
