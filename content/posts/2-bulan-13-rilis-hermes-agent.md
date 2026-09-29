@@ -1,6 +1,6 @@
 ---
 title: "2 Bulan, 13 Rilis Hermes Agent: Kenapa Agent AI Sekarang Butuh Tim, bukan Robot Pintar"
-date: 2026-09-29T17:35:00+07:00
+date: 2026-09-29T16:05:00+07:00
 draft: false
 tags: ["AI", "Hermes Agent", "Open Source", "Multi-Agent", "Agent AI"]
 ---
