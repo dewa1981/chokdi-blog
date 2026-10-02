@@ -1,6 +1,6 @@
 ---
 title: "Citigroup Naikkan Target Bitcoin ke $113.000: Uptober Dimulai dengan Angka Nyata"
-date: 2026-10-02T09:40:00+07:00
+date: 2026-10-02T09:15:00+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "ETF", "Citigroup", "Uptober"]
 ---
