@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw Enterprise Digratiskan: Microsoft Bikin Autopilot di Atasnya"
-date: 2026-10-04T05:30:00+07:00
+date: 2026-10-04T01:00:00+07:00
 draft: false
 tags: ["OpenClaw", "AI", "Self-Hosted", "Enterprise", "Microsoft"]
 ---
