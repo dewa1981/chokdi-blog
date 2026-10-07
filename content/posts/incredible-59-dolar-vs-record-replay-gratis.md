@@ -1,6 +1,6 @@
 ---
 title: "Incredible ($59/bulan) vs Record-Replay Gratis: Cara AI Belajar dari Menonton Kamu Kerja"
-date: 2026-10-07T14:10:00+07:00
+date: 2026-10-07T13:39:51+07:00
 draft: false
 tags: ["AI", "AI Agent", "Computer Use", "Open Source", "Automasi", "Record Replay"]
 ---
