@@ -1,6 +1,6 @@
 ---
 title: "Whale Borong AAVE, ENA, UNI Awal Oktober 2026: $25 Juta Masuk DeFi Blue-Chip"
-date: 2026-10-10T05:10:00+07:00
+date: 2026-10-10T01:20:00+07:00
 draft: false
 tags: ["Crypto", "On-Chain", "DeFi", "Altcoin", "Whale"]
 ---
