@@ -5,9 +5,9 @@ draft: false
 tags: ["DevOps", "Monitoring", "Cron", "WeChat", "Telegram"]
 ---
 
-Di dashboard cron kami ada satu job yang statusnya merah **26 hari** berturut-turut: `delivery_failed`. Waktu dibedah satu per satu, ternyata laporannya **masuk tiap 6 jam** — cuma lewat canal yang berbeda dari yang tercatat. Sebaliknya, ada juga kolom yang bilang job ini **tidak punya error sama sekali**.
+Di dashboard cron kami ada satu job yang statusnya merah **26 hari** berturut-turut: `delivery_failed`. Waktu dibedah satu per satu, ternyata laporannya **masuk tiap 6 jam** — cuma lewat kanal yang berbeda dari yang tercatat. Sebaliknya, ada juga kolom yang bilang job ini **tidak punya error sama sekali**.
 
-Dua-duanya benar. Dan dua-duanya menyesatkan. Ini cerita lengkapnya plus cara membacanya supaya kita tidak salah vonis.
+Dua-duanya benar — dan dua-duanya menyesatkan. Ini cara membacanya.
 
 ## Apa yang sebenarnya terjadi
 
@@ -80,8 +80,6 @@ Kalau kita berhenti di kemunculan pertama, kita akan mengejar "rate limit" (kasi
 - Pindahkan kanal paling andal ke urutan pertama, dan kirim per kanal secara independen.
 
 Cron yang gagal berisik itu mudah dibereskan. Yang berbahaya adalah cron yang **jalan 485 kali, laporannya rapi tersimpan di disk, sementara satu kanal keluarnya tak berbunyi 26 hari** — dan statusnya cuma bilang satu kata: `delivery_failed`.
-
-Punya job yang statusnya kuning terus tapi isinya jalan? Bandingkan dulu jumlah output-nya dengan jumlah notifikasi yang benar-benar sampai — boleh jadi temuanmu sama seperti punya kami.
 
 Baca juga: [Watchdog mati 28 hari tanpa alarm](/posts/watchdog-mati-28-hari-tanpa-alarm/) dan [403 di funnel judi: challenge atau situs benar-benar mati?](/posts/funnel-403-cloudflare-challenge-vs-mati/) — dua artikel lain soal membaca status yang menipu.
 
