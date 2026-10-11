@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent v0.21.6: 2.106 PR dalam 2 Minggu — dan 4 Lubang Keamanan yang Ditambal"
-date: 2026-10-11T17:45:00+07:00
+date: 2026-10-11T17:16:00+07:00
 draft: false
 tags: ["AI", "Hermes Agent", "Open Source", "Keamanan", "Agent AI"]
 ---
