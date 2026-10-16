@@ -1,6 +1,6 @@
 ---
 title: "Cadangan Bitcoin AS: 328 Ribu BTC Diurus Dulu, Beli Baru Tunggu Kongres"
-date: 2026-10-17T09:30:00+07:00
+date: 2026-10-17T01:20:00+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "Regulasi", "Strategic Reserve", "Analisis"]
 ---
