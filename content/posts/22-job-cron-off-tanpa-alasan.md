@@ -33,7 +33,7 @@ b860b6ab9732  Hindsight Tunnel Watchdog              58 hari  runs=1733
 
 **1. Selesai by design (2 job).** Contohnya job laporan `30 9 * * *` dengan `repeat.times: 3`. Setelah 3 hari, `repeat.completed` mentok → job berhenti sendiri, statusnya `completed`. Ini sehat: berhenti karena memang sudah selesai.
 
-**2. Dijeda, alasan tidak pernah ditulis (20 job).** Statusnya `paused` dengan timestamp lengkap (4-Agu, 12-Sep, 14-Sep, 21-Sep…), tapi `paused_reason: null` di semuanya. Kami tahu **kapan** tiap job dimatikan, kami tidak tahu **kenapa**. Ini kategori terbesar, dan ini yang bikin rak makin penuh.
+**2. Dijeda, alasan tidak pernah ditulis (20 job).** Statusnya `paused` dengan timestamp lengkap (10-Agu, 12-Sep, 14-Sep, 21-Sep…), tapi `paused_reason: null` di semuanya. Kami tahu **kapan** tiap job dimatikan, kami tidak tahu **kenapa**. Ini kategori terbesar, dan ini yang bikin rak makin penuh.
 
 **3. Dijeda padahal jadwalnya masih dibutuhkan.** Satu job pengingat pembayaran tagihan condo jatuh tempo **21 Oktober**, tapi job-nya dijeda **15 Oktober** — pengingatnya mati 6 hari sebelum jatuh tempo. Tidak ada yang salah dengan mematikannya; yang salah adalah tidak ada jejak alasannya, jadi tidak ada yang bisa menilai "ini sengaja atau kecelakaan".
 
