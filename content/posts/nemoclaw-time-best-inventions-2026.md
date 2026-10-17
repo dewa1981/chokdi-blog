@@ -1,6 +1,6 @@
 ---
 title: "NemoClaw Masuk TIME Best Inventions 2026: Agent AI Butuh Sandbox, Bukan Cuma Prompt"
-date: 2026-10-18T01:40:00+07:00
+date: 2026-10-18T01:20:00+07:00
 draft: false
 tags: ["AI Agent", "OpenClaw", "Nvidia", "Keamanan", "Self-Hosting"]
 ---
