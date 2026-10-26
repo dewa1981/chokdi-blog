@@ -1,7 +1,7 @@
 ---
 title: "Blackjack: Kenapa 16 Lawan Kartu 10 Wajib Hit, Tapi Lawan Kartu 6 Wajib Stand"
 description: "House edge blackjack 0,43% sampai 2,18% cuma ditentukan 4 aturan meja. Ini angka EV per kartu, kenapa 16 lawan 10 wajib hit, dan kenapa strategi dasar bukan saran tapi matematika."
-date: 2026-10-26T10:05:00+07:00
+date: 2026-10-26T02:10:00+00:00
 draft: false
 tags: ["Casino", "Blackjack", "Basic Strategy", "House Edge", "Tutorial"]
 ---
