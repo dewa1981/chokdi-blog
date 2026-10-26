@@ -1,6 +1,6 @@
 ---
 title: "Riwayat Eksekusi Cron Cuma 3 Jam — Job Mati Senyap Lolos dari Radar"
-date: 2026-10-26T12:35:00+07:00
+date: 2026-10-26T11:50:00+07:00
 draft: false
 tags: ["Monitoring", "Cron", "DevOps", "SQLite", "Observability"]
 ---
