@@ -1,7 +1,3 @@
----
-title: "Trisula Makro 28–30 Oktober: Fed, ECB, dan Opsi Deribit di Depan Bitcoin US$80 Ribu"
-date: 2026-10-27T01:05:00+07:00
-draft: false
 tags: ["Crypto", "Bitcoin", "Fed", "Analisis", "Makro", "Deribit"]
 ---
 
