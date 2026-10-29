@@ -47,14 +47,14 @@ Konsekuensinya besar, dan inilah angka yang bikin sahamnya jatuh:
 - Empat laporan keuangan direvisi: laporan tahunan 2025 + tiga laporan kuartalan (Nov 2025 – Agu 2026)
 - Keuntungan/kerugian kripto yang dulu dibukukan harus **dibalik semua**
 
-Yang paling serius: Datavault dulu menghitung Bitcoin itu sebagai **sumber likuiditas** untuk menutup operasional. Sekarang mereka harus menilai ulang apakah perusahaan masih bisa **going concern**. Di daftar risiko mereka sendiri, "ketergantungan pada kustodian pihak ketiga" masuk hitungan.
+Yang paling serius: Datavault dulu menghitung Bitcoin itu sebagai **sumber likuiditas** untuk menutup operasional. Sekarang mereka harus menilai ulang apakah perusahaan masih bisa **going concern** — dan "ketergantungan pada kustodian pihak ketiga" masuk daftar risiko mereka sendiri.
 
 ## 💡 5 hal yang harus kamu cek, malam ini juga
 
-1. **Cek apakah koinmu benar-benar on-chain.** Buka block explorer, cari alamat dompetmu, lihat transaksinya. Kalau semua riwayatmu cuma mutasi di dalam aplikasi exchange (deposit via "internal", withdraw ke akun teman satu platform), secara teknis kamu belum pernah memegang Bitcoin.
-2. **"Proof of reserves" ≠ bukti koinmu ada.** Itu cuma menunjukkan exchange punya total aset. Bukan bukti saldo akunmu bisa ditarik hari ini.
-3. **Tes tarik kecil, jangan tunggu panik.** Sebulan sekali, tarik nominal kecil ke dompet sendiri. Kalau lancar, sistemnya masih hidup. Kalau delay, itu alarm sebelum alarm.
-4. **Pisahkan kustodian.** Jangan taruh 100% di satu exchange atau satu "penyimpan" apa pun — sekelas perusahaan Nasdaq pun kena.
+1. **Cek apakah koinmu benar-benar on-chain.** Buka block explorer, cari alamat dompetmu, lihat transaksinya. Kalau semua riwayatmu cuma mutasi di dalam aplikasi exchange, secara teknis kamu belum pernah memegang Bitcoin.
+2. **"Proof of reserves" ≠ bukti koinmu ada.** Itu cuma menunjukkan exchange punya total aset, bukan bahwa saldo akunmu bisa ditarik hari ini.
+3. **Tes tarik kecil, jangan tunggu panik.** Sebulan sekali tarik nominal kecil ke dompet sendiri. Lancar = sistem masih hidup. Delay = alarm sebelum alarm.
+4. **Pisahkan kustodian.** Jangan taruh 100% di satu exchange — sekelas perusahaan Nasdaq pun kena.
 5. **Saldo exchange = piutang, dompet sendiri = aset.** Beda satu kata ini yang menentukan apakah kamu bisa memindahkan koin saat market bergerak.
 
 ## 📊 Konteks pasar hari ini
