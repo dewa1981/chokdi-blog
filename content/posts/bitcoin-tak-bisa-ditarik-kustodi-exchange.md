@@ -47,7 +47,7 @@ Konsekuensinya besar, dan inilah angka yang bikin sahamnya jatuh:
 - Empat laporan keuangan direvisi: laporan tahunan 2025 + tiga laporan kuartalan (Nov 2025 – Agu 2026)
 - Keuntungan/kerugian kripto yang dulu dibukukan harus **dibalik semua**
 
-Yang paling serius: Datavault dulu menghitung Bitcoin itu sebagai **sumber likuiditas** untuk menutup operasional. Sekarang mereka harus menilai ulang apakah perusahaan masih bisa **going concern** — dan "ketergantungan pada kustodian pihak ketiga" masuk daftar risiko mereka sendiri.
+Yang paling serius: Datavault dulu menghitung Bitcoin itu sebagai **sumber likuiditas** untuk menutup operasional. Sekarang mereka harus menilai ulang apakah perusahaan masih bisa **going concern**.
 
 ## 💡 5 hal yang harus kamu cek, malam ini juga
 
@@ -64,7 +64,7 @@ Yang paling serius: Datavault dulu menghitung Bitcoin itu sebagai **sumber likui
 - ETF Bitcoin spot masuk **US$286 juta** (26–27 Okt), tapi Oktober masih **keluar bersih ±US$26 juta**
 - Fear & Greed **50–51** (netral), dari 67–68 sepekan lalu
 
-Baca juga: [peta likuidasi Bitcoin Oktober 2026](/posts/peta-likuidasi-bitcoin-oktober-2026/) untuk melihat siapa yang kena paksa tutup posisi, dan [kenapa aliran ETF sekarang cuma lewat satu pintu](/posts/kiblat-etf-ibit-uang-masuk-harga-tidak/). Untuk arus dana institusi yang lebih panjang, ada catatan [rekor aliran ETF 19 Oktober](/posts/bitcoin-80-ribu-m2-rekor-aliran-etf-19-oktober-2026/).
+Baca juga: [peta likuidasi Bitcoin Oktober 2026](/posts/peta-likuidasi-bitcoin-oktober-2026/) dan [kenapa aliran ETF cuma lewat satu pintu](/posts/kiblat-etf-ibit-uang-masuk-harga-tidak/). Arus dana institusi yang lebih panjang ada di [catatan 19 Oktober](/posts/bitcoin-80-ribu-m2-rekor-aliran-etf-19-oktober-2026/).
 
 ## Kesimpulan
 
