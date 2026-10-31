@@ -1,6 +1,6 @@
 ---
 title: "Binance Kena Hack $6,3 Miliar: Rekor Perampokan Kripto Terbesar dalam Sejarah"
-date: 2026-10-31T18:10:00+07:00
+date: 2026-10-31T17:30:00+07:00
 draft: false
 tags: ["Crypto", "Binance", "Keamanan", "Korea Utara", "Bitcoin"]
 ---
