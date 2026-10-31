@@ -1,6 +1,6 @@
 ---
 title: "Polymarket Bocor Rp 42 Miliar dalam Hitungan Menit — yang Jebol Bukan Smart Contract, tapi Vendor Pihak Ketiga"
-date: 2026-11-01T01:40:00+07:00
+date: 2026-11-01T01:00:00+07:00
 draft: false
 tags: ["Crypto", "Keamanan", "DeFi", "Prediction Market", "Berita"]
 ---
