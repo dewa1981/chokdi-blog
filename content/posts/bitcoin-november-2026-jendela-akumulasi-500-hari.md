@@ -6,7 +6,7 @@ description: "Model 500-Day Halving Rule menandai 30 November 2026 sebagai awal 
 tags: ["Crypto", "Bitcoin", "Analisis", "Siklus Halving", "November 2026"]
 ---
 
-Ada dua sinyal yang datang bersamaan pekan ini, dan keduanya bilang hal yang berlawanan. Model siklus yang dipakai sejak 2013 menunjuk **30 November 2026** sebagai awal jendela akumulasi Bitcoin berikutnya. Sementara itu sentimen pasar justru jatuh ke level takut: **Fear & Greed Index 36** pada 31 Oktober, setelah sebulan sebelumnya masih di 70.
+Dua sinyal datang bersamaan pekan ini dan keduanya bilang hal berlawanan. Model siklus yang dipakai sejak 2013 menunjuk **30 November 2026** sebagai awal jendela akumulasi Bitcoin berikutnya. Sementara sentimen pasar jatuh ke level takut: **Fear & Greed Index 36** pada 31 Oktober, sebulan sebelumnya masih 70.
 
 Dua-duanya benar — dan paling berguna kalau dibaca bersama, bukan dipilih salah satu.
 
@@ -32,11 +32,11 @@ Catatan historis dari 24/7 Wall St juga tidak nyaman: tiga kali sebelumnya indek
 
 ## 🧮 Model Ketiga: Fidelity Juga Menunjuk November
 
-Ini yang membuat November 2026 layak dicatat. Fidelity Digital Assets lewat hitungan siklus empat tahunnya menempatkan bottom berikutnya **sekitar November 2026** — dasarnya, bottom terakhir November 2022 dan jaraknya memang sekitar empat tahun.
+Fidelity Digital Assets lewat hitungan siklus empat tahunnya juga menempatkan bottom berikutnya **sekitar November 2026**: bottom terakhir November 2022, jaraknya memang sekitar empat tahun.
 
-Chris Kuiper, VP Research Fidelity Digital Assets, tetap memberi pagar:
+Chris Kuiper, VP Research Fidelity Digital Assets, memberi pagar:
 
-> "Adoption aset digital terjadi dalam gelombang, dan itu bisa memperpanjang siklus. Dengan begitu, perspektif jangka panjang dan holding period-lah yang secara historis paling menguntungkan."
+> "Adoption aset digital terjadi dalam gelombang, dan itu bisa memperpanjang siklus. Perspektif jangka panjang dan holding period-lah yang secara historis paling menguntungkan."
 
 Tiga hal bertemu di bulan yang sama: aturan 500 hari (30 November), hitungan siklus Fidelity (November), dan sentimen di zona fear. Bukan bukti bottom, tapi peta waktu yang cukup rapi.
 
@@ -46,8 +46,8 @@ Tiga hal bertemu di bulan yang sama: aturan 500 hari (30 November), hitungan sik
 2. **DCA bertahap, bukan sekali tembak.** Pecah alokasi jadi 8–12 pembelian mingguan mulai akhir November. Ini yang bikin selisih harga entry tidak bikin stres.
 3. **Pantau $76.141 sebagai penanda.** Selama level low 30 hari itu bertahan, struktur harian masih sideways. Kalau jebol dengan volume besar, justru itu kesempatan menambah di harga lebih murah — bukan alasan panik.
 4. **Pakai Fear & Greed sebagai konfirmasi, bukan trigger.** Di bawah 40, jendela akumulasi masih terbuka.
-5. **Catat rencana keluar sekarang.** Kalau aturan ini dipegang, zona jual jatuh sekitar pertengahan sampai akhir 2029 (500 hari setelah halving = akhir Agustus 2029, koreksi ke ~535 hari menggesernya). Tulis targetnya di depan, jangan diubah saat euforia.
-6. **Jangan pakai leverage untuk "mengejar jendela".** Data open interest di atas menunjukkan banyak posisi berleveraged sudah nyangkut. Jendela 500 hari itu soal waktu, bukan soal ukuran posisi.
+5. **Catat rencana keluar sekarang.** Zona jual jatuh di pertengahan–akhir 2029 (500 hari setelah halving = akhir Agustus 2029, koreksi ke ~535 hari menggesernya). Tulis targetnya di depan, jangan diubah saat euforia.
+6. **Jangan pakai leverage.** Data open interest di atas menunjukkan posisi berleveraged sudah nyangkut. Jendela 500 hari itu soal waktu, bukan ukuran posisi.
 
 ## ⚠️ Di Mana Model Ini Bisa Salah
 
