@@ -1,6 +1,6 @@
 ---
 title: "November 2026: Jendela Akumulasi 500 Hari Buka 30 November, tapi Fear & Greed di 36 Bilang Tunggu"
-date: 2026-11-02T02:05:00+07:00
+date: 2026-11-02T01:20:00+07:00
 draft: false
 description: "Model 500-Day Halving Rule menandai 30 November 2026 sebagai awal zona akumulasi Bitcoin. Tapi Fear & Greed baru jatuh dari 70 ke 36 dan ETF keluar $643 juta sehari — ini cara membaca keduanya tanpa panik."
 tags: ["Crypto", "Bitcoin", "Analisis", "Siklus Halving", "November 2026"]
