@@ -1,6 +1,6 @@
 ---
 title: "Binance Kena Hack $6,3 Miliar: Cerita Terbesar dalam Sejarah Crypto, dan Apa Artinya Buat Kita"
-date: 2026-11-03T09:50:00+07:00
+date: 2026-11-03T09:20:00+07:00
 draft: false
 tags: ["Crypto", "Binance", "Keamanan", "Bitcoin", "On-Chain"]
 ---
