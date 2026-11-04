@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent v0.22.7 Rilis 3 November: Agent Open-Source Terbesar Nous Research Kini Punya 'Pintu Depan'"
-date: 2026-11-04T09:45:00+07:00
+date: 2026-11-04T09:18:45+07:00
 draft: false
 tags: ["AI", "Hermes Agent", "Nous Research", "Open Source", "Local LLM"]
 ---
