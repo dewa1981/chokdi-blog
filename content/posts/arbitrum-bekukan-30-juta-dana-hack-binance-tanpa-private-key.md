@@ -1,6 +1,6 @@
 ---
 title: "Arbitrum Bekukan $30 Juta Dana Hack Binance Tanpa Private Key — Kok Bisa?"
-date: 2026-11-05T01:40:00+07:00
+date: 2026-11-05T01:20:42+07:00
 draft: false
 tags: ["Crypto", "Arbitrum", "Keamanan", "On-Chain", "Binance"]
 ---
