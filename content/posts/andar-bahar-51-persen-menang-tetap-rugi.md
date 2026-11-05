@@ -1,6 +1,6 @@
 ---
 title: "Andar Bahar: 51,5% Peluang Menang, Tapi Tetap Rugi 2,15%"
-date: 2026-11-06T00:35:00+07:00
+date: 2026-11-06T00:25:00+07:00
 draft: false
 tags: ["Casino", "Matematika", "Andar Bahar", "House Edge"]
 ---
