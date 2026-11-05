@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin Tembus $80.636: 5 Minggu Merah Berakhir, Awasi Dua Level Ini"
-date: 2026-11-05T09:45:00+07:00
+date: 2026-11-05T09:25:00+07:00
 draft: false
 tags: ["Crypto", "Bitcoin", "Analisis", "Market Update"]
 ---
