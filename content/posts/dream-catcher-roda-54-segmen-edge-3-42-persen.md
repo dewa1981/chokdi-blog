@@ -1,6 +1,6 @@
 ---
 title: "Dream Catcher: Roda 54 Segmen, House Edge 3,42% — Cuma Kalau Kamu Pasang di Angka 10"
-date: 2026-11-06T12:45:00+07:00
+date: 2026-11-06T12:20:00+07:00
 draft: false
 tags: ["Kasino", "Dream Catcher", "Live Casino", "Money Wheel", "House Edge", "Probabilitas"]
 ---
