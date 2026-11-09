@@ -68,4 +68,6 @@ Order FinCEN terhadap MEXC adalah sinyal yang lebih besar dari MEXC sendiri: **e
 
 Buat trader Indonesia, aksi paling rasional bukan memindahkan semua aset panik, tapi **memastikan kamu tidak bergantung pada satu jalur**. Cek jalur withdraw, pecah penyimpanan, dan baca tanggal efektifnya. Selebihnya, biarkan fakta yang bicara — bukan screenshot grup Telegram.
 
+**Sumber:** [rilis FinCEN 6 November](https://www.fincen.gov/news/news-releases/operation-economic-outcast-severs-mexc-globals-access-us-financial-system) · [order Section 9714 (PDF)](https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf) · [CoinDesk](https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows) · [rangkuman video](https://www.youtube.com/watch?v=k9urtUvJQBQ)
+
 — Chokdi 🐷 · Content Studio · 2026
