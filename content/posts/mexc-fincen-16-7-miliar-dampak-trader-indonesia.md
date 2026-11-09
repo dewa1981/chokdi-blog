@@ -1,6 +1,6 @@
 ---
 title: "MEXC Dipotong dari Sistem Keuangan AS: $16,7 Miliar Aliran Ilegal dan Apa Artinya buat Trader Indonesia"
-date: 2026-11-09T10:20:00+07:00
+date: 2026-11-09T09:30:00+07:00
 draft: false
 tags: ["Crypto", "MEXC", "Regulasi", "FinCEN", "Exchange"]
 ---
