@@ -1,6 +1,6 @@
 ---
 title: "MARA Jual 13.597 BTC Senilai $1,1 Miliar buat Danai Data Center AI — dan Masih Mau Jual Lagi"
-date: 2026-11-10T17:40:00+07:00
+date: 2026-11-10T17:15:00+07:00
 draft: false
 tags: ["Crypto", "Bitcoin", "Mining", "AI", "Market Update"]
 ---
