@@ -7,7 +7,7 @@ tags: ["Crypto", "Bitcoin", "ETF", "Analisis"]
 
 Bitcoin akhirnya jebol juga. Jumat pagi (13/11), BTC menyentuh level di bawah $70.000 — terendah sejak 19 Agustus — dan saat artikel ini ditulis harga berada di **$69.233, turun 5,8% dalam 24 jam** (CoinGecko, 17.30 WIB). Ethereum ikut terseret ke $1.949 (-4,8%).
 
-Yang membuat penurunan kali ini beda dari koreksi biasa: **ETF spot Bitcoin di Amerika Serikat resmi berbalik merah untuk tahun 2026.** Sepanjang tahun dana-dana itu masih mencetak laba $1,01 miliar per 29 Oktober. Sekarang? Net outflow **$1,56 miliar** — defisit tahunan pertama sejak ETF spot diluncurkan.
+Yang membuat penurunan kali ini beda dari koreksi biasa: **ETF spot Bitcoin di Amerika Serikat resmi berbalik merah untuk tahun 2026.** Sepanjang tahun dana-dana itu masih mencetak laba $1,01 miliar per 29 Oktober. Sekarang? Net outflow **$1,56 miliar** — arus tahunannya berbalik negatif untuk pertama kali di 2026.
 
 ## 📉 Angka yang Bikin Dingin
 
