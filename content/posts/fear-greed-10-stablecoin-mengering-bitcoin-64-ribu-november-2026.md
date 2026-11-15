@@ -1,6 +1,6 @@
 ---
 title: "Fear & Greed Jatuh ke 10: Bitcoin US$64 Ribu dan Stablecoin yang Mengering US$14,2 Miliar"
-date: 2026-11-15T09:45:00+07:00
+date: 2026-11-15T09:21:35+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "Fear and Greed", "Stablecoin", "Analisis", "November 2026"]
 ---
