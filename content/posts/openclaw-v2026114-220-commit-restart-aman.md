@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw v2026.11.4: 220 Commit, 90 Kontributor — Rilis Stabil yang Bikin Upgrade Database Aman"
 description: "OpenClaw 2026.11.4 keluar 16 November 2026 (220 commit, 125 PR, 90 kontributor). Fokusnya upgrade database yang aman, privasi side chat, dan restart yang tidak menghilangkan pesan."
-date: 2026-11-17T02:00:00+07:00
+date: 2026-11-17T01:21:28+07:00
 draft: false
 tags: ["OpenClaw", "AI Agent", "Keamanan", "Update", "Self-Host"]
 ---
