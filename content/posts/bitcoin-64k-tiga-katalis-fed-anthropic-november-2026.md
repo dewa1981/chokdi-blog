@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin US$64 Ribu: Tiga Katalis Berat Minggu Ini — ETF Keluar 7 Hari, The Fed 90% Naik Bunga, IPO Anthropic 19 November"
 description: "Bitcoin bertahan di US$64.319 setelah menyentuh US$62.006. Bukan cuma harga: ETF spot outflow tujuh hari berturut, pasar prediksi Kalshi kasih peluang 90% The Fed naik bunga Desember, dan Anthropic IPO 19 November dengan valuasi US$1,4 triliun."
-date: 2026-11-18T17:40:00+07:00
+date: 2026-11-18T17:16:11+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "The Fed", "ETF", "Anthropic", "Analisis"]
 ---
