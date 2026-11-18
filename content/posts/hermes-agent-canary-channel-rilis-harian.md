@@ -1,7 +1,7 @@
 ---
 title: 'Hermes Agent Canary: Rilis Tiap Hari Jam 13.45 WIB, Tapi Bukan "Versi Lebih Baru"'
 description: "Build canary Hermes Agent terbaru v0.23.2+canary.20261118T064620Z terbit 18 November 07.55 UTC. Canary adalah aplikasi desktop terpisah dengan CLI hermes-canary — bukan channel yang bisa dipilih di hermes update. Ini bedanya, plus 4 jebakan."
-date: 2026-11-19T01:35:00+07:00
+date: 2026-11-19T01:22:01+07:00
 draft: false
 tags: ["Hermes Agent", "AI Agent", "Update", "Self-Host"]
 ---
