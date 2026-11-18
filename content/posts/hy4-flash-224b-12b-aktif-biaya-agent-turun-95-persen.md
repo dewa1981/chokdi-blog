@@ -21,7 +21,7 @@ Yang tidak dikorbankan: **context window 1 juta token** dan input multimodal, sa
 
 ## 📊 Murah tapi bukan loyo
 
-Di benchmark internal WorkIndex, skornya begini: **Hy4 flash 42,1**, **Hy4 preview 39,7**, **Hy4 penuh 51,4**. Jadi flash bukan cuma lebih murah dari preview — skornya sedikit lebih tinggi, dengan biaya per task ¥0,2 versus ¥3,2. Dibanding Hy4 penuh, biayanya ¥0,2 versus ¥5,7.
+Di WorkIndex internal, skornya begini: **Hy4 flash 42,1**, **Hy4 preview 39,7**, **Hy4 penuh 51,4**. Jadi flash bukan cuma lebih murah dari preview — skornya sedikit lebih tinggi, dengan biaya per task ¥0,2 versus ¥3,2. Dibanding Hy4 penuh, biayanya ¥0,2 versus ¥5,7.
 
 Ada juga blind test: **85 pengguna WorkBuddy menilai output pada 259 task**. Tencent mengklaim Hy4 flash mendekati Claude Haiku 5.5 dalam kepuasan pengguna, sekaligus paling murah dan tercepat di antara model yang diuji.
 
@@ -33,7 +33,7 @@ Angka dari halaman OpenRouter per 17 November: throughput **72 token/detik**, la
 
 Perhatikan yang terakhir. 0,85% artinya sekitar **8 dari 1.000 panggilan tool gagal** secara teknis. Untuk chat biasa tidak kerasa, tapi agent yang menjalankan 50 panggilan per task punya peluang ~35% kena minimal satu error. Jadi **retry dengan backoff wajib**, bukan opsional.
 
-Satu lagi: **cache hit rate 95,2%**, dengan effective input price **$0,00619 per 1 juta token** — jauh di bawah harga list $0,07. Kenapa bisa? Karena prompt kita sebagian besar berulang: system prompt, definisi skill, format output. Kalau prompt stabil dan tidak diacak tiap panggilan, cache bekerja dan tagihan input nyaris hilang.
+Satu lagi: **cache hit rate 95,2%**, dengan effective input price **$0,00619 per 1 juta token** — jauh di bawah harga list $0,07. Kenapa bisa? Karena prompt kita sebagian besar berulang: system prompt, definisi skill, format output. Kalau prompt stabil, cache bekerja dan tagihan input nyaris hilang.
 
 ## 🔧 Cara mencobanya tanpa keluar uang
 
