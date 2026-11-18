@@ -11,7 +11,7 @@ Tanggal 16 November 2026 Tencent merilis **Hy4 flash**. Yang bikin kami berhenti
 
 Harga list di Tencent Cloud TokenHub: **$0,07 per 1 juta token input**, **$0,281 per 1 juta output**, dan **$0,003 per 1 juta token cached**. TokenHub sedang memberi akses API separuh harga dari list. Di OpenRouter, halaman modelnya juga menampilkan diskon 50% → **$0,035 input / $0,1405 output per 1 juta token**.
 
-Bandingkan dengan model yang kami pakai sehari-hari: di agregator AI/ML API, DeepSeek V4.1 Flash tercatat $0,30 input / $1,20 output per 1 juta token. Di harga list, Hy4 flash kira-kira **seperempat** biaya input dan output-nya.
+Sebagai pembanding: di agregator AI/ML API, DeepSeek V4.1 Flash tercatat $0,30 input / $1,20 output per 1 juta token. Di harga list, Hy4 flash kira-kira **seperempat** biaya input dan output-nya.
 
 ## 🧠 Kenapa bisa murah padahal 224B
 
@@ -39,7 +39,7 @@ Satu lagi: **cache hit rate 95,2%**, dengan effective input price **$0,00619 per
 
 - **Gratis dua minggu di Nous Portal** sejak 16 November (pengumuman resmi Nous Research), jadi kira-kira berlaku sampai akhir November. Cocok buat mengukur sendiri, bukan percaya benchmark vendor.
 - **Gratis di WorkBuddy sampai 30 November**, dan API TokenHub sedang separuh harga.
-- Di Hermes, pilih provider/model lewat perintah `hermes model`. Untuk pengaturan permanen, simpan model mahal sebagai default dan model flash sebagai `fallback_model`, atau sebaliknya sesuai kebutuhan.
+- Di Hermes, pilih provider/model lewat `hermes model`; atur model mahal sebagai default dan flash sebagai `fallback_model` (atau sebaliknya).
 - Pola paling hemat yang kami pakai: **model flash untuk kerja borongan** (rangkum berita, notif cron, klasifikasi, draft), **model besar hanya untuk** debug produksi, desain UI, dan keputusan uang. Selisih biayanya bisa 10-20x, sementara kualitas untuk kerja mekanis hampir tidak beda.
 
 ## ⚠️ Tiga hal yang harus diwaspadai
