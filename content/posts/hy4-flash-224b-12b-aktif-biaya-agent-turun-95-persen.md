@@ -15,25 +15,25 @@ Bandingkan dengan model yang kami pakai sehari-hari: di agregator AI/ML API, Dee
 
 ## 🧠 Kenapa bisa murah padahal 224B
 
-Jawabannya arsitektur: Hy4 flash punya **224 miliar parameter total, tapi hanya 12 miliar yang aktif per forward pass**. Model sparse MoE begini cuma "menyalakan" sebagian kecil jaringan untuk tiap token, jadi biaya komputasi per token jauh lebih kecil dari jumlah parameter yang tertulis di judul.
+Jawabannya arsitektur: **224 miliar parameter total, hanya 12 miliar aktif per forward pass**. Model sparse MoE begini cuma menyalakan sebagian kecil jaringan tiap token, jadi biaya komputasi per token jauh lebih kecil dari angka di judul.
 
-Yang tidak dikorbankan: **context window 1 juta token** dan input multimodal. Sama seperti Hy4 penuh. Artinya model murah ini masih bisa dipakai untuk baca log panjang, dokumen besar, atau seluruh isi repo tanpa chunking aneh-aneh.
+Yang tidak dikorbankan: **context window 1 juta token** dan input multimodal, sama seperti Hy4 penuh. Model murah ini masih bisa baca log panjang, dokumen besar, atau seluruh isi repo tanpa chunking aneh.
 
 ## 📊 Murah tapi bukan loyo
 
 Di benchmark internal WorkIndex, skornya begini: **Hy4 flash 42,1**, **Hy4 preview 39,7**, **Hy4 penuh 51,4**. Jadi flash bukan cuma lebih murah dari preview — skornya sedikit lebih tinggi, dengan biaya per task ¥0,2 versus ¥3,2. Dibanding Hy4 penuh, biayanya ¥0,2 versus ¥5,7.
 
-Ada juga blind test terpisah: **85 pengguna WorkBuddy menilai output pada 259 task**. Tencent mengklaim Hy4 flash mendekati Claude Haiku 5.5 dalam kepuasan pengguna, sekaligus paling murah dan paling cepat selesai di antara model yang diuji.
+Ada juga blind test: **85 pengguna WorkBuddy menilai output pada 259 task**. Tencent mengklaim Hy4 flash mendekati Claude Haiku 5.5 dalam kepuasan pengguna, sekaligus paling murah dan tercepat di antara model yang diuji.
 
-Yang paling praktis buat kami: benchmark analisis data dari Plotly. Satu set ujian penuh berbiaya **$0,13** dengan Hy4 flash, versus **$123** dengan Hy4. Pada pola pemakaian 10 pertanyaan per hari, itu sekitar **$8 per orang per tahun**.
+Benchmark analisis data dari Plotly: satu set ujian penuh berbiaya **$0,13** dengan Hy4 flash, versus **$123** dengan Hy4 — sekitar **$8 per orang per tahun** pada 10 pertanyaan sehari.
 
 ## ⚡ Latensi dan tool call — ini yang menentukan agent hidup atau mati
 
 Angka dari halaman OpenRouter per 17 November: throughput **72 token/detik**, latensi P50 **2,75 detik**, uptime provider **100%**, availability 99,77%, dan **tool call error rate 0,85%**.
 
-Perhatikan yang terakhir. 0,85% artinya sekitar **8 dari 1.000 panggilan tool gagal** secara teknis. Untuk chat biasa tidak kerasa. Untuk agent yang menjalankan 50 panggilan per task, peluang kena minimal satu error mendekati 35%. Jadi kalau mau pakai model ini di agent produksi, **retry dengan backoff itu wajib**, bukan opsional.
+Perhatikan yang terakhir. 0,85% artinya sekitar **8 dari 1.000 panggilan tool gagal** secara teknis. Untuk chat biasa tidak kerasa, tapi agent yang menjalankan 50 panggilan per task punya peluang ~35% kena minimal satu error. Jadi **retry dengan backoff wajib**, bukan opsional.
 
-Satu lagi yang sering dilewatkan orang: **cache hit rate 95,2%**, dengan effective input price **$0,00619 per 1 juta token** — jauh di bawah harga list $0,07. Kenapa bisa? Karena prompt kita sebagian besar berulang: system prompt, definisi skill, format output. Kalau prompt-nya stabil dan tidak diacak tiap panggilan, cache bekerja dan tagihan input nyaris hilang.
+Satu lagi: **cache hit rate 95,2%**, dengan effective input price **$0,00619 per 1 juta token** — jauh di bawah harga list $0,07. Kenapa bisa? Karena prompt kita sebagian besar berulang: system prompt, definisi skill, format output. Kalau prompt stabil dan tidak diacak tiap panggilan, cache bekerja dan tagihan input nyaris hilang.
 
 ## 🔧 Cara mencobanya tanpa keluar uang
 
