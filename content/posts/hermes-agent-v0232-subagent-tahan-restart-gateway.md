@@ -5,11 +5,11 @@ draft: false
 tags: ["Hermes Agent", "Nous Research", "Subagent", "Delegation", "AI Agent", "Update"]
 ---
 
-Nous Research merilis **Hermes Agent v0.23.2** pada 16 November 2026, dan judul rilisnya sendiri jujur: ini bukan rilis fitur, cuma tag rollup untuk **1.989 PR** yang di-merge sejak v0.23.1. Tapi di dalam window itu ada satu perubahan yang terasa langsung buat siapa pun yang menjalankan agent 24 jam: **subagent sekarang punya catatan permanen di `state.db`**, jadi pekerjaan yang terpotong restart gateway atau crash tidak lagi lenyap jadi "outcome unknown".
+Nous Research merilis **Hermes Agent v0.23.2** pada 16 November 2026, dan judul rilisnya sendiri jujur: ini bukan rilis fitur, cuma tag rollup untuk **1.989 PR** yang di-merge sejak v0.23.1. Gambaran semua fitur rilis ini sudah kami rangkum di [artikel sebelumnya](https://chokdi.ano99.com/posts/hermes-agent-v0232-1989-pr-durable-subagent/); kali ini kita bedah satu fitur yang paling sering bikin orang kehilangan kerjaan. Tapi di dalam window itu ada satu perubahan yang terasa langsung buat siapa pun yang menjalankan agent 24 jam: **subagent sekarang punya catatan permanen di `state.db`**, jadi pekerjaan yang terpotong restart gateway atau crash tidak lagi lenyap jadi "outcome unknown".
 
 ## 🧨 Masalah lama: 40 menit kerja hilang karena `hermes update`
 
-Skenario yang sering kejadian: bot Telegram melempar tugas riset ke satu subagent, anak itu bekerja 30-40 menit, lalu `hermes update` jalan atau gateway restart karena OOM. Anaknya mati, hasilnya tidak pernah kembali — yang kamu lihat cuma kegagalan tanpa jejak.
+Skenario khas: bot Telegram melempar tugas riset ke satu subagent, anaknya bekerja 30-40 menit, lalu `hermes update` jalan atau gateway restart karena OOM. Anaknya mati dan hasilnya tidak pernah kembali.
 
 Changelog-nya menyebut versi lama bisa membuat bot diam **sampai 30 menit** lalu mematikan apa pun yang sedang jalan; sekarang update normal menunggu pekerjaan selesai.
 
@@ -55,7 +55,7 @@ Kalau `delegation.auto_resume: true`, gateway memeriksa tiap profil **setiap 15 
 
 ## ⚠️ Empat jebakan yang perlu kamu tahu sebelum menyalakannya
 
-1. **Worktree-nya dipin.** Selama record hidup (default 48 jam, maksimal 32 per profil), worktree anak ditahan dari pembersihan otomatis. Lewat cap itu, yang paling tua kehilangan pin: tree-nya diarsipkan ke `refs/hermes/archive/` lalu dihapus. Di VPS kecil ini soal disk.
+1. **Worktree-nya dipin.** Selama record hidup (default 48 jam, maksimal 32 per profil), worktree anak ditahan dari pembersihan otomatis. Lewat cap itu, yang paling tua kehilangan pin: tree-nya diarsipkan ke `refs/hermes/archive/` lalu dihapus — di VPS kecil ini soal disk.
 2. **Side effect tidak diputar ulang.** Anak yang dibangunkan harus memeriksa tool terakhirnya; kalau tidak ada hasil tercatat dan dia tidak bisa memastikan panggilan itu jalan, dia **wajib berhenti dengan `BLOCKED:`** alih-alih mengulang — jadi kamu tetap harus memeriksa sendiri.
 3. **Ini bukan durable execution.** Untuk kerja yang harus tahan apa pun, tetap pakai `cronjob` atau `terminal(background=True)` — subagent yang bisa dilanjutkan ≠ proses yang tidak bisa mati.
 4. **`auto_resume` membelanjakan token tanpa ditunggu.** Dua percobaan otomatis × anak yang bisa berjalan lama = tagihan tanpa kamu minta. Nyalakan hanya kalau kamu sudah paham membaca `waiting_to_resume`.
