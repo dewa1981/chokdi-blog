@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent v0.23.2: Subagent yang Mati Saat Gateway Restart Kini Bisa Dibangunkan"
-date: 2026-11-19T17:35:00+07:00
+date: 2026-11-19T17:21:24+07:00
 draft: false
 tags: ["Hermes Agent", "Nous Research", "Subagent", "Delegation", "AI Agent", "Update"]
 ---
