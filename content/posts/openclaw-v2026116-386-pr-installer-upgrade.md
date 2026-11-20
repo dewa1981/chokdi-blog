@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw 2026.11.6: 386 PR, 157 Kontributor — Patch yang Menyelamatkan Installer dan Upgrade"
 description: "Dua rilis beruntun: v2026.11.5 membawa chat lewat Requesty dan tombol Stop lintas perangkat, lalu v2026.11.6 merapikan 386 PR — dari installer yang salah pilih stable sampai config yang tersimpan tapi tidak diterapkan."
-date: 2026-11-21T01:45:00+07:00
+date: 2026-11-21T01:21:56+07:00
 draft: false
 tags: ["OpenClaw", "AI Agent", "Update", "Release Notes", "Tips"]
 ---
