@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Masuk Microsoft Teams & Azure: v0.23.3 Bawa 370 PR, Harga Masih Gelap"
-date: 2026-11-20T09:45:00+07:00
+date: 2026-11-20T09:20:48+07:00
 draft: false
 tags: ["Hermes Agent", "Microsoft Teams", "Azure", "AI Agent", "November 2026"]
 ---
