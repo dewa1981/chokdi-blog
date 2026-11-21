@@ -28,8 +28,6 @@ Konsekuensi praktisnya tetap nyata:
 - **Miner** bisa membuang komputasi untuk pandangan blockchain yang sudah basi.
 - Node publik yang jadi pintu masuk pengguna bisa "diam" tanpa error yang jelas.
 
-Untuk exchange dan pool, ini masalah operasional yang bisa jadi keluhan pengguna dalam hitungan menit.
-
 ## 🩹 Versi: Siapa yang Wajib Update
 
 Advisory Bitcoin Core menyebut:
