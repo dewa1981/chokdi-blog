@@ -1,7 +1,7 @@
 ---
 title: "Nonce Dipakai Dua Kali, Kunci Dompet Bitcoin Bocor — Bot Datang dalam Hitungan Detik"
 description: "Peneliti University of Liège sengaja membuat dompet Bitcoin rentan, lalu bot penyerang datang dalam hitungan detik. Pemindaian enam blockchain memulihkan 3.620 kunci privat, dengan eksposur puncak sekitar US$106 juta."
-date: 2026-11-23T01:40:00+07:00
+date: 2026-11-23T01:24:23+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "Keamanan", "ECDSA", "Nonce"]
 ---
