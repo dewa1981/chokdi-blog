@@ -25,7 +25,7 @@ Di server kami bentuknya lebih sederhana: 5 profil Hermes terpisah, masing-masin
 | News Server | Server, WordPress | 2 | 1–3x/hari |
 | News OpenClaw | OpenClaw, VPN | 2 | paused |
 
-Hampir semua job memakai pola 3x sehari: `30 0,12,18 * * *`. Satu job server jalan sekali sehari (`30 0 * * *`). Artinya satu agent bisa menulis sampai 3 artikel per hari untuk niche-nya. Cron Hermes jalan di sesi baru tanpa memori percakapan, jadi setiap prompt harus mandiri — URL, format, aturan verifikasi, semuanya ditulis ulang di prompt. Itu yang bikin job konsisten berbulan-bulan.
+Hampir semua job memakai pola 3x sehari: `30 0,12,18 * * *`. Satu job server jalan sekali sehari (`30 0 * * *`). Artinya satu agent bisa menulis sampai 3 artikel per hari per niche. Cron Hermes jalan di sesi baru tanpa memori percakapan, jadi setiap prompt harus mandiri — URL, format, aturan verifikasi, semuanya ditulis ulang di prompt. Itu yang bikin job konsisten berbulan-bulan.
 
 ## Alur satu artikel: lima langkah, nol editor
 
@@ -51,7 +51,7 @@ Slot jadwal juga dipilih sadar: 00:30, 12:30, dan 18:30 WIB semuanya jatuh di lu
 
 ## Yang belum selesai
 
-Dua job OpenClaw dan VPN sedang paused. Distribusi artikel belum rata — dari 10 situs WordPress, situs terbaru baru punya 68 artikel sementara yang lain 195–207. Dan yang paling penting: 2.595 artikel bukan berarti 2.595 trafik. Pipeline ini menjamin artikel terbit dan terverifikasi, bukan peringkat di Google.
+Dua job OpenClaw dan VPN paused. Distribusi artikel belum rata — dari 10 situs WordPress, situs terbaru baru punya 68 artikel sementara yang lain 195–207. Dan yang paling penting: 2.595 artikel bukan berarti 2.595 trafik. Pipeline ini menjamin artikel terbit dan terverifikasi, bukan peringkat di Google.
 
 Kalau mau membangun versi sendiri, mulai dari satu agent, satu niche, satu jadwal. Setelah tiga puluh artikel stabil dan verifikasinya otomatis, baru tambah agent kedua. Detail teknis cron ada di [dokumentasi Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron), pola otomasinya di [panduan automate with cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron), dan riset multi-agent Anthropic di [sini](https://www.anthropic.com/research/multi-agent-research-system).
 
