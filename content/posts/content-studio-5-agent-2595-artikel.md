@@ -7,7 +7,7 @@ tags: ["Hermes", "AI Agent", "Otomasi", "Content Studio"]
 
 # Content Studio 5 Agent: 2.595 Artikel, 11 Cron, Nol Editor
 
-Pipeline konten kami hari ini berisi 5 profil agent, 11 cron job (9 aktif), 10 situs WordPress niche, dan 1 blog Hugo. Hasil yang tercatat: **1.910 artikel WordPress + 685 artikel Hugo = 2.595 artikel**. Tidak ada editor manusia di jalur publish. Semua angka di tulisan ini ditarik langsung dari panel cron dan API hari ini, bukan estimasi slide.
+Pipeline konten kami hari ini berisi 5 profil agent, 11 cron job (9 aktif), 10 situs WordPress niche, dan 1 blog Hugo. Hasil yang tercatat: **1.910 artikel WordPress + 685 artikel Hugo = 2.595 artikel**. Nol editor di jalur publish. Semua angka di sini ditarik dari panel cron dan API hari ini, bukan estimasi slide.
 
 ## Kenapa 5 agent, bukan 1 agent super
 
@@ -25,14 +25,14 @@ Di server kami bentuknya lebih sederhana: 5 profil Hermes terpisah, masing-masin
 | News Server | Server, WordPress | 2 | 1–3x/hari |
 | News OpenClaw | OpenClaw, VPN | 2 | paused |
 
-Semua job memakai cron expression yang sama: `30 0,12,18 * * *`. Artinya satu agent bisa menulis 3 artikel per hari untuk niche-nya. Cron Hermes jalan di sesi baru tanpa memori percakapan, jadi setiap prompt harus benar-benar mandiri — URL, format, aturan verifikasi, semuanya ditulis ulang di dalam prompt. Ini yang membuat job konsisten berbulan-bulan.
+Hampir semua job memakai pola 3x sehari: `30 0,12,18 * * *`. Satu job server jalan sekali sehari (`30 0 * * *`). Artinya satu agent bisa menulis sampai 3 artikel per hari untuk niche-nya. Cron Hermes jalan di sesi baru tanpa memori percakapan, jadi setiap prompt harus mandiri — URL, format, aturan verifikasi, semuanya ditulis ulang di prompt. Ini yang membuat job konsisten berbulan-bulan.
 
 ## Alur satu artikel: lima langkah, nol editor
 
 1. **Ide dari vault.** Bukan ngarang topik. Ada library video dan daftar ide dengan status `pending`; agent mengambil satu, lalu menandainya `done` setelah artikel live.
 2. **Riset 2–3 sumber web plus data primer.** Contoh: untuk artikel ini, angka artikel ditarik dari header `X-WP-Total` di REST API WordPress dan Git Trees API GitHub, bukan dari ingatan model.
 3. **Cek duplikat.** Semua 685 slug Hugo ditarik lebih dulu lewat Git Trees API, lalu dicocokkan dengan kata kunci topik. Blog yang sudah punya 685 artikel akan cepat mengulang topik kalau langkah ini dilewat.
-4. **Tulis 500–800 kata** dengan frontmatter YAML, lalu push lewat GitHub Contents API. Bukan `git push` — autentikasi git di host cron pernah mati, dan API lebih jujur soal berhasil atau gagal.
+4. **Tulis 500–800 kata** dengan frontmatter YAML, lalu push lewat GitHub Contents API. Bukan `git push` — auth git di host cron pernah mati, dan API lebih jujur soal hasil.
 5. **Verifikasi URL live.** HTTP 200, `<title>` cocok persis, dan satu frasa khas artikel ada di HTML. Status deploy "success" saja tidak cukup — lihat jebakan di bawah.
 
 ## Tiga jebakan yang benar-benar kami kena
