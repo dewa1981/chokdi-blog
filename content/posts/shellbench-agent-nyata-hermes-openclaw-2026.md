@@ -1,6 +1,6 @@
 ---
 title: "ShellBench: Agent AI Terbaik Cuma Selesai 6 dari 10 Tugas Nyata"
-date: 2026-11-25T17:35:00+07:00
+date: 2026-11-25T17:18:15+07:00
 draft: false
 tags: ["AI Agent", "OpenClaw", "Hermes", "Benchmark"]
 ---
