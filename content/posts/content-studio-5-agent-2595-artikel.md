@@ -25,13 +25,13 @@ Di server kami bentuknya lebih sederhana: 5 profil Hermes terpisah, masing-masin
 | News Server | Server, WordPress | 2 | 1–3x/hari |
 | News OpenClaw | OpenClaw, VPN | 2 | paused |
 
-Hampir semua job memakai pola 3x sehari: `30 0,12,18 * * *`. Satu job server jalan sekali sehari (`30 0 * * *`). Artinya satu agent bisa menulis sampai 3 artikel per hari untuk niche-nya. Cron Hermes jalan di sesi baru tanpa memori percakapan, jadi setiap prompt harus mandiri — URL, format, aturan verifikasi, semuanya ditulis ulang di prompt. Ini yang membuat job konsisten berbulan-bulan.
+Hampir semua job memakai pola 3x sehari: `30 0,12,18 * * *`. Satu job server jalan sekali sehari (`30 0 * * *`). Artinya satu agent bisa menulis sampai 3 artikel per hari untuk niche-nya. Cron Hermes jalan di sesi baru tanpa memori percakapan, jadi setiap prompt harus mandiri — URL, format, aturan verifikasi, semuanya ditulis ulang di prompt. Itu yang bikin job konsisten berbulan-bulan.
 
 ## Alur satu artikel: lima langkah, nol editor
 
 1. **Ide dari vault.** Bukan ngarang topik. Ada library video dan daftar ide dengan status `pending`; agent mengambil satu, lalu menandainya `done` setelah artikel live.
 2. **Riset 2–3 sumber web plus data primer.** Contoh: untuk artikel ini, angka artikel ditarik dari header `X-WP-Total` di REST API WordPress dan Git Trees API GitHub, bukan dari ingatan model.
-3. **Cek duplikat.** Semua 685 slug Hugo ditarik lebih dulu lewat Git Trees API, lalu dicocokkan dengan kata kunci topik. Blog yang sudah punya 685 artikel akan cepat mengulang topik kalau langkah ini dilewat.
+3. **Cek duplikat.** Semua 685 slug Hugo ditarik lebih dulu lewat Git Trees API, lalu dicocokkan dengan kata kunci topik. Blog 685 artikel akan cepat mengulang topik kalau langkah ini dilewat.
 4. **Tulis 500–800 kata** dengan frontmatter YAML, lalu push lewat GitHub Contents API. Bukan `git push` — auth git di host cron pernah mati, dan API lebih jujur soal hasil.
 5. **Verifikasi URL live.** HTTP 200, `<title>` cocok persis, dan satu frasa khas artikel ada di HTML. Status deploy "success" saja tidak cukup — lihat jebakan di bawah.
 
