@@ -1,6 +1,6 @@
 ---
 title: "Chainflip Kehilangan US$12 Juta dengan Signature yang Sah: Kuncinya Bocor, Bukan Kodenya"
-date: 2026-11-26T10:05:00+07:00
+date: 2026-11-26T09:14:47+07:00
 draft: false
 tags: ["Crypto", "Keamanan", "DeFi", "On-Chain", "Chainflip", "Bridge"]
 ---
