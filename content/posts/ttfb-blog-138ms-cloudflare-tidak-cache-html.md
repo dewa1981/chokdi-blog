@@ -41,13 +41,13 @@ cache-control: public, max-age=0, must-revalidate
 cf-cache-status: DYNAMIC
 ```
 
-Dokumentasi Cloudflare menyebut `DYNAMIC` berarti aset dinilai **tidak layak di-cache** saat request, sehingga permintaan langsung ke origin tanpa lookup cache. Penyebab paling umum: HTML/JSON bukan termasuk ekstensi yang di-cache default, dan tidak ada Cache Rule yang memerintahkan cache. Digabung `max-age=0` dari Cloudflare Pages, hasilnya: **1.521 URL di sitemap, semuanya DYNAMIC.** Setiap kunjungan, setiap artikel, selalu jadi perjalanan ke origin.
+Dokumentasi Cloudflare menyebut `DYNAMIC` berarti aset dinilai **tidak layak di-cache** saat request, sehingga permintaan langsung ke origin tanpa lookup cache. Penyebab paling umum: HTML/JSON bukan termasuk ekstensi yang di-cache default, dan tidak ada Cache Rule yang memerintahkan cache. Digabung `max-age=0` dari Cloudflare Pages, hasilnya: dari **1.521 URL di sitemap**, 10 sampel — artikel, tag, beranda — semuanya DYNAMIC. Setiap kunjungan jadi perjalanan ke origin.
 
-Itulah 110 ms tadi. Bukan Cloudflare lambat — ia cuma tidak menyimpan apa pun untuk disajikan.
+Itu 110 ms tadi. Bukan Cloudflare lambat — ia cuma tidak menyimpan apa pun untuk disajikan.
 
 ## 🧱 File statis pun tidak HIT
 
-Saya kira CSS jadi pembanding bersih. Enam permintaan beruntun, hasilnya `cf-cache-status: REVALIDATED` enam kali, bukan `HIT`. Headernya `public, max-age=14400, must-revalidate` plus ETag. Artinya Cloudflare tetap mengirim request kondisional ke origin dan menunggu jawaban "belum berubah" sebelum mengirim file 4.493 byte itu. Penghematan bandwidth ada, penghematan waktu tidak.
+Saya kira CSS pembanding bersih. Enam permintaan beruntun, hasilnya `cf-cache-status: REVALIDATED` enam kali, bukan `HIT`. Headernya `public, max-age=14400, must-revalidate` plus ETag. Artinya Cloudflare tetap mengirim request kondisional ke origin dan menunggu jawaban "belum berubah" sebelum mengirim file 4.493 byte itu. Penghematan bandwidth ada, penghematan waktu tidak.
 
 ## 📦 Yang sudah benar: kompresi
 
@@ -62,7 +62,7 @@ Satu halaman penuh = **5.939 byte** terkompresi, nol gambar, nol JavaScript apli
 
 Jujur: belum. Ambang web.dev 0,8 detik untuk TTFB yang "bagus", dan kita 5,8 kali di bawahnya. Yang membuat saya tetap mencatatnya: TTFB adalah langit-langit. Semua metrik setelahnya — FCP, LCP — tidak bisa lebih cepat dari angka ini. Dan karena 80% TTFB adalah round trip ke origin, setiap kali origin sibuk atau trafik naik, TTFB ikut naik tanpa plafon yang jelas.
 
-Urutan perbaikan yang saya pertimbangkan, dari dampak terbesar:
+Urutan perbaikan, dari dampak terbesar:
 
 1. **Cache Rule untuk HTML** dengan Edge TTL pendek (60–300 detik), andalkan purge otomatis saat deploy. Risiko konten basi tetap ada; mitigasinya purge, bukan TTL panjang.
 2. **Perbaiki aset statis**: nama file ber-fingerprint plus `max-age=31536000, immutable`, supaya berhenti di `REVALIDATED` dan mulai `HIT`.
@@ -73,7 +73,7 @@ Urutan perbaikan yang saya pertimbangkan, dari dampak terbesar:
 
 "Statis" menghapus query database dan render, tapi tidak menghapus perjalanan jaringan. Di blog ini, 138 ms TTFB terdiri dari 28 ms urusan koneksi dan 111 ms menunggu origin — angka yang bagus hari ini, tapi jelas menunjukkan ke mana waktu pergi kalau suatu hari terasa lambat.
 
-Cara tercepat menemukan jawabannya bukan menebak: `curl -w`, 15 kali, lalu baca `cf-cache-status`. Satu header itu langsung memberi tahu apakah CDN Anda benar-benar bekerja atau hanya jadi pintu depan yang selalu membangunkan petugas di belakang.
+Cara tercepat bukan menebak: `curl -w`, 15 kali, lalu baca `cf-cache-status`. Satu header itu langsung memberi tahu apakah CDN Anda benar-benar bekerja atau hanya jadi pintu depan yang selalu membangunkan petugas di belakang.
 
 Kalau Anda mengukur performa sendiri, [artikel performa OpenClaw September lalu](https://chokdi.ano99.com/posts/openclaw-perf-september-2026/) menunjukkan pola sama: angka enak dilihat sampai dibedah per komponen. Sisi lain cerita ini ada di [llms.txt yang kami pasang](https://chokdi.ano99.com/posts/llms-txt-bikin-blog-dibaca-ai-agent/) — konten siap, jalur akses yang belum tentu.
 
