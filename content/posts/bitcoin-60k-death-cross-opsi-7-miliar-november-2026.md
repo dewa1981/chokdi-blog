@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin US$60 Ribu: Death Cross Aktif, Opsi US$7 Miliar Jatuh Tempo Hari Ini — Tiga Level yang Menentukan"
 description: "Bitcoin bertahan di US$60.392 dengan death cross aktif di grafik harian. Opsi US$7 miliar jatuh tempo Jumat 27 November, ETF keluar rekor US$5,39 miliar sebulan, dan Galaxy Research mencabut klaim bear market selesai."
-date: 2026-11-27T09:35:00+07:00
+date: 2026-11-27T09:20:39+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "Death Cross", "Opsi", "ETF", "Analisis"]
 ---
