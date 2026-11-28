@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Gagal di US$60 Ribu Meski Wall Street Rally Terbesar Setahun — 83% Jualan Datang dari Satu Fund"
 description: "S&P 500 dan Nasdaq cetak kenaikan mingguan terbesar dalam setahun, tapi Bitcoin malah tutup di US$59.780. Arus keluar ETF November tembus US$5,39 miliar dan 83-87% di antaranya berasal dari satu fund BlackRock."
-date: 2026-11-28T09:35:00+07:00
+date: 2026-11-28T09:16:00+07:00
 draft: false
 tags: ["Bitcoin", "Crypto", "ETF", "Ethereum", "Wall Street", "Analisis"]
 ---
